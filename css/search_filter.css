@@ -1,0 +1,80 @@
+/*
+justify-content
+  center
+  flex-start
+  flex-end
+  space-around
+  space-between
+
+align-items (align-self)
+  flex-start
+  flex-end
+  center
+  baseline
+  stretch
+
+
+align-content
+  flex-start
+  flex-end
+  center
+  space-between
+  space-around
+  stretch
+
+flex-direction
+    row
+    row-reverse
+    column
+    column-reverse
+
+flex-wrap
+    nowrap
+    wrap
+    wrap-reverse
+
+flex-basis (width), order, flex-grow/flex-shrink (relative size)
+*/
+
+.container {
+  padding-top: 4vh;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 92.5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+.letter {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #ff0000;
+  font-size: 22.5px;
+  padding-left: 2vw;
+}
+
+.logo {
+  animation-name: spin;
+  animation-duration: 6500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.searchGlass {
+  width: 25px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
