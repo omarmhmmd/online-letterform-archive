@@ -36,11 +36,17 @@ flex-wrap
 flex-basis (width), order, flex-grow/flex-shrink (relative size)
 */
 
+html {
+  background-color: white;
+  font-family: sans-serif;
+}
+
 .container {
   padding-top: 4vh;
   align-content: center;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .header {
@@ -52,7 +58,6 @@ flex-basis (width), order, flex-grow/flex-shrink (relative size)
 }
 
 .letter {
-  font-family: sans-serif;
   font-weight: bold;
   color: #ff0000;
   font-size: 22.5px;
@@ -60,6 +65,7 @@ flex-basis (width), order, flex-grow/flex-shrink (relative size)
 }
 
 .logo {
+  width: 65px;
   animation-name: spin;
   animation-duration: 6500ms;
   animation-iteration-count: infinite;
@@ -68,6 +74,59 @@ flex-basis (width), order, flex-grow/flex-shrink (relative size)
 
 .searchGlass {
   width: 25px;
+}
+
+.textField {
+  padding-top: 7.5vh;
+}
+
+.textField > input {
+  width: 90vw;
+  height: 48px;
+  border: 1px solid #979797;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 48px;
+  padding-bottom: 15px;
+}
+
+.textField > input:focus {
+  outline:0;
+}
+
+::placeholder {
+  color: #D4D4D4;
+  opacity: 1; /* Firefox */
+}
+
+.filters {
+  margin-top: 2vh;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 90vw;
+  /* border: 1px solid black; */
+}
+
+.filters > button {
+  cursor: pointer;
+  font-size: 16px;
+  background-color: none; /* Green */
+  border: none;
+  padding: 0px;
+}
+
+.filters > button:hover {
+  color:red;
+}
+
+.filters > button:focus {
+  outline:0;
+}
+
+.filters > button:not(:first-child) {
+  margin-left: 25px;
 }
 
 @keyframes spin {

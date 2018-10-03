@@ -2,10 +2,42 @@
   .letter {
     display: none;
   }
+
+  .filters {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+  }
+
+  .filters > button:not(:first-child) {
+    margin-left: 0px;
+  }
+
+  .filters > button {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 768px) {
+  .filters {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+  }
 
+  .filters > button:not(:first-child) {
+    margin-left: 0px;
+  }
+
+  .filters > button {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 992px) {
