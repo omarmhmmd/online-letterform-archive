@@ -36,9 +36,14 @@ flex-wrap
 flex-basis (width), order, flex-grow/flex-shrink (relative size)
 */
 
-html {
-  background-color: white;
+html,body,button,input {
+  /* background-color: black; */
   font-family: sans-serif;
+}
+
+
+button:focus {
+  outline: none;
 }
 
 .container {
@@ -72,8 +77,27 @@ html {
   animation-timing-function: linear;
 }
 
-.searchGlass {
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ff0000;
+}
+
+.xButton {
   width: 25px;
+}
+
+.header > button {
+  cursor: pointer;
+  background-color: none; /* Green */
+  border: none;
+  padding: 0px;
+}
+
+.menu {
+  background-color: none;
 }
 
 .textField {
@@ -89,6 +113,7 @@ html {
   border-right: none;
   font-size: 48px;
   padding-bottom: 15px;
+  padding-left: 0px;
 }
 
 .textField > input:focus {
@@ -98,6 +123,7 @@ html {
 ::placeholder {
   color: #D4D4D4;
   opacity: 1; /* Firefox */
+  margin-left: -10%;
 }
 
 .filters {
@@ -110,6 +136,7 @@ html {
 }
 
 .filters > button {
+  /* color: white; */
   cursor: pointer;
   font-size: 16px;
   background-color: none; /* Green */
@@ -121,12 +148,45 @@ html {
   color:red;
 }
 
-.filters > button:focus {
-  outline:0;
+.format:hover {
+  color:red;
+}
+
+.active {
+  color:red;
 }
 
 .filters > button:not(:first-child) {
   margin-left: 25px;
+}
+
+.Tags {
+  margin-top: 2vh;
+  display: none;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 90vw;
+  /* border: 1px solid black; */
+}
+
+.Tags > p {
+  font-size: 32px;
+  line-height: 46px;
+  word-spacing: 10px;
+}
+
+.Tags > p > button {
+  /* color: white; */
+  font-size: 32px;
+  cursor: pointer;
+  background-color: none; /* Green */
+  border: none;
+  padding: 0px;
+}
+
+.Tags > p > button:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
 }
 
 @keyframes spin {
