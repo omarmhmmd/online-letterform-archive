@@ -1,5 +1,5 @@
-/*
-justify-content
+/**** FLEX BOX NOTES ****/
+/* justify-content
   center
   flex-start
   flex-end
@@ -33,9 +33,8 @@ flex-wrap
     wrap
     wrap-reverse
 
-flex-basis (width), order, flex-grow/flex-shrink (relative size)
-*/
-
+flex-basis (width), order, flex-grow/flex-shrink (relative size) */
+/**** END FLEX BOX NOTES ****/
 
 /**** CUSTOM FONTS ****/
 @font-face {
@@ -112,115 +111,6 @@ a:visited {
   padding: 0px;
   z-index: 2;
 }
-/**** END LANDING PAGE ****/
-
-/**** OVERLAY ****/
-#overlay {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(255,255,255,0.8);
-  z-index: -1;
-}
-/**** END OVERLAY ****/
-
-/**** MENU ****/
-#menu {
-  background-color: none;
-  display: none;
-  z-index: 2;
-}
-
-.textField {
-  padding-top: 7.5vh;
-}
-
-.textField > input {
-  width: 90vw;
-  height: 48px;
-  border: 1px solid #979797;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  font-size: 48px;
-  padding-bottom: 15px;
-  padding-left: 0px;
-}
-
-.textField > input:focus {
-  outline:0;
-}
-
-::placeholder {
-  color: #D4D4D4;
-  opacity: 1; /* Firefox */
-  margin-left: -10%;
-}
-
-#filters {
-  margin-top: 2vh;
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  width: 90vw;
-  /* border: 1px solid black; */
-}
-
-#filters > button {
-  /* color: white; */
-  cursor: pointer;
-  font-size: 16px;
-  background-color: none; /* Green */
-  border: none;
-  padding: 0px;
-}
-
-.active, #filters > button:hover {
-  color:red;
-}
-
-
-.format:hover {
-  color:red;
-}
-
-#filters > button:not(:first-child) {
-  margin-left: 25px;
-}
-
-.Tags {
-  margin-top: 2vh;
-  display: none;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  width: 90vw;
-  /* border: 1px solid black; */
-}
-
-.Tags > p {
-  font-size: 32px;
-  line-height: 46px;
-  word-spacing: 7.5px;
-}
-
-.Tags > p > button {
-  /* color: white; */
-  font-size: 32px;
-  cursor: pointer;
-  background-color: none; /* Green */
-  border: none;
-  padding: 0px;
-}
-
-.Tags > p > button:hover {
-  text-decoration: underline;
-  text-decoration-color: red;
-}
-/**** END MENU ****/
 
 @keyframes spin {
   from {
@@ -230,3 +120,113 @@ a:visited {
     transform: rotate(360deg);
   }
 }
+/**** END LANDING PAGE ****/
+
+/**** SEARCH PAGE ****/
+  /**** OVERLAY ****/
+  #overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,0.8);
+    z-index: 1;
+  }
+  /**** END OVERLAY ****/
+
+  /**** MENU ****/
+  #menu {
+    background-color: none;
+    z-index: 2;
+  }
+
+  .textField {
+    padding-top: 7.5vh;
+  }
+
+  .textField > input {
+    width: 90vw;
+    height: 48px;
+    border: 1px solid #979797;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 48px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+  }
+
+  .textField > input:focus {
+    outline:0;
+  }
+
+  ::placeholder {
+    color: #D4D4D4;
+    opacity: 1; /* Firefox */
+    margin-left: -10%;
+  }
+
+  #filters {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 90vw;
+    /* border: 1px solid black; */
+  }
+
+  #filters > button {
+    /* color: white; */
+    cursor: pointer;
+    font-size: 16px;
+    background-color: none; /* Green */
+    border: none;
+    padding: 0px;
+  }
+
+  .active, #filters > button:hover {
+    color:red;
+  }
+
+
+  .format:hover {
+    color:red;
+  }
+
+  #filters > button:not(:first-child) {
+    margin-left: 25px;
+  }
+
+  .Tags {
+    margin-top: 2vh;
+    display: none;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 90vw;
+    /* border: 1px solid black; */
+  }
+
+  .Tags > p {
+    font-size: 32px;
+    line-height: 46px;
+    word-spacing: 7.5px;
+  }
+
+  .Tags > p > button {
+    /* color: white; */
+    font-size: 32px;
+    cursor: pointer;
+    background-color: none; /* Green */
+    border: none;
+    padding: 0px;
+  }
+
+  .Tags > p > button:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+  }
+  /**** END MENU ****/
+/**** END SEARCH PAGE ****/

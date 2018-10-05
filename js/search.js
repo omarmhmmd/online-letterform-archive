@@ -1,4 +1,4 @@
-/**** SHOW MENU ****/
+/**** SHOW MENU W/ OVERLAY ****/
 var show = false;
 function showMenu() {
   var x = document.getElementById("menu");
@@ -14,11 +14,8 @@ function showMenu() {
     document.getElementById('overlay').style.zIndex = "-1";
     show = false;
   }
-
-  /**** OVERLAY ****/
-
-
 }
+/**** END SHOW MENU W/ OVERLAY ****/
 
 /**** SHOW ACTIVE STATE OF FILTERS ****/
 // Get the container element
@@ -39,7 +36,7 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
-/**** SHOW ACTIVE STATE OF FILTERS ****/
+/**** END SHOW ACTIVE STATE OF FILTERS ****/
 
 /**** SHOW TAGS ****/
 function showTags(filter) {
@@ -62,12 +59,5 @@ function showTags(filter) {
     document.getElementById("formatTags").style.display = "none";
     document.getElementById("decadeTags").style.display = "none";
   }
-
-  // if (tags.style.display === "flex") {
-  //   tags.style.display = "none";
-  // }
-  // else {
-  //   tags.style.display = "flex";
-  // }
 }
 /**** END SHOW TAGS ****/

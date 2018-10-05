@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>LFA | Search & Filter</title>
+    <title>LFA | Landing</title>
     <link rel="shortcut icon" type="image/png" href="ico/Logo.png"/>
     <script src="http://localhost:35729/livereload.js" charset="utf-8"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -15,83 +15,18 @@
   </head>
 
   <body>
-    <div id="overlay"></div>
     <div id="container">
       <div class="header">
         <a id = "logo" href="/"><img class="logo"src="svg/Logo.svg" alt=""></a>
         <div class="header" id = "letter">
           <a target="_blank" href="https://letterformarchive.org/"><h1>Letterform Archive</h1></a>
         </div>
-        <button onclick="showMenu()" type="button" name="button">
-          <img class="searchButton" id="searchButton" src="svg/SearchGlass.svg" alt="">
+        <!-- <button onclick="showMenu()" type="button" name="button"> -->
+        <button type="button" name="button">
+          <a href="search.html"><img class="searchButton" id="searchButton" src="svg/SearchGlass.svg" alt=""></a>
         </button>
       </div>
-      <div id = "menu">
-        <div class="textField">
-          <input type="text" name="" placeholder="Enter Your Search">
-        </div>
-        <div id = "filters">
-          <button class = "btn" id = "decade" onclick="showTags('decade')">Decade(s)</button>
-          <button>Discipline</button>
-          <button class = "btn" id = "format" onclick="showTags('format')">Format</button>
-          <!-- placing tags div here makes it mobile -->
-          <button class = "btn" id = "tech" onclick="showTags('tech')">Techniques & Materials</button>
-          <button>Country</button>
-          <button>Creators</button>
-          <button>Form</button>
-          <button>Image</button>
-        </div>
-        <div class="Tags" id = "decadeTags">
-          <p>
-            <button>1900s</button> /
-            <button>1910s</button> / 
-            <button>1920s</button> /
-            <button>1930s</button> /
-            <button>1940s</button> /
-            <button>1950s</button> /
-            <button>1960s</button> /
-            <button>1970s</button> /
-            <button>1980s</button> /
-            <button>1990s</button> /
-            <button>2000s</button> /
-            <button>2010s</button>
-          </p>
-        </div>
-        <div class="Tags" id = "formatTags">
-          <p>
-            <button>Book</button> /
-            <button>Booklet</button> / 
-            <button>Brochure</button> /
-            <button>Business Card</button> /
-            <button>Clipping</button> /
-            <button>Greeting Card</button> /
-            <button>Label</button> /
-            <button>Letter</button> /
-            <button>Magazine</button> /
-            <button>Poster</button> /
-            <button>Print</button> /
-            <button>Sketch</button> /
-            <button>Textile</button> /
-            <button>Type Specimen</button>
-          </p>
-        </div>
-        <div class="Tags" id = "techTags">
-          <p>
-            <button>Digital Print</button> /
-            <button>Drawing</button> / 
-            <button>Letterpress</button> /
-            <button>Metal Type</button> /
-            <button>Offset</button> /
-            <button>Paste Up</button> /
-            <button>Photograph</button> /
-            <button>Risograph</button> /
-            <button>Screen Print</button> /
-            <button>Sketches</button> /
-            <button>Xerox</button>
-          </p>
-        </div>
-      </div>
     </div>
-    <script src="js/search_filter.js"></script>
+    <!-- <script src="js/search_filter.js"></script> -->
   </body>
 </html>
