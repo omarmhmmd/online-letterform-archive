@@ -10,35 +10,38 @@
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/json2html/1.2.0/json2html.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.json2html/1.2.0/jquery.json2html.min.js"></script> -->
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/search_filter.css">
-    <link rel="stylesheet" href="css/search_filter_mobile.css">
+    <link rel="stylesheet" href="css/LFA.css">
+    <link rel="stylesheet" href="css/LFA_mobile.css">
   </head>
+
   <body>
-    <div class="container">
+    <div id="overlay"></div>
+    <div id="container">
       <div class="header">
-        <a target="_blank" href="https://letterformarchive.org/"><img class="logo"src="svg/Logo.svg" alt=""></a>
-        <div class="header letter">
+        <a id = "logo" href="/"><img class="logo"src="svg/Logo.svg" alt=""></a>
+        <div class="header" id = "letter">
           <a target="_blank" href="https://letterformarchive.org/"><h1>Letterform Archive</h1></a>
         </div>
-        <button type="button" name="button">
-          <img class="xButton"src="svg/X.svg" alt="">
+        <button onclick="showMenu()" type="button" name="button">
+          <img class="searchButton" id="searchButton" src="svg/SearchGlass.svg" alt="">
         </button>
       </div>
-      <div class="menu">
+      <div id = "menu">
         <div class="textField">
           <input type="text" name="" placeholder="Enter Your Search">
         </div>
-        <div class="filters">
-          <button class = "decade" id = "decade" onclick="ShowTags('decade')">Decade(s)</button>
+        <div id = "filters">
+          <button class = "btn" id = "decade" onclick="showTags('decade')">Decade(s)</button>
           <button>Discipline</button>
-          <button class = "format" id = "format" onclick="ShowTags('format')">Format</button>
+          <button class = "btn" id = "format" onclick="showTags('format')">Format</button>
           <!-- placing tags div here makes it mobile -->
-          <button class = "tech" id = "tech" onclick="ShowTags('tech')">Techniques & Materials</button>
+          <button class = "btn" id = "tech" onclick="showTags('tech')">Techniques & Materials</button>
+          <button>Country</button>
           <button>Creators</button>
           <button>Form</button>
           <button>Image</button>
         </div>
-        <div class="decadeTags Tags" id = "decadeTags">
+        <div class="Tags" id = "decadeTags">
           <p>
             <button>1900s</button> /
             <button>1910s</button> / 
@@ -54,7 +57,7 @@
             <button>2010s</button>
           </p>
         </div>
-        <div class="formatTags Tags" id = "formatTags">
+        <div class="Tags" id = "formatTags">
           <p>
             <button>Book</button> /
             <button>Booklet</button> / 
@@ -72,7 +75,7 @@
             <button>Type Specimen</button>
           </p>
         </div>
-        <div class="techTags Tags" id = "techTags">
+        <div class="Tags" id = "techTags">
           <p>
             <button>Digital Print</button> /
             <button>Drawing</button> / 
