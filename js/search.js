@@ -1,21 +1,21 @@
-/**** SHOW MENU W/ OVERLAY ****/
-var show = false;
-function showMenu() {
-  var x = document.getElementById("menu");
-  if (show == false) {
-    x.style.display = "block";
-    document.getElementById('searchButton').src='svg/X.svg';
-    document.getElementById('overlay').style.zIndex = "1";
-    show = true;
-  }
-  else if (show == true ){
-    x.style.display = "none";
-    document.getElementById('searchButton').src='svg/SearchGlass.svg';
-    document.getElementById('overlay').style.zIndex = "-1";
-    show = false;
-  }
-}
-/**** END SHOW MENU W/ OVERLAY ****/
+// /**** SHOW MENU W/ OVERLAY ****/
+// var show = false;
+// function showMenu() {
+//   var x = document.getElementById("menu");
+//   if (show == false) {
+//     x.style.display = "block";
+//     document.getElementById('searchButton').src='svg/X.svg';
+//     document.getElementById('overlay').style.zIndex = "1";
+//     show = true;
+//   }
+//   else if (show == true ){
+//     x.style.display = "none";
+//     document.getElementById('searchButton').src='svg/SearchGlass.svg';
+//     document.getElementById('overlay').style.zIndex = "-1";
+//     show = false;
+//   }
+// }
+// /**** END SHOW MENU W/ OVERLAY ****/
 
 /**** SHOW ACTIVE STATE OF FILTERS ****/
 // Get the container element
