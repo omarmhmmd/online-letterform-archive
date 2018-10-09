@@ -1,0 +1,129 @@
+{
+  "item": {
+    "clients": [
+    ],
+    "collection": "Emigre Collection",
+    "contributors": [
+      "",
+      "Alice Polesky",
+      "Andrea Goldstein",
+      "Didier Crémieux",
+      "Gavin Flint",
+      "Hard Werken",
+      "Jeffrey Browning",
+      "John Fante",
+      "Karen Douglas",
+      "Kees Broos",
+      "Kyle Thayer",
+      "PART 1 — Salman Rushdie",
+      "PART 2 — John Hersey",
+      "PART 3 — Rigo",
+      "PART 4 — Susan E. King",
+      "Peter Claessens",
+      "Peter Principle",
+      "Rudy VanderLans",
+      "Scott Williams",
+      "Stanley Banos",
+      "Stefano Massei",
+      "William Cone",
+      "Winston Tong",
+      "Zuzana Licko"
+    ],
+    "country": "United States",
+    "creators": [
+      {
+        "name": "Emigre",
+        "role": "Agency"
+      },
+      {
+        "name": "Lompa Printing",
+        "role": "Printer"
+      },
+      {
+        "name": "Rudy VanderLans",
+        "role": "Art Director, Contributor, Publisher"
+      },
+      {
+        "name": "Zuzana Licko",
+        "role": "Compositor, Type Designer"
+      }
+    ],
+    "decade": "1980s",
+    "description": "Four sections in a cardboard box, 11.5 x 17, PART 1 – 16 pages, PART 2 – 32 pages, PART 3 – 16 pages, PART 4 – Letterpress printed fan. Edition of 3,000. Printed at Lompa Printing, Albany, CA, and Alonzo Printing, South San Francisco, CA. Publisher and art director: Rudy VanderLans. Digital type design and typesetting: Zuzana Licko.",
+    "formats": [
+      "Bound: Magazine"
+    ],
+    "imageFront": "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0001_thumb.jpg",
+    "imageURLs": [
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0001_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0002_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0003_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0004_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0005_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0006_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0007_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0008_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0009_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0010_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0011_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0012_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0013_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0014_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0015_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0016_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0017_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0018_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0019_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0020_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0021_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0022_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0023_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0024_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0025_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0026_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0027_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0028_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0029_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0030_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0031_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0032_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0033_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0034_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0035_thumb.jpg",
+      "https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0036_thumb.jpg"
+    ],
+    "languages": [
+      "English"
+    ],
+    "materials": [
+      ""
+    ],
+    "measurements": {
+      "height": 29.2,
+      "sizing": 1,
+      "width": 43.1
+    },
+    "newItem": 0,
+    "numberImages": 36,
+    "stateedition": "",
+    "techniques": [
+      ""
+    ],
+    "title": "Emigre #6: International Culture",
+    "workID": "lfa_emigre_0006",
+    "year": "1986"
+  },
+  "itemSearch": {
+    "itemNext": {
+      "imageFront": "https://archive.org/download/LFAEmigre0007/LFA_Emigre_0007_0001_thumb.jpg",
+      "title": "Emigre #66: Nudging Graphic Design",
+      "workID": "lfa_emigre_0007"
+    },
+    "itemPrev": {
+      "imageFront": "https://archive.org/download/LFAEmigre0005/LFA_Emigre_0005_0001_thumb.jpg",
+      "title": "Emigre #64: Rant",
+      "workID": "lfa_emigre_0005"
+    },
+    "itemSearchURL": ""
+  }
+}

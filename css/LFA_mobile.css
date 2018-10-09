@@ -1,24 +1,30 @@
 @media (max-width: 576px) {
-  .letter {
+  #letter {
     display: none;
   }
 }
 
 @media (max-width: 768px) {
-  .filters {
+  #filters {
     margin-top: 2vh;
     display: flex;
     flex-direction: column;
   }
 
-  .filters > button:not(:first-child) {
+  #filters > button:not(:first-child) {
     margin-left: 2.5px;
   }
 
-  .filters > button {
+  #filters > button {
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
+  }
+
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
   }
 }
 

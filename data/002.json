@@ -1,0 +1,48 @@
+{
+  "resultsTotal": 219,
+  "resultsPages": 3,
+  "resultsPageNo": 1,
+  "resultsQuery": "",
+  "resultsPage": [
+    {
+      "imageURL": "https://archive.org/download/LFAType0074/LFA_Type_0074_001.jpg",
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0074&LFAPics=Yes",
+      "title": "3 Scriptes",
+      "creators": "Roger Excoffon",
+      "workID": "lfa_type_0074",
+      "decade": "1950s",
+      "sizing": 1,
+      "newItem": 0
+    },
+    {
+      "imageURL": "https://archive.org/download/LFAType0062/LFA_Type_0062_001.jpg",
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0062&LFAPics=Yes",
+      "title": "Caratteri Ebraici e Rabbinici",
+      "creators": "",
+      "workID": "lfa_type_0062",
+      "decade": "1920s",
+      "sizing": 1,
+      "newItem": 0
+    },
+    {
+      "imageURL": "https://archive.org/download/LFAType0076/LFA_Type_0076_001.jpg",
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0076&LFAPics=Yes",
+      "title": "Chambord, Mistral, Vendôme, Banco",
+      "creators": "Francois Ganeau; Roger Excoffon",
+      "workID": "lfa_type_0076",
+      "decade": "1950s",
+      "sizing": 1,
+      "newItem": 0
+    },
+    {
+      "imageURL": "https://archive.org/download/LFAType0072/LFA_Type_0072_001.jpg",
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0072&LFAPics=Yes",
+      "title": "Vendôme: Romain, Italique, Noir, Gras",
+      "creators": "François Ganeau",
+      "workID": "lfa_type_0072",
+      "decade": "1950s",
+      "sizing": 1,
+      "newItem": 0
+    }
+  ]
+}

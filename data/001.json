@@ -1,0 +1,58 @@
+{
+  "resultsTotal": 219,
+  "resultsPages": 3,
+  "resultsPageNo": 1,
+  "resultsQuery": "",
+  "resultsPage": [
+    {
+      "imageURL": "https://archive.org/download/LFAEmigre0011/LFA_Emigre_0011_0001.jpg",
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_emigre_0011&LFAPics=Yes",
+      "title": "Emigre #11: Ambition/Gear",
+      "creators": "Lompa Printing; Rudy VanderLans; Zuzana Licko",
+      "workID": "lfa_emigre_0011",
+      "decade": "1980s",
+      "sizing": 1,
+      "newItem": 0
+    },
+    {
+      "imageURL": "https://archive.org/download/LFAType0065/LFA_Type_0065_001.jpg",
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0065&LFAPics=Yes",
+      "title": "Antique Olive Série Grasse",
+      "creators": "Roger Excoffon",
+      "workID": "lfa_type_0065",
+      "decade": "1960s",
+      "sizing": 1,
+      "newItem": 0
+    },
+    {
+      "imageURL": "https://archive.org/download/LFAType0066/LFA_Type_0066_001.jpg",
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0066&LFAPics=Yes",
+      "title": "Antique: Antique Olive",
+      "creators": "Roger Excoffon",
+      "workID": "lfa_type_0066",
+      "decade": "1960s",
+      "sizing": 1,
+      "newItem": 0
+    },
+    {
+      "imageURL": "https://archive.org/download/LFAType0067/LFA_Type_0067_001.jpg",
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0067&LFAPics=Yes",
+      "title": "Nord",
+      "creators": "Roger Excoffon",
+      "workID": "lfa_type_0067",
+      "decade": "1960s",
+      "sizing": 1,
+      "newItem": 0
+    },
+    {
+      "imageURL": "https://archive.org/download/LFAType0074/LFA_Type_0074_001.jpg",
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0074&LFAPics=Yes",
+      "title": "3 Scriptes",
+      "creators": "Roger Excoffon",
+      "workID": "lfa_type_0074",
+      "decade": "1950s",
+      "sizing": 1,
+      "newItem": 0
+    }
+  ]
+}
