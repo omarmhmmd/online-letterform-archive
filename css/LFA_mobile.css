@@ -1,6 +1,7 @@
 @media (max-width: 576px) {
   #letter {
     display: none;
+    color: #ff0000;
   }
 }
 

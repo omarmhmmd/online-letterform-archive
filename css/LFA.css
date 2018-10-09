@@ -50,7 +50,6 @@
 /**** END CUSTOM FONTS ****/
 
 html, body, button, input {
-  /* background-color: black; */
   font-family: DupReg;
 }
 
@@ -60,6 +59,7 @@ html, body, button, input {
 
 body {
   margin: 0;
+  /* background-color: black; */
 }
 
 button {
@@ -159,10 +159,45 @@ button {
     padding: 0 10px;
   }
 
-  .column img {
-    margin-top: 20px;
+  /* .column img {
+    padding-top: 20px;
     vertical-align: middle;
+  } */
+
+  .hoverLay {
+    background-color: #FF1919;
+    margin-top: 20px;
+    position: relative;
   }
+
+  figcaption {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    left: 0;
+    top: 0;
+    padding: 1em;
+    font-weight: bold;
+    font-size: 30px;
+    display: none;
+    pointer-events: none;
+  }
+
+  .hoverLay img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .hoverLay img:hover {
+    cursor: pointer;
+    opacity: 0.1;
+  }
+
+  .hoverLay:hover figcaption{
+    display: flex;
+  }
+
   /**** END PHOTO GRID ****/
 /**** END LANDING PAGE ****/
 
