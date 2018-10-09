@@ -1,168 +1,73 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>LFA | Landing</title>
-    <link rel="shortcut icon" type="image/png" href="ico/Logo.png" />
-    <script src="http://localhost:35729/livereload.js" charset="utf-8"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/json2html/1.2.0/json2html.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.json2html/1.2.0/jquery.json2html.min.js"></script> -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/LFA.css">
-    <link rel="stylesheet" href="css/LFA_mobile.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>LFA | Landing</title>
+  <link rel="shortcut icon" type="image/png" href="ico/Logo.png" />
+  <script src="http://localhost:35729/livereload.js" charset="utf-8"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/LFA.css">
+  <link rel="stylesheet" href="css/LFA_mobile.css">
+  <script src="js/popLandingPage.js"></script>
+</head>
 
-  <body>
-    <div id="container">
-      <div class="header">
-        <a id="logo" href="./index.html"><img class="logo"src="svg/Logo.svg" alt=""></a>
-        <div class="header" id="letter">
-          <a target="_blank" href="https://letterformarchive.org/"><h1>Letterform Archive</h1></a>
-        </div>
-        <!-- <button onclick="showMenu()" type="button" name="button"> -->
-        <button type="button" name="button">
+<body>
+  <div id="container">
+    <div class="header">
+      <a id="logo" href="./index.html"><img class="logo"src="svg/Logo.svg" alt=""></a>
+      <div class="header" id="letter">
+        <a target="_blank" href="https://letterformarchive.org/"><h1>Letterform Archive</h1></a>
+      </div>
+      <!-- <button onclick="showMenu()" type="button" name="button"> -->
+      <button type="button" name="button">
             <a href="./search.html"><img class="searchButton" id="searchButton" src="svg/SearchGlass.svg" alt=""></a>
           </button>
-      </div>
     </div>
+  </div>
 
-    <!-- <div id="photoContainer">
-        <div id="photoGrid">
-          <img src="images/001.JPG" alt="Sample photo">
-          <img src="images/002.JPG" alt="Sample photo">
-          <img src="images/003.JPG" alt="Sample photo">
-          <img src="images/004.JPG" alt="Sample photo">
-          <img src="images/005.JPG" alt="Sample photo">
-          <img src="images/001.JPG" alt="Sample photo">
-          <img src="images/002.JPG" alt="Sample photo">
-          <img src="images/003.JPG" alt="Sample photo">
-          <img src="images/004.JPG" alt="Sample photo">
-        </div>
-      </div> -->
-        <!-- <div class="flexbox">
-          <div class="item">
-            <img src="https://unsplash.it/600/400?random" />
-          </div>
-          <div class="item">
-            <img src="https://unsplash.it/600/600?random" />
-          </div>
-          <div class="item">
-            <img src="https://unsplash.it/720/460?random" />
-          </div>
-          <div class="item">
-            <img src="https://unsplash.it/800/400?random" />
-          </div>
-          <div class="item">
-            <img src="https://unsplash.it/480/700?random" />
-          </div>
-          <div class="item">
-            <img src="https://unsplash.it/680/420?random" />
-          </div>
-          <div class="item">
-            <img src="https://unsplash.it/740/480?random" />
-          </div>
-          <div class="item">
-            <img src="https://unsplash.it/840/440?random" />
-          </div>
-          <div class="item">
-            <img src="https://unsplash.it/640/380?random" />
-          </div>
-          <div class="item">
-            <img src="https://unsplash.it/500/680?random" />
-          </div>
-      </div> -->
-    <div class="masonry">
-      <div class="column">
-        <div class="item">
-          <div class="item__content">
-          </div>
-        </div>
-        <div class="item">
-          <div class="item__content item__content--small">
-          </div>
-        </div>
-        <div class="item">
-          <div class="item__content item__content--medium">
-          </div>
-        </div>
-        <div class="item">
-          <div class="item__content item__content--small">
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="item">
-          <div class="item__content item__content--medium">
-          </div>
-        </div>
-        <div class="item">
-          <div class="item__content">
-          </div>
-        </div>
-        <div class="item">
-          <div class="item__content item__content--large">
-          </div>
-        </div>
-        <div class="item">
-          <div class="item__content item__content--medium">
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="item">
-          <div class="item__content item__content--small">
-          </div>
-        </div>
-        <div class="item">
-          <div class="item__content">
-          </div>
-        </div>
-        <div class="item">
-          <div class="item__content item__content--large">
-          </div>
-        </div>
-        <div class="item">
-          <div class="item__content">
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="item">
-          <div class="item__content item__content--small">
-          </div>
-        </div>
-        <div class="item">
-          <div class="item__content item__content--large">
-          </div>
-        </div>
-        <div class="item">
-          <div class="item__content item__content--medium">
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="item">
-          <div class="item__content item__content--small">
-          </div>
-        </div>
-        <div class="item">
-          <div class="item__content item__content--medium">
-          </div>
-        </div>
-        <div class="item">
-          <div class="item__content">
-          </div>
-        </div>
-        <div class="item">
-          <div class="item__content item__content--small">
-          </div>
-        </div>
-      </div>
+  <div class="row">
+    <div class="column">
+      <!-- <img src="https://picsum.photos/200/300/?random" style="width:100%">
+      <img src="https://picsum.photos/200/300/?random" style="width:100%">
+      <img src="https://picsum.photos/200/300/?random" style="width:100%">
+      <img src="https://picsum.photos/200/300/?random" style="width:100%">
+      <img src="https://picsum.photos/200/300/?random" style="width:100%">
+      <img src="https://picsum.photos/200/300/?random" style="width:100%">
+      <img src="https://picsum.photos/200/300/?random" style="width:100%"> -->
     </div>
-    <!-- <script src="js/search_filter.js"></script> -->
-  </body>
+    <div class="column">
+      <!-- <img src="https://picsum.photos/200/300/?random" style="width:100%">
+      <img src="https://picsum.photos/200/300/?random" style="width:100%">
+      <img src="https://picsum.photos/200/300/?random" style="width:100%">
+      <img src="https://picsum.photos/200/300/?random" style="width:100%">
+      <img src="https://picsum.photos/200/300/?random" style="width:100%">
+      <img src="https://picsum.photos/200/300/?random" style="width:100%">
+      <img src="https://picsum.photos/200/300/?random" style="width:100%"> -->
+    </div>
+    <div class="column">
+      <!-- <img src="https://picsum.photos/200/300/?random" style="width:100%">
+      <img src="https://picsum.photos/200/300/?random" style="width:100%">
+      <img src="https://picsum.photos/200/300/?random" style="width:100%">
+      <img src="https://picsum.photos/200/300/?random" style="width:100%">
+      <img src="https://picsum.photos/200/300/?random" style="width:100%">
+      <img src="https://picsum.photos/200/300/?random" style="width:100%">
+      <img src="https://picsum.photos/200/300/?random" style="width:100%"> -->
+    </div>
+    <div class="column">
+      <!-- <img src="https://picsum.photos/200/300/?random" style="width:100%">
+      <img src="https://picsum.photos/200/300/?random" style="width:100%">
+      <img src="https://picsum.photos/200/300/?random" style="width:100%">
+      <img src="https://picsum.photos/200/300/?random" style="width:100%">
+      <img src="https://picsum.photos/200/300/?random" style="width:100%">
+      <img src="https://picsum.photos/200/300/?random" style="width:100%">
+      <img src="https://picsum.photos/200/300/?random" style="width:100%"> -->
+    </div>
+  </div>
+
+  <!-- <script src="js/search.js"></script> -->
+</body>
 
 </html>

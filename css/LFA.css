@@ -1,39 +1,40 @@
 /**** FLEX BOX NOTES ****/
-/* justify-content
-  center
-  flex-start
-  flex-end
-  space-around
-  space-between
+  /* justify-content
+    center
+    flex-start
+    flex-end
+    space-around
+    space-between
 
-align-items (align-self)
-  flex-start
-  flex-end
-  center
-  baseline
-  stretch
+  align-items (align-self)
+    flex-start
+    flex-end
+    center
+    baseline
+    stretch
 
-align-content
-  flex-start
-  flex-end
-  center
-  space-between
-  space-around
-  stretch
+  align-content
+    flex-start
+    flex-end
+    center
+    space-between
+    space-around
+    stretch
 
-flex-direction
-    row
-    row-reverse
-    column
-    column-reverse
+  flex-direction
+      row
+      row-reverse
+      column
+      column-reverse
 
-flex-wrap
-    nowrap
-    wrap
-    wrap-reverse
+  flex-wrap
+      nowrap
+      wrap
+      wrap-reverse
 
-flex-basis (width), order, flex-grow/flex-shrink (relative size) */
+  flex-basis (width), order, flex-grow/flex-shrink (relative size) */
 /**** END FLEX BOX NOTES ****/
+
 
 /**** CUSTOM FONTS ****/
 @font-face {
@@ -46,17 +47,24 @@ flex-basis (width), order, flex-grow/flex-shrink (relative size) */
   font-weight: bold;
   src: url("../fonts/DuplicateSansBold.otf") format("opentype");
 }
+/**** END CUSTOM FONTS ****/
 
-html,body,button,input {
+html, body, button, input {
   /* background-color: black; */
   font-family: DupReg;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
 }
 
 button {
   background-color: transparent;
 }
-/**** END CUSTOM FONTS ****/
-
 
 /**** LANDING PAGE ****/
   /**** HEADER ****/
@@ -108,9 +116,10 @@ button {
     width: 30px;
   }
 
-  .header > button {
+  .header>button {
     cursor: pointer;
-    background-color: none; /* Green */
+    background-color: none;
+    /* Green */
     border: none;
     padding: 0px;
     z-index: 2;
@@ -124,110 +133,59 @@ button {
       transform: rotate(360deg);
     }
   }
-
   /**** END HEADER ****/
 
+
   /**** PHOTO GRID ****/
-  /* #photoContainer {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    background-color: none;
-    margin-top: 20px;
+  #imageLoad {
+    width: 100%;
   }
 
-  #photoGrid {
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
-   height: 100vw;
-  }
 
-  #photoGrid img {
-    width: 30%;
-    margin: 10px;
-  } */
-
-/*
-  .flexy {
+  .row {
     display: flex;
     justify-content: center;
-  }
-
-  .flexbox {
-    width: 90vw;
-    display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    height: 100vw;
-    padding: 10px;
+    padding: 30px 4px;
   }
 
-  .flexbox .item {
-    width: 33.33%;
-    margin: 10px;
-  }
 
-  .flexbox .item img {
-    width: 100%;
-  } */
-
-  .masonry {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-  }
+  /* Create four equal columns that sits next to each other */
 
   .column {
-    display: flex;
-    flex-flow: column wrap;
-    width: 100%;
+    flex: 25%;
+    max-width: 23%;
+    padding: 0 10px;
   }
 
-  @media only screen and (min-width: 500px) {
-    .masonry {
-      flex-direction: row;
-    }
+  .column img {
+    margin-top: 20px;
+    vertical-align: middle;
+  }
+
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
     .column {
-      width: calc(100%/5);
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
     }
   }
 
-  .item {
-    box-sizing: border-box;
-    padding: 10px;
-  }
 
-  .item__content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    height: 220px;
-    font-size: 40px;
-    color: #ff0000;
-    background: currentColor;
-  }
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 
-  .item__content--small {
-    border: 1px #ff0000 solid;
-    color: white;
-    height: 100px;
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
   }
-
-  .item__content--medium {
-    border: 1px #ff0000 solid;
-    color: #000000;
-    height: 175px;
-  }
-
-  .item__content--large {
-    color: #e9e9e9;
-    height: 280px;
-  }
-
   /**** END PHOTO GRID ****/
 /**** END LANDING PAGE ****/
+
 
 /**** SEARCH PAGE ****/
   /**** OVERLAY ****/
@@ -239,10 +197,11 @@ button {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(255, 255, 255, 0.9);
     z-index: 1;
   }
   /**** END OVERLAY ****/
+
 
   /**** MENU ****/
   #menu {
@@ -254,7 +213,7 @@ button {
     padding-top: 7.5vh;
   }
 
-  .textField > input {
+  .textField>input {
     background-color: transparent;
     width: 90vw;
     height: 48px;
@@ -267,13 +226,14 @@ button {
     padding-left: 0px;
   }
 
-  .textField > input:focus {
-    outline:0;
+  .textField>input:focus {
+    outline: 0;
   }
 
-  ::placeholder {
-    color: #D4D4D4;
-    opacity: 1; /* Firefox */
+   ::placeholder {
+    color: #878787;
+    opacity: 1;
+    /* Firefox */
     margin-left: -10%;
   }
 
@@ -286,25 +246,25 @@ button {
     /* border: 1px solid black; */
   }
 
-  #filters > button {
+  #filters>button {
     /* color: white; */
     cursor: pointer;
     font-size: 16px;
-    background-color: transparent; /* Green */
+    background-color: transparent;
+    /* Green */
     border: none;
     padding: 0px;
   }
 
-  .active, #filters > button:hover {
-    color:red;
+  .active, #filters>button:hover {
+    color: red;
   }
-
 
   .format:hover {
-    color:red;
+    color: red;
   }
 
-  #filters > button:not(:first-child) {
+  #filters>button:not(:first-child) {
     margin-left: 25px;
   }
 
@@ -317,24 +277,27 @@ button {
     /* border: 1px solid black; */
   }
 
-  .Tags > p {
+  .Tags>p {
     font-size: 32px;
     line-height: 46px;
     word-spacing: 7.5px;
   }
 
-  .Tags > p > button {
+  .Tags>p>button {
     /* color: white; */
     font-size: 32px;
     cursor: pointer;
-    background-color: none; /* Green */
+    background-color: none;
+    /* Green */
     border: none;
     padding: 0px;
   }
 
-  .Tags > p > button:hover {
+  .Tags>p>button:hover {
     text-decoration: underline;
     text-decoration-color: red;
   }
   /**** END MENU ****/
+
+
 /**** END SEARCH PAGE ****/

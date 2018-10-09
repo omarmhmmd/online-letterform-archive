@@ -1,0 +1,16 @@
+{
+  "dates":[
+    {
+      "timeStamp": 1234,
+      "formattedDate": "Mon 03 October 2011"
+    },
+    {
+      "timeStamp": 1317682800,
+      "formattedDate": "Tue 04 October 2011"
+    },
+    {
+      "timeStamp": 1317855600,
+      "formattedDate": "Thu 06 October 2011"
+    }
+  ]
+}
