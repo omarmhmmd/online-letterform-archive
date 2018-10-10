@@ -1,23 +1,3 @@
-// // $('document').ready(function() {
-// //   $(document).scroll(function() {
-// //     if (document.documentElement.clientHeight +
-// //       $(document).scrollTop() >= document.body.offsetHeight) $(document).scrollTop(0);
-// //   });
-// // });
-//
-// var myFullpage = new fullpage('#container', {
-//   continuousVertical: true,
-//   scrollOverflow: false,
-//   afterLoad: function(anchorLink, index) {
-//     console.log("AFTER LOAD - anchorLink:" + anchorLink + " index:" + index);
-//   },
-//   onLeave: function(index, nextIndex, direction) {
-//     console.log("ONLEAVE - index:" + index + " nextIndex:" + nextIndex + " direction:" + direction);
-//
-//   },
-// });
-
-
 /**** CODE SOURCED FROM https://dow-smith.com/ ****/
 $(document).ready(function(){
 
