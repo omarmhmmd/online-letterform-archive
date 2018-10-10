@@ -72,6 +72,28 @@ button {
     height: 100vh;
     overflow: hidden;
   }
+
+  .media-check {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+    text-indent: 30px;
+  }
+
+  @media (max-width: 760px) {
+    .media-check {
+      text-indent: 10px;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .media-check {
+      text-indent: 40px;
+    }
+  }
   /**** END LOOP ****/
 
 
