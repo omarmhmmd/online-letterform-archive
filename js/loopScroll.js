@@ -3,6 +3,10 @@ $(document).ready(function(){
 
 	var a = {};
 
+  a.settings = {
+
+  },
+
 	a.ui = {
 		body: $('body'),
 		win: $(window)
@@ -10,7 +14,9 @@ $(document).ready(function(){
 
 	a.site = {
 		init: function(){
-			this.clonePage();
+      if(a.settings.screenType !== 'touch'){
+				this.clonePage();
+			}
 		},
 
 		clonePage: function(){
