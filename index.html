@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/LFA.css">
   <link rel="stylesheet" href="css/LFA_mobile.css">
-  <script src="js/loopScroll.js"></script>
+  <!-- <script src="js/loopScroll.js"></script> -->
   <script src="js/popLandingPage.js"></script>
 </head>
 
@@ -42,6 +42,22 @@
   </div>
 
   <div class="loop"></div>
+
+  <script type="text/javascript">
+    var head = document.getElementsByTagName('head')[0];
+    var js = document.createElement("script");
+
+    js.type = "text/javascript";
+
+    if (screen.width > 768) {
+      js.src = "js/loopScroll.js";
+      console.log('desk');
+    } else {
+      console.log('mobile');
+    }
+
+    head.appendChild(js);
+  </script>
 
   <!-- <script src="js/search.js"></script> -->
 </body>
