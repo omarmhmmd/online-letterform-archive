@@ -67,6 +67,14 @@ button {
 }
 
 /**** LANDING PAGE ****/
+  /**** LOOP ****/
+  .loop {
+    height: 100vh;
+    overflow: hidden;
+  }
+  /**** END LOOP ****/
+
+
   /**** HEADER ****/
   button:focus {
     outline: none;
@@ -97,6 +105,8 @@ button {
   }
 
   #logo {
+    /* position: fixed;
+    z-index: 1; */
     width: 65px;
     animation-name: spin;
     animation-duration: 10000ms;
@@ -148,7 +158,6 @@ button {
     flex-wrap: wrap;
     padding: 30px 4px;
   }
-
 
   /* Create four equal columns that sits next to each other */
 
