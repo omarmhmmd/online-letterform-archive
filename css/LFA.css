@@ -154,7 +154,7 @@ button {
   }
 
 
-  .row {
+  #entryGrid {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -162,7 +162,6 @@ button {
   }
 
   /* Create four equal columns that sits next to each other */
-
   .column {
     flex-direction: row-reverse;
     flex: 25%;
@@ -175,13 +174,7 @@ button {
     vertical-align: middle;
   } */
 
-  .hoverLay {
-    background-color: #FF1919;
-    margin-top: 20px;
-    position: relative;
-  }
-
-  figcaption {
+  .column figcaption {
     position: absolute;
     width: 100%;
     color: #fff;
@@ -192,6 +185,12 @@ button {
     font-size: 27.5px;
     display: none;
     pointer-events: none;
+  }
+
+  .hoverLay {
+    background-color: #FF1919;
+    margin-top: 20px;
+    position: relative;
   }
 
   .hoverLay img {
@@ -223,20 +222,28 @@ button {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(255, 255, 255, 0.9);
-    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.95);
+    z-index: -1;
   }
   /**** END OVERLAY ****/
+
+  /**** RESULTS PAGE ****/
+  #resultsPage {
+    display: none;
+    z-index: 1;
+  }
 
 
   /**** MENU ****/
   #menu {
+    display: block;
     background-color: none;
     z-index: 2;
+    padding-top: 18vh;
+
   }
 
   .textField {
-    padding-top: 7.5vh;
   }
 
   .textField>input {
@@ -324,6 +331,81 @@ button {
     text-decoration-color: red;
   }
   /**** END MENU ****/
+
+  /**** SEARCH RESULTS ****/
+  /* .column-results {
+    flex-direction: row-reverse;
+    flex: 33%;
+    max-width: 20%;
+  }
+
+  #resultsGrid {
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .hoverLay-results {
+    background-color: #FF1919;
+    margin: 50px;
+    position: relative;
+  }
+
+  .hoverLay-results img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .hoverLay-results img:hover {
+    cursor: pointer;
+    opacity: 0.1;
+  }
+
+  .hoverLay-results:hover figcaption{
+    display: flex;
+  } */
+
+  #resultsGrid {
+      flex-direction:column;
+      display: inline-flex;
+      align-content: center;
+      align-items: flex-end;
+      flex-flow: row wrap;
+      margin-top: 50px;
+      justify-content: space-around;
+  }
+
+  .results-item figcaption {
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+  }
+
+
+  .results-item {
+    width: 250px;
+    margin: 50px;
+  }
+
+  .results-item img {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .results-item img:hover {
+    outline: 5px solid red;
+}
+
+
+  .colour {
+    /* background-color: #8c72cb; */
+  }
+
+  /**** END SEARCH RESULTS ****/
 
 
 /**** END SEARCH PAGE ****/
