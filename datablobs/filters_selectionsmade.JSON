@@ -1,0 +1,419 @@
+{
+  "filters": [
+    {
+      "filterField": "[People & Firms]",
+      "filterLabel": "People & Firms",
+      "filterValues": [
+        {
+          "filterValueItemCount": 29,
+          "filterValueText": "Appetite Engineers",
+          "totalItemCount": 198
+        },
+        {
+          "filterValueItemCount": 29,
+          "filterValueText": "Martin Venezky",
+          "totalItemCount": 207
+        },
+        {
+          "filterValueItemCount": 16,
+          "filterValueText": "Società Nebiolo",
+          "totalItemCount": 64
+        },
+        {
+          "filterValueItemCount": 15,
+          "filterValueText": "Dorothy and Otis Shepard",
+          "totalItemCount": 294
+        },
+        {
+          "filterValueItemCount": 9,
+          "filterValueText": "Dorothy Shepard",
+          "totalItemCount": 87
+        },
+        {
+          "filterValueItemCount": 7,
+          "filterValueText": "SF MoMA",
+          "totalItemCount": 12
+        },
+        {
+          "filterValueItemCount": 5,
+          "filterValueText": "California College of the Arts (CCA), San Francisco",
+          "totalItemCount": 14
+        },
+        {
+          "filterValueItemCount": 5,
+          "filterValueText": "Frameline/San Francisco International Lesbian and Gay Film Festival",
+          "totalItemCount": 7
+        },
+        {
+          "filterValueItemCount": 4,
+          "filterValueText": "Alessandro Butti",
+          "totalItemCount": 18
+        },
+        {
+          "filterValueItemCount": 4,
+          "filterValueText": "Giulio da Milano",
+          "totalItemCount": 7
+        },
+        {
+          "filterValueItemCount": 3,
+          "filterValueText": "Hans Wagner",
+          "totalItemCount": 6
+        },
+        {
+          "filterValueItemCount": 3,
+          "filterValueText": "Otis Shepard",
+          "totalItemCount": 108
+        },
+        {
+          "filterValueItemCount": 3,
+          "filterValueText": "Pabst Brewing Company",
+          "totalItemCount": 6
+        },
+        {
+          "filterValueItemCount": 3,
+          "filterValueText": "Raffaello Bertieri",
+          "totalItemCount": 4
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Aldo Novarese",
+          "totalItemCount": 44
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Amsterdam Continental Types and Graphic Equipment, Inc.",
+          "totalItemCount": 14
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Jeff Towner",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Mannings Tea",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Third Bay Letterpress",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Wehlage Jim designer",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "American Litho",
+          "totalItemCount": 4
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Elaine Lustig Cohen",
+          "totalItemCount": 124
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Giulio da Mliano",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "H. Brünnel",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "J-V. Éon",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Karen A Levine",
+          "totalItemCount": 5
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Keiko Hayashi",
+          "totalItemCount": 5
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Melinda Silva",
+          "totalItemCount": 5
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Metro-Golden-Mayer",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "San Francisco Arts Commission (SFAC)",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Studio Collective — a student design group — at Virginia Tech School of Architecture",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "The Grateful Palate, United States",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "UCLA Extension, Los Angeles",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "WAAC",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Water Resources Council",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Wood and Jones Typecraft",
+          "totalItemCount": 1
+        }
+      ],
+      "filterValuesSelected": [
+        ""
+      ]
+    },
+    {
+      "filterField": "Discipline",
+      "filterLabel": "Disciplines",
+      "filterValues": [
+        {
+          "filterValueItemCount": 61,
+          "filterValueText": "Not specified",
+          "totalItemCount": 1107
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "illustration",
+          "totalItemCount": 6
+        }
+      ],
+      "filterValuesSelected": [
+        "illustration, Not specified"
+      ]
+    },
+    {
+      "filterField": "Decade",
+      "filterLabel": "Decades",
+      "filterValues": [
+        {
+          "filterValueItemCount": 23,
+          "filterValueText": "1930s",
+          "totalItemCount": 109
+        },
+        {
+          "filterValueItemCount": 23,
+          "filterValueText": "2000s",
+          "totalItemCount": 83
+        },
+        {
+          "filterValueItemCount": 7,
+          "filterValueText": "2010s",
+          "totalItemCount": 20
+        },
+        {
+          "filterValueItemCount": 6,
+          "filterValueText": "1920s",
+          "totalItemCount": 59
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "1900s",
+          "totalItemCount": 4
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "1880s",
+          "totalItemCount": 2
+        }
+      ],
+      "filterValuesSelected": [
+        "1880s, 1900s, 1920s, 1930s, 2000s, 2010s"
+      ]
+    },
+    {
+      "filterField": "Country",
+      "filterLabel": "Countries",
+      "filterValues": [
+        {
+          "filterValueItemCount": 45,
+          "filterValueText": "United States",
+          "totalItemCount": 859
+        },
+        {
+          "filterValueItemCount": 16,
+          "filterValueText": "Italy",
+          "totalItemCount": 64
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Canada",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "France",
+          "totalItemCount": 17
+        }
+      ],
+      "filterValuesSelected": [
+        "Canada, France, Italy, United States"
+      ]
+    },
+    {
+      "filterField": "Form",
+      "filterLabel": "Format",
+      "filterValues": [
+        {
+          "filterValueItemCount": 16,
+          "filterValueText": "Type Specimen",
+          "totalItemCount": 100
+        },
+        {
+          "filterValueItemCount": 15,
+          "filterValueText": "Poster",
+          "totalItemCount": 84
+        },
+        {
+          "filterValueItemCount": 5,
+          "filterValueText": "Card",
+          "totalItemCount": 12
+        },
+        {
+          "filterValueItemCount": 3,
+          "filterValueText": "Envelope",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": " Brochure",
+          "totalItemCount": 8
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Brochure",
+          "totalItemCount": 8
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Drawing",
+          "totalItemCount": 76
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Photograph",
+          "totalItemCount": 49
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Print",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Process",
+          "totalItemCount": 92
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": " Clippings",
+          "totalItemCount": 26
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": " Greeting Card",
+          "totalItemCount": 6
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": " Menu",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": " Original Artwork",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": " Sketch",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": " Thumbnails",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "",
+          "totalItemCount": 307
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Book",
+          "totalItemCount": 138
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Bound Specimen",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Flyer",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Folder",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Four Panel Fold",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Four Panel Roll Fold",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Magazine",
+          "totalItemCount": 25
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Mailer",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Post Card",
+          "totalItemCount": 6
+        }
+      ],
+      "filterValuesSelected": [
+        ""
+      ]
+    }
+  ]
+}

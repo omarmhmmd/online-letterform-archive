@@ -1,0 +1,1904 @@
+{
+  "filters": [
+    {
+      "filterField": "[People & Firms]",
+      "filterLabel": "People & Firms",
+      "filterValues": [
+        {
+          "filterValueItemCount": 58,
+          "filterValueText": "Martin Venezky",
+          "totalItemCount": 207
+        },
+        {
+          "filterValueItemCount": 58,
+          "filterValueText": "Società Nebiolo",
+          "totalItemCount": 64
+        },
+        {
+          "filterValueItemCount": 55,
+          "filterValueText": "Appetite Engineers",
+          "totalItemCount": 198
+        },
+        {
+          "filterValueItemCount": 50,
+          "filterValueText": "Elaine Lustig Cohen",
+          "totalItemCount": 124
+        },
+        {
+          "filterValueItemCount": 39,
+          "filterValueText": "Aldo Novarese",
+          "totalItemCount": 44
+        },
+        {
+          "filterValueItemCount": 33,
+          "filterValueText": "Ladislav Sutnar",
+          "totalItemCount": 79
+        },
+        {
+          "filterValueItemCount": 27,
+          "filterValueText": "Dorothy and Otis Shepard",
+          "totalItemCount": 294
+        },
+        {
+          "filterValueItemCount": 17,
+          "filterValueText": "Alessandro Butti",
+          "totalItemCount": 18
+        },
+        {
+          "filterValueItemCount": 14,
+          "filterValueText": "Barnhart Brothers",
+          "totalItemCount": 21
+        },
+        {
+          "filterValueItemCount": 14,
+          "filterValueText": "Fonderie Olive",
+          "totalItemCount": 15
+        },
+        {
+          "filterValueItemCount": 13,
+          "filterValueText": "Amsterdam Continental Types and Graphic Equipment, Inc.",
+          "totalItemCount": 14
+        },
+        {
+          "filterValueItemCount": 11,
+          "filterValueText": "Dorothy Shepard",
+          "totalItemCount": 87
+        },
+        {
+          "filterValueItemCount": 11,
+          "filterValueText": "Emigre",
+          "totalItemCount": 69
+        },
+        {
+          "filterValueItemCount": 11,
+          "filterValueText": "Otis Shepard",
+          "totalItemCount": 108
+        },
+        {
+          "filterValueItemCount": 11,
+          "filterValueText": "Roger Excoffon",
+          "totalItemCount": 12
+        },
+        {
+          "filterValueItemCount": 11,
+          "filterValueText": "Rudy VanderLans",
+          "totalItemCount": 69
+        },
+        {
+          "filterValueItemCount": 11,
+          "filterValueText": "Sweet's Catalog Service",
+          "totalItemCount": 28
+        },
+        {
+          "filterValueItemCount": 8,
+          "filterValueText": "California College of the Arts (CCA), San Francisco",
+          "totalItemCount": 14
+        },
+        {
+          "filterValueItemCount": 7,
+          "filterValueText": "Giulio da Milano",
+          "totalItemCount": 7
+        },
+        {
+          "filterValueItemCount": 7,
+          "filterValueText": "SF MoMA",
+          "totalItemCount": 12
+        },
+        {
+          "filterValueItemCount": 7,
+          "filterValueText": "Zuzana Licko",
+          "totalItemCount": 58
+        },
+        {
+          "filterValueItemCount": 6,
+          "filterValueText": "Hans Wagner",
+          "totalItemCount": 6
+        },
+        {
+          "filterValueItemCount": 6,
+          "filterValueText": "Lompa Printing",
+          "totalItemCount": 16
+        },
+        {
+          "filterValueItemCount": 5,
+          "filterValueText": "Frameline/San Francisco International Lesbian and Gay Film Festival",
+          "totalItemCount": 7
+        },
+        {
+          "filterValueItemCount": 5,
+          "filterValueText": "Marc Susan",
+          "totalItemCount": 5
+        },
+        {
+          "filterValueItemCount": 5,
+          "filterValueText": "Wagner & Schmidt",
+          "totalItemCount": 5
+        },
+        {
+          "filterValueItemCount": 4,
+          "filterValueText": "Alice Polesky",
+          "totalItemCount": 4
+        },
+        {
+          "filterValueItemCount": 4,
+          "filterValueText": "Didier Crémieux",
+          "totalItemCount": 4
+        },
+        {
+          "filterValueItemCount": 4,
+          "filterValueText": "François Ganeau",
+          "totalItemCount": 4
+        },
+        {
+          "filterValueItemCount": 4,
+          "filterValueText": "John Hersey",
+          "totalItemCount": 5
+        },
+        {
+          "filterValueItemCount": 4,
+          "filterValueText": "Menno Meyjes",
+          "totalItemCount": 4
+        },
+        {
+          "filterValueItemCount": 4,
+          "filterValueText": "Meridian Books",
+          "totalItemCount": 11
+        },
+        {
+          "filterValueItemCount": 4,
+          "filterValueText": "Oswald Cooper",
+          "totalItemCount": 5
+        },
+        {
+          "filterValueItemCount": 4,
+          "filterValueText": "Peter Plate",
+          "totalItemCount": 4
+        },
+        {
+          "filterValueItemCount": 4,
+          "filterValueText": "Raffaello Bertieri",
+          "totalItemCount": 4
+        },
+        {
+          "filterValueItemCount": 4,
+          "filterValueText": "Sidney Gaunt",
+          "totalItemCount": 4
+        },
+        {
+          "filterValueItemCount": 4,
+          "filterValueText": "Speak Magazine",
+          "totalItemCount": 28
+        },
+        {
+          "filterValueItemCount": 4,
+          "filterValueText": "West Coast Print Center",
+          "totalItemCount": 4
+        },
+        {
+          "filterValueItemCount": 4,
+          "filterValueText": "William Cone",
+          "totalItemCount": 4
+        },
+        {
+          "filterValueItemCount": 3,
+          "filterValueText": "Bert van der Meij",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 3,
+          "filterValueText": "Gavin Flint",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 3,
+          "filterValueText": "H. Brünnel",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 3,
+          "filterValueText": "John Fante",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 3,
+          "filterValueText": "Kootz Gallery",
+          "totalItemCount": 7
+        },
+        {
+          "filterValueItemCount": 3,
+          "filterValueText": "Pabst Brewing Company",
+          "totalItemCount": 6
+        },
+        {
+          "filterValueItemCount": 3,
+          "filterValueText": "Scott Williams",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Alonzo Printing",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Anne Telford",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Boise cascade",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Dana F. Smith",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Fiat Metal Manufacturing Company",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Glenn Suokko",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Hans Sluga",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Jeff Towner",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Jeffrey Browning",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "K. Lönberg-Holm and Ladislav Sutnar",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Lewis MacAdams",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Lisa Cohen",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Mannings Tea",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Robert Wiebking",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "SONA",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "San Francisco International Lesbian and Gay Film Festival",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Stefano Massei",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Susan E. King",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "The Jewish Museum",
+          "totalItemCount": 10
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Third Bay Letterpress",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Tom Bonauro",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Tom Clark",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Wehlage Jim designer",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "23 Envelope",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "A & P Metal Projects Mfg. Corps.",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "A-D Gallery",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "ALCOA",
+          "totalItemCount": 4
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "AMOCO",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Aad van Dommelen (Proforma)",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Abbott laboratories",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Acorn Wire and Iron Works",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Air Canada Corporate Graphics & Design",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "AirCanada",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Aldus Printers, Inc.",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Alexandre Skriabin",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Allen Hori",
+          "totalItemCount": 4
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Allon T. Schoener",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "American Litho",
+          "totalItemCount": 4
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "American Measuring Instruments Corp.",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Andrea Goldstein",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Andrei Toluzakov",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Andrew Blauvelt",
+          "totalItemCount": 12
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Anne Gleeson",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Antonio Ole",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Apple",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "April Greiman",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Arch Garland",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Arnold Iger",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Arthur Cohen",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Atto Squisito",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Aurele M. Gatti, Inc.",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "BASF Aktiengesellschaft",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "BFGoodrich",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "BP",
+          "totalItemCount": 4
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Backyards/Gardens to Remember",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Badri E. Borghei",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Bell Systems",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Ben Miller",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Bijan Samandar",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Black & decker",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Bob Aufuldish",
+          "totalItemCount": 15
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Brett Easton Ellis",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Brian Bouldrey",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Brian Brian Baise",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Burlington industries",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "CIBA-GEIGY",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Canterbury Printer Company",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Carlos Llerena Aguirre",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Caslon",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Caterpillar",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Charles Bukowski",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Chermayeff & Geismar Associates",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Chris Bigg",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Chris Ware",
+          "totalItemCount": 16
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Cita Sutnar and Buckminster Fuller",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Citibank",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Clement Mok",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Coca-cola",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Cocteau Twins",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Dan Rolleri",
+          "totalItemCount": 19
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Daniel Kapelian",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Danne & Blackburn",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Darice Koziel",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "David Perry",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "David R. Godine",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "David Shields",
+          "totalItemCount": 16
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Debra Seagal",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Deere & Company Advertising Department",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Del-Teet Furniture Company",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Diane Best",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Diane Julia Olberg",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Don Carpenter",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "E-Systems",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Eaton",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Ed McDonald",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Elisabeth Morse",
+          "totalItemCount": 4
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Elsa Frausto",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Erik Spiekermann",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Ermanno Di Febo",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Esther Vermeer",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Ethel Hoyle",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "F. Heidari",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Farrar, Straus and Cudahy",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Federal express",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Finnair",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Fonderia Tipografica Cooperativafounrdy",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Francois Ganeau",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Frederik Lunning",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Furman Gallery",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "GE",
+          "totalItemCount": 6
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "George Nelson & Co.",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Gerard Hadders",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Gertrude Stein",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Gianmaria Mussio",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Ginny Hoyle",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Girl Scouts",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Giulio da Mliano",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Grant Muruaga",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Hard Werken",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Harry Arens",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Helene Bergmans",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Helsinki",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Henk Elenga (Hard Werken)",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Henrik Kubel",
+          "totalItemCount": 17
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Henry Caslon",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Hershey",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Holt, Reinhart, and Winston",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Hoover Universal",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "IBM",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Inc. MM Enclosures",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Inc. Robinson Aviation",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Inc. Schiffer Prints Division of Mil-Art Co.",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Ivo Watts-Russell",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "J-V. Éon",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Jacques Overhoff",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Jan Jancourt",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Jeffery Keedy",
+          "totalItemCount": 6
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Joanna Warwic",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Johanna Drucker",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "John Deere",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "John D’Hondt",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "John Lardas",
+          "totalItemCount": 9
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "John Oomkes",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "John Weber",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Jordan Oakes",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Judy Anderson",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "KFC",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Karen A Levine",
+          "totalItemCount": 5
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Karen Douglas",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Kathy Holman",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Kees Broos",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Keiko Hayashi",
+          "totalItemCount": 5
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Ken Miller",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Kim",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Kodak",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Kristine McKenna",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Kyle Thayer",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "L.Anton Maix, Inc.",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Laura Genninger",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Leonid Lamm",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Lev Nussberg",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Lisa Anderson",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "MIchelle Goldberg",
+          "totalItemCount": 12
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Malcolm Garrett (Assorted Images)",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Marek Majewski",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Mark Mordue",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Masonite Coproration - Cellufoam Products Division",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Masonite Corporation",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Matt Neuman",
+          "totalItemCount": 7
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Matthew Carter",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Max Kisman",
+          "totalItemCount": 5
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Melinda Silva",
+          "totalItemCount": 5
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "MetLife",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Metro-Golden-Mayer",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Michael Gold Design",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Michelle Vignes",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Mobil",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Montréal 1976 Olympiad",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "NASA",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "NOAA",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Nestlé",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "New York and Penn",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Nicole Heller",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Nigel Grierson",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Noel Martin",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "PART 1 — Salman Rushdie",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "PART 2 — John Hersey",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "PART 3 — Rigo",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "PART 4 — Susan E. King",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "PPG industries",
+          "totalItemCount": 4
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "PTT",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Paul Kwan",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Paul Rand",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Peter Claessens",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Peter Principle",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Peterson and Neville Inc.",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Philippe Apeloig",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Philippine airlines",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Phillips petroleum company",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Pulp and Paper Manufacturers",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Radio Corporation of America",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Radio Corporations of America",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Renee Lertzman",
+          "totalItemCount": 4
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Rick Valicenti (Thirst)",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Rick Vermeulen (Hard Werken)",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Rick Vermeulen",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Robert Kopecky",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Robert W. Service",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Roberto Barazzuol",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Rockwell International",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Roger Sabin",
+          "totalItemCount": 19
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Rolfe Horn",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Sam Prestianni",
+          "totalItemCount": 8
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "San Francisco Arts Commission (SFAC)",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Scott W. Santoro",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Scoville Manufacturing Company",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Simon Larbalestier",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Sioerd H. de Roos",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Spartan Shipbuilding",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Stanley Banos",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Stephen Johnson",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Studio Collective — a student design group — at Virginia Tech School of Architecture",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Studio Dumbar",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Susan Lally",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Susan Roberts",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Susan Skarsgard",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Tahiti Starship",
+          "totalItemCount": 4
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Takenobu Igarashi",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Tamar Rosenthal",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Terry Trucco",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "The Celotex Corporation",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "The Craftint Manufacturing Co.",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "The Grateful Palate, United States",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "The Herman Nelson Corporatoin",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "The New Jersey Zinc Company",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "The chase manhattan bank",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Throwing Muses",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Tim Anstaett",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Tom Klinkowstein",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Tomas Matza",
+          "totalItemCount": 17
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Toshiba",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Total Design",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "UCLA Extension, Los Angeles",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "USIA",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "United States Borax & chemical corporation",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Vaughan Oliver",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Veronique Vienne",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Vincent van Baar",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Vladimir Nabokov",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "WAAC",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Water Resources Council",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Westinghouse",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Whitney Museum of American Art",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "William Passarelli",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Winston Tong",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Wood and Jones Typecraft",
+          "totalItemCount": 1
+        }
+      ],
+      "filterValuesSelected": [
+        ""
+      ]
+    },
+    {
+      "filterField": "Discipline",
+      "filterLabel": "Disciplines",
+      "filterValues": [
+        {
+          "filterValueItemCount": 309,
+          "filterValueText": "Not specified",
+          "totalItemCount": 1107
+        },
+        {
+          "filterValueItemCount": 5,
+          "filterValueText": "graphic design",
+          "totalItemCount": 27
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "hand lettering",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "illustration",
+          "totalItemCount": 6
+        }
+      ],
+      "filterValuesSelected": [
+        ""
+      ]
+    },
+    {
+      "filterField": "Decade",
+      "filterLabel": "Decades",
+      "filterValues": [
+        {
+          "filterValueItemCount": 81,
+          "filterValueText": "Unknown",
+          "totalItemCount": 434
+        },
+        {
+          "filterValueItemCount": 58,
+          "filterValueText": "1960s",
+          "totalItemCount": 143
+        },
+        {
+          "filterValueItemCount": 47,
+          "filterValueText": "1950s",
+          "totalItemCount": 111
+        },
+        {
+          "filterValueItemCount": 24,
+          "filterValueText": "2000s",
+          "totalItemCount": 83
+        },
+        {
+          "filterValueItemCount": 23,
+          "filterValueText": "1930s",
+          "totalItemCount": 109
+        },
+        {
+          "filterValueItemCount": 23,
+          "filterValueText": "1980s",
+          "totalItemCount": 88
+        },
+        {
+          "filterValueItemCount": 13,
+          "filterValueText": "1920s",
+          "totalItemCount": 59
+        },
+        {
+          "filterValueItemCount": 13,
+          "filterValueText": "1940s",
+          "totalItemCount": 125
+        },
+        {
+          "filterValueItemCount": 13,
+          "filterValueText": "1970s",
+          "totalItemCount": 42
+        },
+        {
+          "filterValueItemCount": 7,
+          "filterValueText": "2010s",
+          "totalItemCount": 20
+        },
+        {
+          "filterValueItemCount": 6,
+          "filterValueText": "1990s",
+          "totalItemCount": 100
+        },
+        {
+          "filterValueItemCount": 3,
+          "filterValueText": "1900s",
+          "totalItemCount": 4
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "1910s",
+          "totalItemCount": 20
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "1840s",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "1880s",
+          "totalItemCount": 2
+        }
+      ],
+      "filterValuesSelected": [
+        ""
+      ]
+    },
+    {
+      "filterField": "Country",
+      "filterLabel": "Countries",
+      "filterValues": [
+        {
+          "filterValueItemCount": 176,
+          "filterValueText": "United States",
+          "totalItemCount": 859
+        },
+        {
+          "filterValueItemCount": 66,
+          "filterValueText": " Not specified",
+          "totalItemCount": 291
+        },
+        {
+          "filterValueItemCount": 58,
+          "filterValueText": "Italy",
+          "totalItemCount": 64
+        },
+        {
+          "filterValueItemCount": 15,
+          "filterValueText": "France",
+          "totalItemCount": 17
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Canada",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "England",
+          "totalItemCount": 1
+        }
+      ],
+      "filterValuesSelected": [
+        ""
+      ]
+    },
+    {
+      "filterField": "Form",
+      "filterLabel": "Format",
+      "filterValues": [
+        {
+          "filterValueItemCount": 86,
+          "filterValueText": "Type Specimen",
+          "totalItemCount": 100
+        },
+        {
+          "filterValueItemCount": 83,
+          "filterValueText": "",
+          "totalItemCount": 307
+        },
+        {
+          "filterValueItemCount": 26,
+          "filterValueText": "Poster",
+          "totalItemCount": 84
+        },
+        {
+          "filterValueItemCount": 17,
+          "filterValueText": "Book Jacket",
+          "totalItemCount": 41
+        },
+        {
+          "filterValueItemCount": 17,
+          "filterValueText": "Process",
+          "totalItemCount": 92
+        },
+        {
+          "filterValueItemCount": 11,
+          "filterValueText": " Magazine",
+          "totalItemCount": 69
+        },
+        {
+          "filterValueItemCount": 9,
+          "filterValueText": "Letterhead",
+          "totalItemCount": 19
+        },
+        {
+          "filterValueItemCount": 7,
+          "filterValueText": "Book",
+          "totalItemCount": 138
+        },
+        {
+          "filterValueItemCount": 6,
+          "filterValueText": "Card",
+          "totalItemCount": 12
+        },
+        {
+          "filterValueItemCount": 5,
+          "filterValueText": "Drawing",
+          "totalItemCount": 76
+        },
+        {
+          "filterValueItemCount": 5,
+          "filterValueText": "Post Card",
+          "totalItemCount": 6
+        },
+        {
+          "filterValueItemCount": 3,
+          "filterValueText": " Brochure",
+          "totalItemCount": 8
+        },
+        {
+          "filterValueItemCount": 3,
+          "filterValueText": "Brochure",
+          "totalItemCount": 8
+        },
+        {
+          "filterValueItemCount": 3,
+          "filterValueText": "Envelope",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 3,
+          "filterValueText": "Flyer",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 3,
+          "filterValueText": "Stationary",
+          "totalItemCount": 4
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": " Clippings",
+          "totalItemCount": 26
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": " Greeting Card",
+          "totalItemCount": 6
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": " Program",
+          "totalItemCount": 10
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Booklet",
+          "totalItemCount": 5
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Bound Specimen",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Catalog",
+          "totalItemCount": 8
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Magazine",
+          "totalItemCount": 25
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Page",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Photograph",
+          "totalItemCount": 49
+        },
+        {
+          "filterValueItemCount": 2,
+          "filterValueText": "Print",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": " Menu",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": " Original Artwork",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": " Paste-Up",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": " Sketch",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": " Thumbnails",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Ephemera",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Folder",
+          "totalItemCount": 3
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Four Panel Fold",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Four Panel Roll Fold",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Half-Fold",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Invitation",
+          "totalItemCount": 6
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Mailer",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Packaging",
+          "totalItemCount": 2
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Pamphlet",
+          "totalItemCount": 8
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Periodical",
+          "totalItemCount": 87
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Promotional Card",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Retail Bag",
+          "totalItemCount": 1
+        },
+        {
+          "filterValueItemCount": 1,
+          "filterValueText": "Two Sided",
+          "totalItemCount": 1
+        }
+      ],
+      "filterValuesSelected": [
+        ""
+      ]
+    }
+  ]
+}

@@ -1,208 +1,208 @@
 {
-  "resultsTotal": 219,
-  "resultsPages": 3,
-  "resultsPageNo": 3,
-  "resultsQuery": "",
   "resultsPage": [
     {
-      "imageURL": "https://archive.org/download/LFA_Type_0073/LFA_Type_0073_001_thumb.jpg",
+      "creators": "François Ganeau",
+      "decade": "1950s",
+      "imageURL": "https://archive.org/download/LFA_Type_0073/LFA_Type_0073_001.jpg",
+      "newItem": 0,
       "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0073&LFAPics=Yes",
+      "sizing": 1,
       "title": "Vendôme dessiné par François Ganeau",
-      "creators": "François Ganeau",
-      "workID": "lfa_type_0073",
-      "decade": "1950s",
-      "sizing": 1.0,
-      "newItem": 0
+      "workID": "lfa_type_0073"
     },
     {
-      "imageURL": "https://archive.org/download/LFA_Type_0075/LFA_Type_0075_001_thumb.jpg",
-      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0075&LFAPics=Yes",
-      "title": "Fonderie Olive [FO]",
       "creators": "Roger Excoffon; Wagner & Schmidt",
-      "workID": "lfa_type_0075",
       "decade": "1940s",
-      "sizing": 1.0,
-      "newItem": 0
+      "imageURL": "https://archive.org/download/LFA_Type_0075/LFA_Type_0075_001.jpg",
+      "newItem": 0,
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0075&LFAPics=Yes",
+      "sizing": 1,
+      "title": "Fonderie Olive [FO]",
+      "workID": "lfa_type_0075"
     },
     {
-      "imageURL": "https://archive.org/download/LFA_Type_0077/LFA_Type_0077_001_thumb.jpg",
-      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0077&LFAPics=Yes",
-      "title": "Fonderie Olive in stiff wrappers embossed texture",
       "creators": "Roger Excoffon; Wagner & Schmidt",
-      "workID": "lfa_type_0077",
       "decade": "1960s",
-      "sizing": 1.0,
-      "newItem": 0
+      "imageURL": "https://archive.org/download/LFA_Type_0077/LFA_Type_0077_001.jpg",
+      "newItem": 0,
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0077&LFAPics=Yes",
+      "sizing": 1,
+      "title": "Fonderie Olive in stiff wrappers embossed texture",
+      "workID": "lfa_type_0077"
     },
     {
-      "imageURL": "https://archive.org/download/LFA_Type_0078/LFA_Type_0078_001_thumb.jpg",
-      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0078&LFAPics=Yes",
-      "title": "Fonderie Olive Séries Récentes",
       "creators": "François Ganeau; Roger Excoffon",
-      "workID": "lfa_type_0078",
       "decade": "1950s",
-      "sizing": 1.0,
-      "newItem": 0
+      "imageURL": "https://archive.org/download/LFA_Type_0078/LFA_Type_0078_001.jpg",
+      "newItem": 0,
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0078&LFAPics=Yes",
+      "sizing": 1,
+      "title": "Fonderie Olive Séries Récentes",
+      "workID": "lfa_type_0078"
     },
     {
-      "imageURL": "https://archive.org/download/LFA_Type_0079/LFA_Type_0079_001_thumb.jpg",
+      "creators": "Roger Excoffon",
+      "decade": "1950s",
+      "imageURL": "https://archive.org/download/LFA_Type_0079/LFA_Type_0079_001.jpg",
+      "newItem": 0,
       "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0079&LFAPics=Yes",
+      "sizing": 1,
       "title": "Cinq Générations de Fondeurs: Dix Séries Fonderie Olive",
-      "creators": "Roger Excoffon",
-      "workID": "lfa_type_0079",
-      "decade": "1950s",
-      "sizing": 1.0,
-      "newItem": 0
+      "workID": "lfa_type_0079"
     },
     {
-      "imageURL": "https://archive.org/download/LFA_Type_0057/LFA_Type_0057_001_thumb.jpg",
-      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0057&LFAPics=Yes",
-      "title": "Caratteri Nebiolo: Type Faces Borders Signs Rules",
       "creators": "Aldo Novarese; Alessandro Butti; Hans Wagner; Wagner & Schmidt",
-      "workID": "lfa_type_0057",
       "decade": "1960s",
-      "sizing": 1.0,
-      "newItem": 0
+      "imageURL": "https://archive.org/download/LFA_Type_0057/LFA_Type_0057_001.jpg",
+      "newItem": 0,
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0057&LFAPics=Yes",
+      "sizing": 1,
+      "title": "Caratteri Nebiolo: Type Faces Borders Signs Rules",
+      "workID": "lfa_type_0057"
     },
     {
-      "imageURL": "https://archive.org/download/LFA_Type_0058/LFA_Type_0058_001_thumb.jpg",
-      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0058&LFAPics=Yes",
-      "title": "Symphonia Graphica",
       "creators": "Aldo Novarese; Alessandro Butti; Hans Wagner; Raffaello Bertieri",
-      "workID": "lfa_type_0058",
       "decade": "1930s",
-      "sizing": 1.0,
-      "newItem": 0
+      "imageURL": "https://archive.org/download/LFA_Type_0058/LFA_Type_0058_001.jpg",
+      "newItem": 0,
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0058&LFAPics=Yes",
+      "sizing": 1,
+      "title": "Symphonia Graphica",
+      "workID": "lfa_type_0058"
     },
     {
-      "imageURL": "https://archive.org/download/LFA_Type_0059/LFA_Type_0059_001_thumb.jpg",
-      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0059&LFAPics=Yes",
-      "title": "Nebiolo Type Faces: Tipos de Imprenta",
       "creators": "Aldo Novarese; Alessandro Butti",
-      "workID": "lfa_type_0059",
       "decade": "1960s",
-      "sizing": 1.0,
-      "newItem": 0
+      "imageURL": "https://archive.org/download/LFA_Type_0059/LFA_Type_0059_001.jpg",
+      "newItem": 0,
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0059&LFAPics=Yes",
+      "sizing": 1,
+      "title": "Nebiolo Type Faces: Tipos de Imprenta",
+      "workID": "lfa_type_0059"
     },
     {
-      "imageURL": "https://archive.org/download/LFA_Type_0070/LFA_Type_0070_001_thumb.jpg",
+      "creators": "Roger Excoffon",
+      "decade": "1950s",
+      "imageURL": "https://archive.org/download/LFA_Type_0070/LFA_Type_0070_001.jpg",
+      "newItem": 0,
       "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0070&LFAPics=Yes",
+      "sizing": 1,
       "title": "Choc: Dynamique",
-      "creators": "Roger Excoffon",
-      "workID": "lfa_type_0070",
-      "decade": "1950s",
-      "sizing": 1.0,
-      "newItem": 0
+      "workID": "lfa_type_0070"
     },
     {
-      "imageURL": "https://archive.org/download/LFAType0056/LFA_Type_0056_001_thumb.jpg",
-      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0056&LFAPics=Yes",
-      "title": "Nebiolo Caratteri Legno",
       "creators": "Aldo Novarese; Alessandro Butti; Giulio da Milano; Hans Wagner; Sioerd H. de Roos; Wagner & Schmidt",
-      "workID": "lfa_type_0056",
       "decade": "1960s",
-      "sizing": 1.0,
-      "newItem": 0
+      "imageURL": "https://archive.org/download/LFAType0056/LFA_Type_0056_001.jpg",
+      "newItem": 0,
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0056&LFAPics=Yes",
+      "sizing": 1,
+      "title": "Nebiolo Caratteri Legno",
+      "workID": "lfa_type_0056"
     },
     {
-      "imageURL": "https://archive.org/download/LFAType0061/LFA_Type_0061_001_thumb.jpg",
+      "creators": "",
+      "decade": "1920s",
+      "imageURL": "https://archive.org/download/LFAType0061/LFA_Type_0061_001.jpg",
+      "newItem": 0,
       "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0061&LFAPics=Yes",
+      "sizing": 1,
       "title": "Caratteri Russi",
-      "creators": "",
-      "workID": "lfa_type_0061",
-      "decade": "1920s",
-      "sizing": 1.0,
-      "newItem": 0
+      "workID": "lfa_type_0061"
     },
     {
-      "imageURL": "https://archive.org/download/LFAType0069/LFA_Type_0069_001_thumb.jpg",
+      "creators": "Roger Excoffon",
+      "decade": "1950s",
+      "imageURL": "https://archive.org/download/LFAType0069/LFA_Type_0069_001.jpg",
+      "newItem": 0,
       "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0069&LFAPics=Yes",
+      "sizing": 1,
       "title": "Recueil de La Fonderie M-Olive",
-      "creators": "Roger Excoffon",
-      "workID": "lfa_type_0069",
-      "decade": "1950s",
-      "sizing": 1.0,
-      "newItem": 0
+      "workID": "lfa_type_0069"
     },
     {
-      "imageURL": "https://archive.org/download/LFAType0072/LFA_Type_0072_001_thumb.jpg",
-      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0072&LFAPics=Yes",
-      "title": "Vendôme: Romain, Italique, Noir, Gras",
       "creators": "François Ganeau",
-      "workID": "lfa_type_0072",
       "decade": "1950s",
-      "sizing": 1.0,
-      "newItem": 0
+      "imageURL": "https://archive.org/download/LFAType0072/LFA_Type_0072_001.jpg",
+      "newItem": 0,
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0072&LFAPics=Yes",
+      "sizing": 1,
+      "title": "Vendôme: Romain, Italique, Noir, Gras",
+      "workID": "lfa_type_0072"
     },
     {
-      "imageURL": "https://archive.org/download/LFAType0062/LFA_Type_0062_001_thumb.jpg",
-      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0062&LFAPics=Yes",
-      "title": "Caratteri Ebraici e Rabbinici",
       "creators": "",
-      "workID": "lfa_type_0062",
       "decade": "1920s",
-      "sizing": 1.0,
-      "newItem": 0
+      "imageURL": "https://archive.org/download/LFAType0062/LFA_Type_0062_001.jpg",
+      "newItem": 0,
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0062&LFAPics=Yes",
+      "sizing": 1,
+      "title": "Caratteri Ebraici e Rabbinici",
+      "workID": "lfa_type_0062"
     },
     {
-      "imageURL": "https://archive.org/download/LFAType0076/LFA_Type_0076_001_thumb.jpg",
-      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0076&LFAPics=Yes",
-      "title": "Chambord, Mistral, Vendôme, Banco",
       "creators": "Francois Ganeau; Roger Excoffon",
-      "workID": "lfa_type_0076",
       "decade": "1950s",
-      "sizing": 1.0,
-      "newItem": 0
+      "imageURL": "https://archive.org/download/LFAType0076/LFA_Type_0076_001.jpg",
+      "newItem": 0,
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0076&LFAPics=Yes",
+      "sizing": 1,
+      "title": "Chambord, Mistral, Vendôme, Banco",
+      "workID": "lfa_type_0076"
     },
     {
-      "imageURL": "https://archive.org/download/LFAType0074/LFA_Type_0074_001_thumb.jpg",
+      "creators": "Roger Excoffon",
+      "decade": "1950s",
+      "imageURL": "https://archive.org/download/LFAType0074/LFA_Type_0074_001.jpg",
+      "newItem": 0,
       "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0074&LFAPics=Yes",
+      "sizing": 1,
       "title": "3 Scriptes",
-      "creators": "Roger Excoffon",
-      "workID": "lfa_type_0074",
-      "decade": "1950s",
-      "sizing": 1.0,
-      "newItem": 0
+      "workID": "lfa_type_0074"
     },
     {
-      "imageURL": "https://archive.org/download/LFAType0065/LFA_Type_0065_001_thumb.jpg",
+      "creators": "Roger Excoffon",
+      "decade": "1960s",
+      "imageURL": "https://archive.org/download/LFAType0065/LFA_Type_0065_001.jpg",
+      "newItem": 0,
       "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0065&LFAPics=Yes",
+      "sizing": 1,
       "title": "Antique Olive Série Grasse",
-      "creators": "Roger Excoffon",
-      "workID": "lfa_type_0065",
-      "decade": "1960s",
-      "sizing": 1.0,
-      "newItem": 0
+      "workID": "lfa_type_0065"
     },
     {
-      "imageURL": "https://archive.org/download/LFAType0066/LFA_Type_0066_001_thumb.jpg",
+      "creators": "Roger Excoffon",
+      "decade": "1960s",
+      "imageURL": "https://archive.org/download/LFAType0066/LFA_Type_0066_001.jpg",
+      "newItem": 0,
       "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0066&LFAPics=Yes",
+      "sizing": 1,
       "title": "Antique: Antique Olive",
-      "creators": "Roger Excoffon",
-      "workID": "lfa_type_0066",
-      "decade": "1960s",
-      "sizing": 1.0,
-      "newItem": 0
+      "workID": "lfa_type_0066"
     },
     {
-      "imageURL": "https://archive.org/download/LFAType0067/LFA_Type_0067_001_thumb.jpg",
+      "creators": "Roger Excoffon",
+      "decade": "1960s",
+      "imageURL": "https://archive.org/download/LFAType0067/LFA_Type_0067_001.jpg",
+      "newItem": 0,
       "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0067&LFAPics=Yes",
+      "sizing": 1,
       "title": "Nord",
-      "creators": "Roger Excoffon",
-      "workID": "lfa_type_0067",
-      "decade": "1960s",
-      "sizing": 1.0,
-      "newItem": 0
+      "workID": "lfa_type_0067"
     },
     {
-      "imageURL": "https://archive.org/download/LFAEmigre0011/LFA_Emigre_0011_0001_thumb.jpg",
-      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_emigre_0011&LFAPics=Yes",
-      "title": "Emigre #11: Ambition/Gear",
       "creators": "Lompa Printing; Rudy VanderLans; Zuzana Licko",
-      "workID": "lfa_emigre_0011",
       "decade": "1980s",
-      "sizing": 1.0,
-      "newItem": 0
+      "imageURL": "https://archive.org/download/LFAEmigre0011/LFA_Emigre_0011_0001.jpg",
+      "newItem": 0,
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_emigre_0011&LFAPics=Yes",
+      "sizing": 1,
+      "title": "Emigre #11: Ambition/Gear",
+      "workID": "lfa_emigre_0011"
     }
-  ]
+  ],
+  "resultsPageNo": 3,
+  "resultsPages": 3,
+  "resultsQuery": "",
+  "resultsTotal": 219
 }
