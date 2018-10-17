@@ -1,8 +1,15 @@
 {
   "item": {
-    "workID": "lfa_venezky_0012",
-    "title": "Original Artwork for Weird America",
-    "description": "hand cut letters pasted with tape on the paper; two large sized “W” and “A” with several smaller sized letters composed within them and images of stars alongside.",
+    "clients": [
+      "",
+      "Appetite Engineers"
+    ],
+    "collection": "Martin Venezky Collection",
+    "contributors": [
+      "",
+      "Venezky, Martin"
+    ],
+    "country": "United States",
     "creators": [
       {
         "name": "Appetite Engineers",
@@ -13,56 +20,49 @@
         "role": "Designer"
       }
     ],
-    "contributors": [
-      "",
-      "Venezky, Martin"
-    ],
-    "clients": [
-      "",
-      "Appetite Engineers"
-    ],
+    "decade": "2010s",
+    "description": "hand cut letters pasted with tape on the paper; two large sized “W” and “A” with several smaller sized letters composed within them and images of stars alongside.",
     "formats": [
       "Poster",
       "Process"
     ],
-    "decade": "2010s",
-    "year": "2016",
-    "country": "United States",
+    "imageFront": "https://archive.org/download/LFAVenezky0012/LFA_Venezky_0012_001_thumb.jpg",
+    "imageURLs": [
+      "https://archive.org/download/LFAVenezky0012/LFA_Venezky_0012_001_thumb.jpg"
+    ],
     "languages": [
       "English"
-    ],
-    "collection": "Martin Venezky Collection",
-    "imageFront": "https://archive.org/download/LFAVenezky0012/LFA_Venezky_0012_001_thumb.jpg",
-    "numberImages": 1,
-    "techniques": [
-      "Hand Craft",
-      "Hand Cut And Pasted Letters And Images"
     ],
     "materials": [
       ""
     ],
-    "stateedition": "Process",
-    "newItem": 0,
     "measurements": {
-      "sizing": 1.0,
       "height": 93.9,
+      "sizing": 1,
       "width": 61
     },
-    "imageURLs": [
-      "https://archive.org/download/LFAVenezky0012/LFA_Venezky_0012_001_thumb.jpg"
-    ]
+    "newItem": 0,
+    "numberImages": 1,
+    "stateedition": "Process",
+    "techniques": [
+      "Hand Craft",
+      "Hand Cut And Pasted Letters And Images"
+    ],
+    "title": "Original Artwork for Weird America",
+    "workID": "lfa_venezky_0012",
+    "year": "2016"
   },
-"itemSearch": {
-    "itemSearchURL": "",
-    "itemPrev": {
-      "workID": "lfa_venezky_0011",
-      "imageFront": "https://archive.org/download/LFAVenezky0011/LFA_Venezky_0011_001_thumb.jpg",
-      "title": "(Collage: The Fansourced)"
-    },
+  "itemSearch": {
     "itemNext": {
-      "workID": "lfa_venezky_0013",
       "imageFront": "/extensions/LetArcV1/lfa_grey_logo.png",
-      "title": "Original Artwork for Speak Magazine Covers (Issues 10–21)"
-    }
+      "title": "Original Artwork for Speak Magazine Covers (Issues 10–21)",
+      "workID": "lfa_venezky_0013"
+    },
+    "itemPrev": {
+      "imageFront": "https://archive.org/download/LFAVenezky0011/LFA_Venezky_0011_001_thumb.jpg",
+      "title": "(Collage: The Fansourced)",
+      "workID": "lfa_venezky_0011"
+    },
+    "itemSearchURL": ""
   }
 }

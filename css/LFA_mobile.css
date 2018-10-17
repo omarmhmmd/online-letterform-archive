@@ -1,72 +1,95 @@
 @media (max-width: 576px) {
+  /**** HEADER ****/
   #letter {
     display: none;
     color: #ff0000;
   }
+  /**** END HEADER ****/
 
-  #mainImages img {
-    width: 60vw;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
+  /**** ITEM PAGE ****/
+    /**** MAIN IMAGES ****/
+    #mainImages img {
+      width: 60vw;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    /**** END MAIN IMAGES ****/
 
-  #metaData {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    background-color: none;
-    padding-top: 40px;
-    padding-left: 40px;
-  }
+    /**** META DATA ****/
+    #metaData {
+      flex-direction: column;
+      background-color: none;
+      padding-top: 40px;
+      padding-left: 20px;
+    }
 
-  #itemMetaData {
-    padding-top: 40px;
-  }
-
-  #column1 {
-    padding-right: 0px;
-  }
-
-
-  /* #column1 {
-    padding-left: 25px;
-    line-height: 120%;
-    width: 75%;
-    font-size: 4.25vw;
-  } */
+    #itemMetaData {
+      padding-top: 40px;
+    }
+    /**** END META DATA ****/
+  /**** END ITEM PAGE ****/
 }
 
 @media (max-width: 768px) {
+  /**** MAIN CONTAINTER ****/
   .loop {
     display: none;
   }
+  /**** MAIN CONTAINTER ****/
 
-  #filters {
-    margin-top: 2vh;
-    display: flex;
-    flex-direction: column;
-  }
+  /**** SEARCH PAGE ****/
+    /**** MENU ****/
+    #filters {
+      margin-top: 2vh;
+      display: flex;
+      flex-direction: column;
+    }
 
-  #filters > button:not(:first-child) {
-    margin-left: 2.5px;
-  }
+    #filters > button:not(:first-child) {
+      margin-left: 2.5px;
+    }
 
-  #filters > button {
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-  }
+    #filters > button {
+      margin-bottom: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+    /**** END MENU ****/
+  /**** END SEARCH PAGE ****/
 
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
 
-  figcaption {
-    font-size: 20px;
-  }
+  /**** LANDING PAGE ****/
+    /**** PHOTO GRID ****/
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+    /**** END PHOTO GRID ****/
+  /**** END LANDING PAGE ****/
 
+
+  /**** META DATA ****/
+    /**** THUMBNAILS GRID ****/
+    #itemPage h1 {
+      padding-left: 20px;
+    }
+
+    .thumbnailColumn {
+      justify-content: center;
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 95%;
+      padding: 0 0px 0 20px;
+    }
+
+    #thumbnailscontainer{
+      display: flex;
+      padding: 0px 0px 0px 0px;
+      flex-direction: column;
+    }
+    /**** END THUMBNAILS GRID ****/
+  /**** END META DATA ****/
 }
 
 @media (max-width: 992px) {

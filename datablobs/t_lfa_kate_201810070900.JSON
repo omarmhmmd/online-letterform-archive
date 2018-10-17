@@ -1,0 +1,87 @@
+{
+  "tableID": "t_lfa_kate_201810070900",
+  "tableName": "An Aesthetic Whole",
+  "tableOwnerName": "Kate Goad",
+  "tableDescription": "From ancient practice to contemporary children’s books, the endeavor to form text into image is found throughout the Archive.",
+  "tableCreatedDate": "2018/08/17 23:00:00",
+  "tableLastUpdated": "2018/10/08 09:20:00",
+  "tableItems": [
+    {
+      "imageURL": "https://archive.org/download/LFACalligraphy0001/LFA_Calligraphy_0001_001_thumb.jpg",
+      "tableImageURL": "https://archive.org/download/LFACalligraphy0001/LFA_Calligraphy_0001_002_thumb.jpg",
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_calligraphy_0001&LFAPics=Yes",
+      "title": "26 of 26: An Edition of Twenty-Six Alphabets",
+      "creators": "Susan Skarsgard",
+      "workID": "lfa_calligraphy_0001",
+      "positionRow": 1,
+      "positionOrder": 1,
+      "sizing": 1.0
+    },
+    {
+      "imageURL": "https://archive.org/download/LFAType0049/LFA_Type_0049_001_thumb.jpg",
+      "tableImageURL": "https://archive.org/download/LFAType0049/LFA_Type_0049_002_thumb.jpg",
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0049&LFAPics=Yes",
+      "title": "Stop",
+      "creators": "Aldo Novarese",
+      "workID": "lfa_type_0049",
+      "positionRow": 1,
+      "positionOrder": 2,
+      "sizing": 1.0
+    },
+    {
+      "imageURL": "https://archive.org/download/LFAType0072/LFA_Type_0072_001_thumb.jpg",
+      "tableImageURL": "https://archive.org/download/LFAType0072/LFA_Type_0072_002_thumb.jpg",
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0072&LFAPics=Yes",
+      "title": "Vendôme: Romain, Italique, Noir, Gras",
+      "creators": "François Ganeau",
+      "workID": "lfa_type_0072",
+      "positionRow": 1,
+      "positionOrder": 3,
+      "sizing": 1.0
+    },
+    {
+      "imageURL": "https://archive.org/download/LFAVenezky0113/LFA_Venezky_0113_001_thumb.jpg",
+      "tableImageURL": "https://archive.org/download/LFAVenezky0113/LFA_Venezky_0113_001_thumb.jpg",
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_venezky_0113&LFAPics=Yes",
+      "title": "(Assortment of Ornaments)",
+      "creators": "Martin Venezky",
+      "workID": "lfa_venezky_0113",
+      "positionRow": 1,
+      "positionOrder": 4,
+      "sizing": 1.6
+    },
+    {
+      "imageURL": "https://archive.org/download/LFAVenezky0164/LFA_Venezky_0164_001_thumb.jpg",
+      "tableImageURL": "https://archive.org/download/LFAVenezky0164/LFA_Venezky_0164_001_thumb.jpg",
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_venezky_0164&LFAPics=Yes",
+      "title": "Open: The Magazine of San Francisco Museum of Modern Art – Envelope #02",
+      "creators": "Martin Venezky",
+      "workID": "lfa_venezky_0164",
+      "positionRow": 2,
+      "positionOrder": 1,
+      "sizing": 0.9
+    },
+    {
+      "imageURL": "https://archive.org/download/LFA_Type_0078/LFA_Type_0078_001_thumb.jpg",
+      "tableImageURL": "https://archive.org/download/LFA_Type_0078/LFA_Type_0078_001_thumb.jpg",
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0078&LFAPics=Yes",
+      "title": "Fonderie Olive Séries Récentes",
+      "creators": "François Ganeau; Roger Excoffon",
+      "workID": "lfa_type_0078",
+      "positionRow": 2,
+      "positionOrder": 2,
+      "sizing": 1.0
+    },
+    {
+      "imageURL": "https://archive.org/download/LFA_Type_0079/LFA_Type_0079_001_thumb.jpg",
+      "tableImageURL": "https://archive.org/download/LFA_Type_0079/LFA_Type_0079_010_thumb.jpg",
+      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0079&LFAPics=Yes",
+      "title": "Cinq Générations de Fondeurs: Dix Séries Fonderie Olive",
+      "creators": "Roger Excoffon",
+      "workID": "lfa_type_0079",
+      "positionRow": 2,
+      "positionOrder": 3,
+      "sizing": 1.0
+    }
+  ]
+}
