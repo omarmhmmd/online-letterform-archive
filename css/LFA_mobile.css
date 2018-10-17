@@ -3,13 +3,44 @@
     display: none;
     color: #ff0000;
   }
+
+  #mainImages img {
+    width: 60vw;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #metaData {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: none;
+    padding-top: 40px;
+    padding-left: 40px;
+  }
+
+  #itemMetaData {
+    padding-top: 40px;
+  }
+
+  #column1 {
+    padding-right: 0px;
+  }
+
+
+  /* #column1 {
+    padding-left: 25px;
+    line-height: 120%;
+    width: 75%;
+    font-size: 4.25vw;
+  } */
 }
 
 @media (max-width: 768px) {
   .loop {
     display: none;
   }
-  
+
   #filters {
     margin-top: 2vh;
     display: flex;

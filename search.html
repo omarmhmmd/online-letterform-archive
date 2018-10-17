@@ -4,25 +4,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>LFA</title>
+  <title>LFA | Search</title>
   <link rel="shortcut icon" type="image/png" href="ico/Logo.png" />
   <script src="http://localhost:35729/livereload.js" charset="utf-8"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/LFA.css">
   <link rel="stylesheet" href="css/LFA_mobile.css">
-  <script src="js/popLandingPage.js"></script>
+  <!-- <script src="js/popLandingPage.js"></script> -->
   <script src="js/popResultsPage.js"></script>
 </head>
-
-  <script type="text/javascript">
-    $.getJSON("datablobs/results2.json", function(json) {
-      $.each(json.resultsPage, function(index, element) {
-          $('#resultsGrid').append(
-            '<div class = "results-item colour"> <a target="_blank"href="https://www.google.com/"> <img src="' + element.imageURL + '" style="width:100%" > <figcaption> ' + element.title + '</figcaption> </div> </a> ');
-      });
-    });
-  </script>
 
   <body>
     <!-- <div id="overlay"></div> -->
@@ -44,14 +35,14 @@
       <div id="resultsPage">
         <div id="menu">
           <div class="textField">
-            <input type="text" name="" placeholder="Enter Your Search">
+            <input id = "textUser" type="text" name="" placeholder="Enter Your Search">
           </div>
           <div id="filters">
-            <button class="btn" id="decade" onclick="showTags('decade'); storeDecades();">Decade(s)</button>
+            <button class="btn" id="decade" onclick="showTags('decade'); ">Decade(s)</button>
             <button>Discipline</button>
-            <button class="btn" id="format" onclick="showTags('format'); storeFormats();">Format</button>
+            <button class="btn" id="format" onclick="showTags('format'); ">Format</button>
             <!-- placing tags div here makes it mobile -->
-            <button class="btn" id="tech" onclick="showTags('tech'); storeTechs();">Techniques & Materials</button>
+            <button class="btn" id="tech" onclick="showTags('tech'); ">Techniques & Materials</button>
             <button>Country</button>
             <button>Creators</button>
             <button>Form</button>
@@ -109,7 +100,7 @@
           </div>
 
           <div id="filterResults">
-
+            <!-- <h1>We found 37 from the ... </h1> -->
           </div>
         </div>
 
@@ -158,5 +149,4 @@
 
     <script src="js/search.js"></script>
   </body>
-
 </html>

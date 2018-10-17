@@ -19,26 +19,19 @@
 // }
 /**** END SHOW MENU W/ OVERLAY ****/
 
-/**** SHOW ACTIVE STATE OF FILTERS ****/
-// var btnContainer = document.getElementById("filters");
-// var btns = btnContainer.getElementsByClassName("btn");
-// for (var i = 0; i < btns.length; i++) {
-//   btns[i].addEventListener("click", function() {
-//     var current = document.getElementsByClassName("filterActive");
-//     if (current.length > 0) {
-//       current[0].className = current[0].className.replace(" filterActive", "");
-//     }
-//     this.className += " filterActive";
-//   });
-// }
-/**** END SHOW ACTIVE STATE OF FILTERS ****/
-
-
-
-
-
-
-
+/**** GET USER INPUT ****/
+//creates a listener for when you press a key
+window.onkeyup = keyup;
+var userInput;
+function keyup(e) {
+  //setting your input text to the global Javascript Variable for every key press
+  userInput = e.target.value;
+  console.log(userInput);
+  // if (e.keyCode == 13) {
+  //  window.location = "https://letterformarchive.org/" + userInput;
+  // }
+}
+/**** END GET USER INPUT ****/
 
 
 /**** SHOW TAGS ****/
@@ -53,80 +46,72 @@ function showTags(filter) {
 /**** END SHOW TAGS ****/
 
 
-/**** STORE TAGS ****/
-var clickedD = 0;
+/**** STORE CLICK STATES ****/
+function checkState(tag, clicked) {
+  if (clicked > 0) {
+    $(tag).addClass("filterActive");
+    console.log("Clicked: " + clicked + " red");
+  } else if (clicked == 0) {
+    $(tag).removeClass("filterActive");
+    clicked = 0;
+    console.log("Clicked: " + clicked + " black");
+  }
+}
 
-function storeDecades() {
-  $('#decadeTags>p>button').on('click', function() {
-    $(this).toggleClass("TagActive");
-    var toggled = $(this).hasClass("TagActive");
+var decadesClicked = 0;
+var formatClicked = 0;
+var techClicked = 0;
+function checkClicks(toggled,tag) {
+  if (tag == '#decade') {
     if (toggled == true) {
-      clickedD = clickedD + 1;
+      decadesClicked = decadesClicked + 1;
     } else if (toggled == false) {
-      clickedD = clickedD - 1;
+      decadesClicked = decadesClicked- 1;
     }
-    if (clickedD > 0) {
-      $('#decade').addClass("filterActive");
-    } else if (clickedD == 0) {
-      clickedD = 0;
-      $('#decade').removeClass("filterActive");
-    }
-    // console.log('DECADE CLICKED: ' + clickedD);
-  });
-}
-
-var clickedF = 0;
-
-function storeFormats() {
-  $('#formatTags>p>button').on('click', function() {
-    $(this).toggleClass("TagActive");
-    var toggled = $(this).hasClass("TagActive");
+    return decadesClicked;
+  }
+  else if (tag == '#format') {
     if (toggled == true) {
-      clickedF = clickedF + 1;
+      formatClicked = formatClicked + 1;
     } else if (toggled == false) {
-      clickedF = clickedF - 1;
+      formatClicked = formatClicked- 1;
     }
-    if (clickedF > 0) {
-      $('#format').addClass("filterActive");
-    } else if (clickedF == 0) {
-      clickedF = 0;
-      $('#format').removeClass("filterActive");
-    }
-    // console.log('FORMAT CLICKED: ' + clickedF);
-  });
-}
-
-var clickedT = 0;
-
-function storeTechs() {
-  $('#techTags>p>button').on('click', function() {
-    $(this).toggleClass("TagActive");
-    var toggled = $(this).hasClass("TagActive");
+    return formatClicked;
+  }
+  else if (tag == '#tech') {
     if (toggled == true) {
-      clickedT = clickedT + 1;
+      techClicked = techClicked + 1;
     } else if (toggled == false) {
-      clickedT = clickedT - 1;
+      techClicked = techClicked- 1;
     }
-    if (clickedT > 0) {
-      $('#tech').addClass("filterActive");
-    } else if (clickedT == 0) {
-      clickedT = 0;
-      $('#tech').removeClass("filterActive");
-    }
-    // console.log('TECH CLICKED: ' + clickedT);
-  });
-}
-/**** END STORE TAGS ****/
-
-function sort(filterChoices) {
-  filterChoices_clean = $.map(filterChoices.sort(), function(v, i) {
-    filterChoices[i] === filterChoices[i + 1] && (filterChoices[i] = filterChoices[i + 1] = null);
-    return filterChoices[i];
-  });
+    return techClicked;
+  }
 }
 
+$('#decadeTags>p>button').on('click', function() {
+  $(this).toggleClass("TagActive");
+  var toggled = $(this).hasClass("TagActive");
+  checkState('#decade', checkClicks(toggled, '#decade'));
+});
 
-/**** SELECTED TAGS ****/
+
+$('#formatTags>p>button').on('click', function() {
+  $(this).toggleClass("TagActive");
+  var toggled = $(this).hasClass("TagActive");
+  checkState('#format', checkClicks(toggled, '#format'));
+});
+
+
+$('#techTags>p>button').on('click', function() {
+  $(this).toggleClass("TagActive");
+  var toggled = $(this).hasClass("TagActive");
+  checkState('#tech', checkClicks(toggled, '#tech'));
+});
+
+/**** END STORE CLICK STATES ****/
+
+
+/**** GET USER SELECTED TAGS INTO ARRAY & DISPLAY SELECTIONS ****/
 var decadeChoices = new Array();
 var decadeChoices_sorted = decadeChoices;
 var formatChoices = new Array();
@@ -139,21 +124,23 @@ $('.Tags>p>button').click(function() {
   if (id == 'decadeTags') {
     decadeChoices.push($(this).text());
     sort(decadeChoices, decadeChoices_sorted);
-  }
-  else if (id == 'formatTags') {
+  } else if (id == 'formatTags') {
     formatChoices.push($(this).text());
     sort(formatChoices, formatChoices_sorted);
-  }
-  else if (id == 'techTags') {
+  } else if (id == 'techTags') {
     techChoices.push($(this).text());
     sort(techChoices, techChoices_sorted);
   }
-  $('#filterResults').append(
-    '<h1>We found 37 <span>' + techChoices.join(', ') + '</span>, ' + '<span>' + formatChoices.join(', ') + '</span> from the <span>' + decadeChoices.join(', ') + '</span></h1>'
-  );
+  if (decadeChoices.length > 0 || formatChoices.length > 0 || techChoices.length > 0) {
+    $('#filterResults').append(
+      '<h1>We found ___ <span>' + techChoices.join(', ') + '</span>, ' + '<span>' + formatChoices.join(', ') + '</span> from the <span>' + decadeChoices.join(', ') + '</span></h1>'
+    );
+  }
 });
-/**** END SELECTED TAGS ****/
+/**** END GET USER SELECTED TAGS INTO ARRAY & DISPLAY SELECTIONS ****/
 
+
+/**** SORT ARRAY TO REMOVE DUPLICATE CLICKS ****/
 function sort(myArr, newArr) {
   for (var h = 0; h < myArr.length; h++) {
     var curItem = myArr[h];
@@ -174,77 +161,4 @@ function sort(myArr, newArr) {
     }
   }
 }
-
-
-
-
-
-// /**** SORT SELECTED TAGS ****/
-// var decadeChoices = new Array();
-// $('#decadeTags>p>button').click(function() {
-//   decadeChoices.push($(this).text());
-//   decadeChoices_clean = $.map(decadeChoices.sort(), function(v, i) {
-//     decadeChoices[i] === decadeChoices[i + 1] && (decadeChoices[i] = decadeChoices[i + 1] = null);
-//     return decadeChoices[i];
-//   });
-//   console.log("DECADE CHOICES: " + decadeChoices_clean);
-// });
-//
-// var formatChoices = new Array();
-// $('#formatTags>p>button').click(function() {
-//   formatChoices.push($(this).text());
-//   formatChoices_clean = $.map(formatChoices.sort(), function(v, i) {
-//     formatChoices[i] === formatChoices[i + 1] && (formatChoices[i] = formatChoices[i + 1] = null);
-//     return formatChoices[i];
-//   });
-//   console.log("FORMAT CHOICES: " + formatChoices_clean);
-// });
-//
-// var techChoices = new Array();
-// var techChoices_clean;
-// $('#techTags>p>button').click(function() {
-//   techChoices.push($(this).text());
-//   techChoices_clean = $.map(techChoices.sort(), function(v, i) {
-//     techChoices[i] === techChoices[i + 1] && (techChoices[i] = techChoices[i + 1] = null);
-//     return techChoices[i];
-//   });
-//   console.log("TECH CHOICES: " + techChoices_clean);
-// });
-// /**** END SORT SELECTED TAGS ****/
-//
-// console.log("TECH CHOICES: " + techChoices);
-// $('#filterResults').append(
-//   '<h1>We found <span>' + techChoices + '</span><span>s</span></h1>'
-// );
-
-
-
-
-
-// var filterSelected = false;
-// $('.Tags>p>button').on('click', function() {
-//   filterSelected = true;
-//   $(this).toggleClass("TagActive");
-// });
-
-// $('#filters>button').on('click', function() {
-//      $(this).toggleClass("filterActive");
-// });
-
-// $('#decade').click(function() {
-//     $('#decadeTags').toggle();
-//     document.getElementById("formatTags").style.display = "none";
-//     document.getElementById("techTags").style.display = "none";
-// });
-//
-// $('#format').click(function() {
-//     $('#formatTags').toggle();
-//     document.getElementById("decadeTags").style.display = "none";
-//     document.getElementById("techTags").style.display = "none";
-// });
-//
-// $('#tech').click(function() {
-//     $('#techTags').toggle();
-//     document.getElementById("formatTags").style.display = "none";
-//     document.getElementById("decadeTags").style.display = "none";
-// });
+/**** END SORT ARRAY TO REMOVE DUPLICATE CLICKS ****/

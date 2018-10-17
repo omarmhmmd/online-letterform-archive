@@ -161,7 +161,7 @@ button {
     padding: 90px 4px;
   }
 
-  /* Create four equal columns that sits next to each other */
+  /* Create four equal columns that sit next to each other */
   .column {
     flex-direction: row-reverse;
     flex: 25%;
@@ -245,9 +245,6 @@ button {
 
   }
 
-  .textField {
-  }
-
   .textField>input {
     background-color: transparent;
     width: 85vw;
@@ -270,6 +267,10 @@ button {
     opacity: 1;
     /* Firefox */
     margin-left: -10%;
+  }
+
+  #textUser {
+    text-transform:capitalize;
   }
 
   #filters {
@@ -347,8 +348,8 @@ button {
     color:red;
   }
 
-  #filterResults {
-    margin-top: 50px;
+  #filterResults h1 {
+    padding-top: 50px;
   }
 
   #filterResults h1 span {
@@ -358,13 +359,13 @@ button {
 
   /**** SEARCH RESULTS ****/
   #resultsGrid {
-      flex-direction:column;
-      display: inline-flex;
-      align-content: center;
-      align-items: flex-end;
-      flex-flow: row wrap;
-      margin-top: 25px;
-      justify-content: center;
+    flex-direction:column;
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-top: 25px;
+    justify-content: center;
   }
 
   .results-item figcaption {
@@ -397,8 +398,79 @@ button {
   .colour {
     /* background-color: #8c72cb; */
   }
-
   /**** END SEARCH RESULTS ****/
-
-
 /**** END SEARCH PAGE ****/
+
+/**** ITEM PAGE ****/
+#itemPage {
+  overflow-x: hidden;
+  margin-top: 100px;
+}
+
+  /**** MAIN IMAGES ****/
+  #mainImages {
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #mainImages img {
+    width: 28vw;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .prevNext {
+    opacity: 0.25;
+  }
+  /**** END MAIN IMAGES ****/
+
+  /**** META DATA ****/
+  #metaData {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: none;
+    padding: 50px;
+    padding-right: 225px;
+  }
+
+  #itemDescription {
+    width: 300px;
+    font-size: 18px;
+  }
+
+  #itemMetaData {
+    display: flex;
+    width: 400px;
+    font-size: 12px;
+  }
+
+  #column1 {
+    padding-right: 100px;
+  }
+
+  #itemDescription #title {
+    font-weight: bold;
+  }
+
+  #itemMetaData #title {
+    color: red;
+  }
+  /**** END META DATA ****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**** END ITEM PAGE ****/
