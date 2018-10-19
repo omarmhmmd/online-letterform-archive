@@ -14,90 +14,90 @@
   <script src="js/popItemsPage.js"></script>
 </head>
 
-  <body>
-    <!-- <div id="overlay"></div> -->
+<body>
+  <!-- <div id="overlay"></div> -->
 
-    <!--***** MAIN CONTAINER *****-->
-    <div id="container">
-      <div class="header">
-        <a id="logo" href="./index.html"><img class="logo"src="svg/Logo.svg" alt=""></a>
-        <div class="header" id="letter">
-          <a target="_blank" href="https://letterformarchive.org/"><h1>Letterform Archive</h1></a>
-        </div>
-        <button type="button" name="button">
+  <!--***** MAIN CONTAINER *****-->
+  <div id="container">
+    <div class="header">
+      <a id="logo" href="./index.html"><img class="logo"src="svg/Logo.svg" alt=""></a>
+      <div class="header" id="letter">
+        <a target="_blank" href="https://letterformarchive.org/"><h1>Letterform Archive</h1></a>
+      </div>
+      <button type="button" name="button">
           <a href="search.html">
             <img class="searchButton" id="searchButton" src="svg/SearchGlass.svg" alt=""></a>
           </button>
+    </div>
+
+    <!--***** ITEM PAGE *****-->
+    <div id="itemPage">
+      <div id="mainImages">
+        <img id="prevItem" class="prevNext" src="" alt="">
+        <img id="theItem" src="" alt="">
+        <img id="nextItem" class="prevNext" src="" alt="">
       </div>
 
-      <!--***** ITEM PAGE *****-->
-      <div id="itemPage">
-        <div id="mainImages">
-          <img id = "prevItem" class = "prevNext" src="" alt="">
-          <img id = "theItem" src="" alt="">
-          <img id = "nextItem" class = "prevNext" src="" alt="">
-        </div>
-
-        <div id="metaData">
-          <div id="itemDescription">
-            <!-- <span class = "title">Emigre #6: International Culture</span>
+      <div id="metaData">
+        <div id="itemDescription">
+          <!-- <span class = "title">Emigre #6: International Culture</span>
             <p>&nbsp;</p>
             Four sections in a cardboard box 11.5 x 17 PART 1 – 16 pages PART 2 – 32 pages PART 3 – 16 pages PART 4 – Letterpress printed fan.
             <p>&nbsp;</p>
             Edition of 3000. Printed at Lompa Printing Albany CA and Alonzo Printing South San Francisco CA. -->
-          </div>
-          <div id="itemMetaData">
-            <div id = "column1">
-              <span class = "title">Design and Production</span>
-              <br>
-              <div id="itemTitle">
-                <!-- Emigre -->
-              </div>
-              <p>&nbsp;</p>
-              <span class = "title">Work Types</span>
-              <br>
-              <div id="workTypes">
-                <!-- Bound: Magazine -->
-              </div>
-              <p>&nbsp;</p>
-              <span class = "title">Creation Date</span>
-              <br>
-              <div id="decades">
-                <!-- 1980s -->
-              </div>
-              <p>&nbsp;</p>
-              <span class = "title">Creators</span>
-              <br>
-              <div id="creators">
-                <!-- Emigre
+        </div>
+        <div id="itemMetaData">
+          <div id="column1">
+            <span class="title">Design and Production</span>
+            <br>
+            <div id="itemTitle">
+              <!-- Emigre -->
+            </div>
+            <p>&nbsp;</p>
+            <span class="title">Work Types</span>
+            <br>
+            <div id="workTypes">
+              <!-- Bound: Magazine -->
+            </div>
+            <p>&nbsp;</p>
+            <span class="title">Creation Date</span>
+            <br>
+            <div id="decades">
+              <!-- 1980s -->
+            </div>
+            <p>&nbsp;</p>
+            <span class="title">Creators</span>
+            <br>
+            <div id="creators">
+              <!-- Emigre
                 Lompa Printing
                 Rudy VanderLans
                 Zuzana Licko -->
-              </div>
-              <p>&nbsp;</p>
-              <span class = "title">Format</span>
-              <br>
-              <div id="format">
-                <!-- Magazine -->
-              </div>
             </div>
-            <div id = "column2">
-              <span class = "title">Country</span>
-              <br>
-              <div id="country">
-                <!-- United States -->
-              </div>
-              <p>&nbsp;</p>
-              <span class = "title">Collections</span>
-              <br>
-              <div id="collections">
-                <!-- Emigre Collection -->
-              </div>
-              <p>&nbsp;</p>
-              <span class = "title">Contributors</span>
-              <br>
-              <div id="contributors">
-                <!-- Andrea Goldstein
+            <p>&nbsp;</p>
+            <span class="title">Format</span>
+            <br>
+            <div id="format">
+              <!-- Magazine -->
+            </div>
+          </div>
+          <div id="column2">
+            <span class="title">Country</span>
+            <br>
+            <div id="country">
+              <!-- United States -->
+            </div>
+            <p>&nbsp;</p>
+            <span class="title">Collections</span>
+            <br>
+            <div id="collections">
+              <!-- Emigre Collection -->
+            </div>
+            <p>&nbsp;</p>
+            <span class="title">Contributors</span>
+            <br>
+            <div id="contributors">
+              <!-- Andrea Goldstein
                 Didier Crémieux
                 Gavin Flint
                 Hard Werken
@@ -119,74 +119,48 @@
                 William Cone
                 Winston Tong
                 Zuzana Licko -->
-              </div>
-              <p>&nbsp;</p>
-              <span class = "title">Language</span>
-              <br>
-              <div id="languages">
-                <!-- English -->
-              </div>
             </div>
-          </div>
-        </div>
-        <h1>Thumbnails</h1>
-        <div id="thumbnailscontainer">
-          <div id = "thumb001" class="thumbnailColumn">
-            <div class = "thumbnailPic">
-              <img src="https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0001.jpg">
-            </div>
-            <div class = "thumbnailPic">
-              <img src="https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0004.jpg">
-            </div>
-            <div class = "thumbnailPic">
-              <img src="https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0006.jpg">
-            </div>
-          </div>
-          <div id = "thumb002" class="thumbnailColumn">
-            <div class = "thumbnailPic">
-              <img src="https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0002.jpg">
-            </div>
-            <div class = "thumbnailPic">
-              <img src="https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0005.jpg">
-            </div>
-            <div class = "thumbnailPic">
-              <img src="https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0008.jpg">
-            </div>
-          </div>
-          <div id = "thumb003" class="thumbnailColumn">
-            <div class = "thumbnailPic">
-              <img src="https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0003.jpg">
-            </div>
-            <div class = "thumbnailPic">
-              <img src="https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0006.jpg">
-            </div>
-            <div class = "thumbnailPic">
-              <img src="https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0009.jpg">
+            <p>&nbsp;</p>
+            <span class="title">Language</span>
+            <br>
+            <div id="languages">
+              <!-- English -->
             </div>
           </div>
         </div>
       </div>
-
-
-
+      <div id="thumbnailscontainer">
+        Thumbnails
+        <div id="thumbnails">
+          <!-- <div class="thumbnailPic" id = "thumb001">
+            <img src="https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0001.jpg">
+          </div> -->
+        </div>
+      </div>
     </div>
-    <!--**** END MAIN CONTAINER ****-->
+  </div>
 
-    <!-- <div class="loop"></div> -->
 
-    <script type="text/javascript">
-      // /* LOOPING SCRIPT */
-      // var head = document.getElementsByTagName('head')[0];
-      // var js = document.createElement("script");
-      // js.type = "text/javascript";
-      // if (screen.width > 768) {
-      //   js.src = "js/loopScroll.js";
-      //   // console.log('desktop');
-      // } else {
-      //   // console.log('mobile');
-      // }
-      // head.appendChild(js);
-      // /* END LOOPING SCRIPT */
-    </script>
-  </body>
+
+  </div>
+  <!--**** END MAIN CONTAINER ****-->
+
+  <!-- <div class="loop"></div> -->
+
+  <script type="text/javascript">
+    // /* LOOPING SCRIPT */
+    // var head = document.getElementsByTagName('head')[0];
+    // var js = document.createElement("script");
+    // js.type = "text/javascript";
+    // if (screen.width > 768) {
+    //   js.src = "js/loopScroll.js";
+    //   // console.log('desktop');
+    // } else {
+    //   // console.log('mobile');
+    // }
+    // head.appendChild(js);
+    // /* END LOOPING SCRIPT */
+  </script>
+</body>
+
 </html>

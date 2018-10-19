@@ -434,6 +434,7 @@ button {
     flex-direction: row;
     /* background-color: red; */
     padding: 50px;
+    padding-left: 100px;
   }
 
   #itemDescription {
@@ -469,48 +470,52 @@ button {
   }
 
     /**** THUMBNAILS GRID ****/
+    .item {
+      background-image: url('https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0001.jpg');
+      background-size: cover;
+      background-position: center center;
+      background-color: whitesmoke;
+    }
+
     #itemPage h1 {
       font-weight: bold;
       font-size: 1.35vw;
-      padding-left: 50px;
+      padding-left: 100px;
     }
 
     #thumbnailscontainer{
       display: flex;
-      padding: 0px 0px 0px 50px;
-      flex-direction: row;
+      padding: 20px 0px 0px 100px;
+      flex-direction: column;
+      font-weight: bold;
+      font-size: 1.35vw;
     }
 
-    .thumbnailColumn {
-      flex-direction: row;
-      flex: 33%;
-      max-width: 15%;
-      padding: 0 20px 0 0;
+    #thumbnails {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: repeat(3, 12.5vw);
+      align-items: center;
+      padding-top: 20px;
     }
 
-    .thumbnailPic {
-      /* background-color: #FF1919; */
-      margin-top: 20px;
-      position: relative;
+    #thumb001 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #thumb001 img {
+      width: 50%;
+      align-content: center;
     }
 
     .thumbnailPic img {
-      display: block;
       max-width: 100%;
     }
 
     .thumbnailPic img:hover {
-      outline: 5px solid red;
-    }
-
-    #thumb001 > div:first-child {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    #thumb001 > div:first-child img {
-      width: 51%;
+      outline: 3px solid red;
     }
     /**** END THUMBNAILS GRID ****/
   /**** END META DATA ****/

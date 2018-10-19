@@ -1,10 +1,9 @@
-$.getJSON("datablobs/item_eg1.json", function(json) {
+$.getJSON("datablobs/item_egOne.json", function(json) {
   $("#prevItem").attr("src",json.itemSearch.itemPrev.imageFront);
   $("#theItem").attr("src",json.item.imageFront);
   $("#nextItem").attr("src",json.itemSearch.itemNext.imageFront);
 
   $("#itemDescription").append('<span class = "title">'+ json.item.title+ ' </span> <p>&nbsp;</p>' + json.item.measurements.height + ' x ' + json.item.measurements.width + '</br>' + json.item.numberImages + ' pages' + '</br>' + json.item.year);
-
 
   /**** COLUMN ONE ****/
   $("#itemTitle").append(json.item.title + '</br>');
@@ -44,4 +43,29 @@ $.getJSON("datablobs/item_eg1.json", function(json) {
     $("#contributors").append("+ " + contributorsLength + ' more</br>');
   }
   /**** COLUMN TWO ****/
+
+  /**** THUMBNAILS ***/
+  $.each(json.item.imageURLs, function(index, element) {
+    var isLastElement = index == json.item.imageURLs.length -1;
+
+    if (index < 9) {
+      if (index == 0) {
+        $("#thumbnails").append(
+          '<div class="thumbnailPic" id = "thumb001"> <img src=' + element + '></div>'
+        );
+      }
+      else if (isLastElement) {
+        $("#thumbnails").append(
+          '<div class="thumbnailPic" id = "thumb001"> <img src=' + element + '></div>'
+        );
+        console.log('last item')
+      }
+      else {
+        $("#thumbnails").append(
+          '<div class="thumbnailPic"> <img src=' + element + '></div>'
+        );
+      }
+    }
+  });
+  /**** END THUMBNAILS ****/
 });
