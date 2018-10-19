@@ -6,7 +6,6 @@
     ],
     "collection": "Martin Venezky Collection",
     "contributors": [
-      "",
       "Venezky, Martin"
     ],
     "country": "United States",
@@ -26,9 +25,9 @@
       "Poster",
       "Process"
     ],
-    "imageFront": "https://archive.org/download/LFAVenezky0012/LFA_Venezky_0012_001_thumb.jpg",
+    "imageFront": "https://archive.org/download/LFAVenezky0012/LFA_Venezky_0012_001.jpg",
     "imageURLs": [
-      "https://archive.org/download/LFAVenezky0012/LFA_Venezky_0012_001_thumb.jpg"
+      "https://archive.org/download/LFAVenezky0012/LFA_Venezky_0012_001.jpg"
     ],
     "languages": [
       "English"
@@ -54,12 +53,12 @@
   },
   "itemSearch": {
     "itemNext": {
-      "imageFront": "/extensions/LetArcV1/lfa_grey_logo.png",
+      "imageFront": "https://archive.org/download/LFAVenezky0011/LFA_Venezky_0011_001.jpg",
       "title": "Original Artwork for Speak Magazine Covers (Issues 10–21)",
       "workID": "lfa_venezky_0013"
     },
     "itemPrev": {
-      "imageFront": "https://archive.org/download/LFAVenezky0011/LFA_Venezky_0011_001_thumb.jpg",
+      "imageFront": "https://archive.org/download/LFAVenezky0011/LFA_Venezky_0011_001.jpg",
       "title": "(Collage: The Fansourced)",
       "workID": "lfa_venezky_0011"
     },

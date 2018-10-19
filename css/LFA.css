@@ -105,7 +105,7 @@ button {
     font-weight: bold;
     color: #ff0000;
     font-size: 22.5px;
-    padding-left: 7vw;
+    padding-left: 100px;
   }
 
   #logo {
@@ -120,6 +120,7 @@ button {
 
   a {
     text-decoration: none;
+    color: #ff0000;
   }
 
   a:visited {
@@ -436,27 +437,30 @@ button {
   }
 
   #itemDescription {
-    width: 350px;
-    font-size: 16px;
+    font-size: 1.35vw;
+    line-height: 120%;
+    /* background-color: green; */
   }
 
   #itemMetaData {
     display: flex;
-    font-size: 14px;
+    font-size: 1.10vw;
     background-color: none;
-    /* padding-right: 225px; */
-    width: 550px;
+    margin-right: 8vw;
+    /* background-color: pink; */
   }
 
   #column2 {
-    padding-left: 100px;
+    margin-left: 100px;
+    width: 175px;
+    /* background-color: grey; */
   }
 
-  #itemDescription #title {
+  #itemDescription .title {
     font-weight: bold;
   }
 
-  #itemMetaData #title {
+  .title {
     color: black;
   }
 
@@ -467,6 +471,7 @@ button {
     /**** THUMBNAILS GRID ****/
     #itemPage h1 {
       font-weight: bold;
+      font-size: 1.35vw;
       padding-left: 50px;
     }
 
