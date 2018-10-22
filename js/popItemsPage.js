@@ -1,4 +1,4 @@
-$.getJSON("datablobs/item_egOne.json", function(json) {
+$.getJSON("datablobs/item_eg1.json", function(json) {
   $("#prevItem").attr("src",json.itemSearch.itemPrev.imageFront);
   $("#theItem").attr("src",json.item.imageFront);
   $("#nextItem").attr("src",json.itemSearch.itemNext.imageFront);
@@ -47,6 +47,29 @@ $.getJSON("datablobs/item_egOne.json", function(json) {
   /**** THUMBNAILS ***/
   $.each(json.item.imageURLs, function(index, element) {
     var isLastElement = index == json.item.imageURLs.length -1;
+
+    /**** ZOOM ITEMS ****/
+    if (index == 0) {
+      $(".zoomItems").append(
+        '<div id = "thumb001"> <img src=' + element + '></div>'
+      );
+    }
+    else if (isLastElement) {
+      $(".zoomItems").append(
+        '<div id = "thumb001"> <img src=' + element + '></div>'
+      );
+    }
+    else {
+      $(".zoomItems").append(
+        '<div class = "thumbnailPic"> <img src=' + element + '></div>'
+      );
+    }
+    /**** END ZOOM ITEMS ****/
+
+    if (json.item.imageURLs.length > 9) {
+      $('#morePics').css('display', 'flex');
+      $('#morePics p').text('+ ' + (json.item.imageURLs.length - 9) + ' more')
+    }
 
     if (index < 9) {
       if (index == 0) {

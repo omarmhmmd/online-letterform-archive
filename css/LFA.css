@@ -86,26 +86,31 @@ button {
     padding-top: 4vh;
     align-content: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
   }
 
-  .header {
+  #header {
+    display: flex;
+    justify-content: space-between;
     position: fixed;
     z-index: 1;
     font-weight: bold;
     width: 92.5vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     /* border: 1px solid black; */
   }
 
   #letter {
+    display: flex;
+    align-items: center;
     font-weight: bold;
     color: #ff0000;
     font-size: 22.5px;
-    padding-left: 100px;
+    padding-left: 70px;
+  }
+
+  #letter h1 {
+    padding-left: 30px;
   }
 
   #logo {
@@ -131,10 +136,9 @@ button {
     width: 30px;
   }
 
-  .header>button {
+  #header>button {
     cursor: pointer;
     background-color: none;
-    /* Green */
     border: none;
     padding: 0px;
     z-index: 2;
@@ -404,8 +408,10 @@ button {
 
 /**** ITEM PAGE ****/
 #itemPage {
+  display: flex;
   overflow-x: hidden;
-  margin-top: 100px;
+  flex-direction: column;
+  padding-top: 100px;
 }
 
   /**** MAIN IMAGES ****/
@@ -432,9 +438,8 @@ button {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    padding: 50px 0 0 100px;
     /* background-color: red; */
-    padding: 50px;
-    padding-left: 100px;
   }
 
   #itemDescription {
@@ -470,13 +475,6 @@ button {
   }
 
     /**** THUMBNAILS GRID ****/
-    .item {
-      background-image: url('https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0001.jpg');
-      background-size: cover;
-      background-position: center center;
-      background-color: whitesmoke;
-    }
-
     #itemPage h1 {
       font-weight: bold;
       font-size: 1.35vw;
@@ -485,15 +483,18 @@ button {
 
     #thumbnailscontainer{
       display: flex;
-      padding: 20px 0px 0px 100px;
+      justify-content: flex-start;
+      margin: 20px 0px 0px 100px;
       flex-direction: column;
       font-weight: bold;
       font-size: 1.35vw;
+      margin-bottom: 100px;
     }
 
     #thumbnails {
       display: grid;
-      grid-gap: 10px;
+      justify-content: flex-start;
+      grid-gap: 20px;
       grid-template-columns: repeat(3, 12.5vw);
       align-items: center;
       padding-top: 20px;
@@ -517,6 +518,63 @@ button {
     .thumbnailPic img:hover {
       outline: 3px solid red;
     }
+
+    #morePics {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      width: 100%;
+      height: 65px;
+      font-size: 1.10vw;
+      color: #ED1B2E;
+      font-weight: normal;
+      background-color: #FFF2F2;
+    }
+
+    #morePics:hover {
+      cursor: pointer;
+      outline: 3px solid red;
+    }
+
+    /**** ZOOM ITEMS ****/
+    .zoomItems {
+      padding-top: 100px;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      grid-gap: 50px;
+    }
+
+    .zoomItemsScroll {
+      grid-template-columns: repeat(1, 90vw);
+    }
+
+    .zoomItemsGrid {
+      grid-template-columns: repeat(3, 20vw);
+    }
+
+    #zoomItems img:hover {
+      outline: none;
+    }
+
+    #zoomItemsButtons {
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      padding-top: 100px;
+      padding-left: 1147px;
+    }
+
+    #zoomItemsButtons>button {
+      cursor: pointer;
+      background-color: none;
+      border: none;
+      padding-top: 10px;
+    }
+
+    /**** END ZOOM ITEMS ****/
+
     /**** END THUMBNAILS GRID ****/
   /**** END META DATA ****/
 
