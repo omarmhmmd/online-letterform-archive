@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>LFA | Item</title>
+  <title>LFA | ItemZoom</title>
   <link rel="shortcut icon" type="image/png" href="ico/Logo.png" />
   <script src="http://localhost:35729/livereload.js" charset="utf-8"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="css/LFA.css">
   <link rel="stylesheet" href="css/LFA_mobile.css">
   <script src="js/popItemsPage.js"></script>
-    <script src="js/itemZoom.js"></script>
+  <script src="js/itemZoom.js"></script>
 </head>
 
 <body>
@@ -25,21 +25,22 @@
         <a id="logo" href="./index.html"><img class="logo"src="svg/Logo.svg" alt=""></a>
         <a target="_blank" href="https://letterformarchive.org/"><h1>Letterform Archive</h1></a>
       </div>
-      <button type="button" name="button">
-          <a href="item.html"><img class="searchButton" id="searchButton" src="svg/x2.svg" alt=""></a>
-      </button>
-    </div>
-    <div id="zoomItemsButtons">
-      <button type="button" name="button" onclick="changeZoomPage('zoom')">
-        <img class="searchButton" id="zoomButton" src="svg/zoomButton.svg" alt="">
-      </button>
-      <button type="button" name="button" onclick="changeZoomPage('grid')">
-          <img class="searchButton" id="gridButton" src="svg/gridButton.svg" alt="">
-      </button>
+      <div id="itemZoomButtons">
+        <button type="button" name="button">
+            <a href="item.html"><img class="searchButton" id="searchButton" src="svg/x2.svg" alt=""></a>
+        </button>
+        <button type="button" name="button" onclick="changeZoomPage('grid')">
+            <img class="searchButton" id="gridButton" src="svg/red.svg" alt="">
+        </button>
+        <button type="button" name="button" onclick="changeZoomPage('zoom')">
+          <img class="searchButton" id="zoomButton" src="svg/grey.svg" alt="">
+        </button>
+      </div>
     </div>
   </div>
 
-  <div class = "zoomItems zoomItemsScroll">
+
+  <div class = "zoomItems zoomItemsGrid">
     <!-- <div id = "thumb001">
       <img src="https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0001.jpg">
     </div> -->

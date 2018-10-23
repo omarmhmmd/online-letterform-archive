@@ -7,8 +7,8 @@
   "tableLastUpdated": "2018/10/08 12:24:00",
   "tableItems": [
     {
-      "imageURL": "https://archive.org/download/LFASutnar0060/LFA_Sutnar_0060_001_thumb.jpg",
-      "tableImageURL": "https://archive.org/download/LFASutnar0060/LFA_Sutnar_0060_001_thumb.jpg",
+      "imageURL": "https://archive.org/download/LFASutnar0060/LFA_Sutnar_0060_001.jpg",
+      "tableImageURL": "https://archive.org/download/LFASutnar0060/LFA_Sutnar_0060_001.jpg",
       "pageURL": "LetArcV1_details.html?LFAitemID=lfa_sutnar_0060&LFAPics=Yes",
       "title": "RCA Sound Systems (Central Control for Coordination, Morale, Safety)",
       "creators": "Ladislav Sutnar",
@@ -18,8 +18,8 @@
       "sizing": 1.0
     },
     {
-      "imageURL": "https://archive.org/download/LFAType0043/LFA_Type_0043_001_thumb.jpg",
-      "tableImageURL": "https://archive.org/download/LFAType0043/LFA_Type_0043_003_thumb.jpg",
+      "imageURL": "https://archive.org/download/LFAType0043/LFA_Type_0043_001.jpg",
+      "tableImageURL": "https://archive.org/download/LFAType0043/LFA_Type_0043_003.jpg",
       "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0043&LFAPics=Yes",
       "title": "Recta: Tonda Chiara",
       "creators": "Aldo Novarese",
@@ -29,8 +29,8 @@
       "sizing": 0.8
     },
     {
-      "imageURL": "https://archive.org/download/LFAType0065/LFA_Type_0065_001_thumb.jpg",
-      "tableImageURL": "https://archive.org/download/LFAType0065/LFA_Type_0065_001_thumb.jpg",
+      "imageURL": "https://archive.org/download/LFAType0065/LFA_Type_0065_001.jpg",
+      "tableImageURL": "https://archive.org/download/LFAType0065/LFA_Type_0065_001.jpg",
       "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0065&LFAPics=Yes",
       "title": "Antique Olive Série Grasse",
       "creators": "Roger Excoffon",
@@ -40,8 +40,8 @@
       "sizing": 1.3
     },
     {
-      "imageURL": "https://archive.org/download/LFAType0084/LFA_Type_0084_001_thumb.jpg",
-      "tableImageURL": "https://archive.org/download/LFAType0084/LFA_Type_0084_003_thumb.jpg",
+      "imageURL": "https://archive.org/download/LFAType0084/LFA_Type_0084_001.jpg",
+      "tableImageURL": "https://archive.org/download/LFAType0084/LFA_Type_0084_003.jpg",
       "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0084&LFAPics=Yes",
       "title": "Advertisers Gothics",
       "creators": "Robert Wiebking",
@@ -51,19 +51,8 @@
       "sizing": 1.0
     },
     {
-      "imageURL": "https://archive.org/download/LFAType0085/LFA_Type_0085_001_thumb.jpg",
-      "tableImageURL": "https://archive.org/download/LFAType0085/LFA_Type_0085_012_thumb.jpg",
-      "pageURL": "LetArcV1_details.html?LFAitemID=lfa_type_0085&LFAPics=Yes",
-      "title": "Authors Roman Adstyle and the Authors Oldstyle",
-      "creators": "Sidney Gaunt",
-      "workID": "lfa_type_0085",
-      "positionRow": 2,
-      "positionOrder": 1,
-      "sizing": 1.2
-    },
-    {
-      "imageURL": "https://archive.org/download/LFAVenezky0012/LFA_Venezky_0012_001_thumb.jpg",
-      "tableImageURL": "https://archive.org/download/LFAVenezky0012/LFA_Venezky_0012_001_thumb.jpg",
+      "imageURL": "https://archive.org/download/LFAVenezky0012/LFA_Venezky_0012_001.jpg",
+      "tableImageURL": "https://archive.org/download/LFAVenezky0012/LFA_Venezky_0012_001.jpg",
       "pageURL": "LetArcV1_details.html?LFAitemID=lfa_venezky_0012&LFAPics=Yes",
       "title": "Original Artwork for Weird America",
       "creators": "Martin Venezky",
@@ -73,8 +62,8 @@
       "sizing": 3.4
     },
     {
-      "imageURL": "https://archive.org/download/LFAVenezky0103/LFA_Venezky_0103_001_thumb.jpg",
-      "tableImageURL": "https://archive.org/download/LFAVenezky0103/LFA_Venezky_0103_001_thumb.jpg",
+      "imageURL": "https://archive.org/download/LFAVenezky0103/LFA_Venezky_0103_001.jpg",
+      "tableImageURL": "https://archive.org/download/LFAVenezky0103/LFA_Venezky_0103_001.jpg",
       "pageURL": "LetArcV1_details.html?LFAitemID=lfa_venezky_0103&LFAPics=Yes",
       "title": "(Helvetica Bold Type Specimen)",
       "creators": "Martin Venezky",
@@ -84,8 +73,8 @@
       "sizing": 0.8
     },
     {
-      "imageURL": "https://archive.org/download/LFAVenezky0168/LFA_Venezky_0168_001_thumb.jpg",
-      "tableImageURL": "https://archive.org/download/LFAVenezky0103/LFA_Venezky_0103_001_thumb.jpg",
+      "imageURL": "https://archive.org/download/LFAVenezky0168/LFA_Venezky_0168_001.jpg",
+      "tableImageURL": "https://archive.org/download/LFAVenezky0103/LFA_Venezky_0103_001.jpg",
       "pageURL": "LetArcV1_details.html?LFAitemID=lfa_venezky_0168&LFAPics=Yes",
       "title": "CCA The Graduate Program in Design Thesis Events Card 2008",
       "creators": "Martin Venezky",
@@ -95,8 +84,8 @@
       "sizing": 1.0
     },
     {
-      "imageURL": "https://archive.org/download/LFAVenezky0202/LFA_Venezky_0202_001_thumb.jpg",
-      "tableImageURL": "https://archive.org/download/LFAVenezky0202/LFA_Venezky_0202_001_thumb.jpg",
+      "imageURL": "https://archive.org/download/LFAVenezky0202/LFA_Venezky_0202_001.jpg",
+      "tableImageURL": "https://archive.org/download/LFAVenezky0202/LFA_Venezky_0202_001.jpg",
       "pageURL": "LetArcV1_details.html?LFAitemID=lfa_venezky_0202&LFAPics=Yes",
       "title": "Ambition is No Sin: Post Card #1",
       "creators": "Martin Venezky",

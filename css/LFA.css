@@ -84,9 +84,8 @@ button {
 
   #container {
     padding-top: 4vh;
-    align-content: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
   }
 
@@ -96,7 +95,7 @@ button {
     position: fixed;
     z-index: 1;
     font-weight: bold;
-    width: 92.5vw;
+    width: 90vw;
     /* border: 1px solid black; */
   }
 
@@ -105,18 +104,18 @@ button {
     align-items: center;
     font-weight: bold;
     color: #ff0000;
-    font-size: 22.5px;
-    padding-left: 70px;
+    font-size: 1.75vw;
+    padding-left: 0px;
   }
 
   #letter h1 {
-    padding-left: 30px;
+    padding-left: 2.5vw;
   }
 
   #logo {
     /* position: fixed;
     z-index: 1; */
-    width: 65px;
+    width: 5vw;
     animation-name: spin;
     animation-duration: 10000ms;
     animation-iteration-count: infinite;
@@ -133,7 +132,7 @@ button {
   }
 
   .searchButton {
-    width: 30px;
+    width: 2.5vw;
   }
 
   #header>button {
@@ -165,7 +164,7 @@ button {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 90px 4px;
+    margin-top: 15vh;
   }
 
   /* Create four equal columns that sit next to each other */
@@ -409,6 +408,7 @@ button {
 /**** ITEM PAGE ****/
 #itemPage {
   display: flex;
+  justify-content: center;
   overflow-x: hidden;
   flex-direction: column;
   padding-top: 100px;
@@ -435,31 +435,28 @@ button {
 
   /**** META DATA ****/
   #metaData {
+    width: 90vw;
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    padding: 50px 0 0 100px;
-    /* background-color: red; */
+    justify-content: flex-start;
+    padding-top: 50px;
   }
 
   #itemDescription {
     font-size: 1.35vw;
     line-height: 120%;
-    /* background-color: green; */
   }
 
   #itemMetaData {
     display: flex;
     font-size: 1.10vw;
     background-color: none;
-    margin-right: 8vw;
-    /* background-color: pink; */
+    /* margin-right: 11vw; */
+    padding-left: 30.5vw;
+    color: red;
   }
 
   #column2 {
     margin-left: 100px;
-    width: 175px;
-    /* background-color: grey; */
   }
 
   #itemDescription .title {
@@ -470,10 +467,6 @@ button {
     color: black;
   }
 
-  #itemMetaData {
-    color: red;
-  }
-
     /**** THUMBNAILS GRID ****/
     #itemPage h1 {
       font-weight: bold;
@@ -481,21 +474,23 @@ button {
       padding-left: 100px;
     }
 
-    #thumbnailscontainer{
+    #thumbnailscontainer {
+      width: 90vw;
+      justify-content: space-between;
+      align-items: flex-end;
       display: flex;
-      justify-content: flex-start;
-      margin: 20px 0px 0px 100px;
-      flex-direction: column;
+      font-size: 1.15vw;
       font-weight: bold;
-      font-size: 1.35vw;
+      padding-top: 50px;
       margin-bottom: 100px;
+      /* background-color: green; */
     }
 
     #thumbnails {
       display: grid;
       justify-content: flex-start;
-      grid-gap: 20px;
-      grid-template-columns: repeat(3, 12.5vw);
+      grid-gap: 15px;
+      grid-template-columns: repeat(3, 13.5vw);
       align-items: center;
       padding-top: 20px;
     }
@@ -525,7 +520,7 @@ button {
       justify-content: center;
       margin-top: 20px;
       width: 100%;
-      height: 65px;
+      height: 9vh;
       font-size: 1.10vw;
       color: #ED1B2E;
       font-weight: normal;
@@ -536,14 +531,58 @@ button {
       cursor: pointer;
       outline: 3px solid red;
     }
+    /**** END THUMBNAILS GRID ****/
+
+    /**** TABLE ****/
+      #tableContainer {
+        width: 45%;
+        height: 96.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 20px;
+        outline: 1px solid none;
+        background-color: black;
+      }
+
+      #topRow {
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+        padding-bottom: 15px;
+      }
+
+      #bottomRow {
+        display: flex;
+        justify-content: flex-start;
+        align-items: none;
+        padding-top: 0px;
+      }
+
+      .tablePic img {
+        max-width: 100%;
+        padding: 0px 20px 0px 0px;
+      }
+    /**** END TABLE ****/
 
     /**** ZOOM ITEMS ****/
+    #itemZoomButtons {
+      display: flex;
+      flex-direction: row;
+    }
+
+    #itemZoomButtons>button {
+      cursor: pointer;
+      background-color: none;
+      border: none;
+    }
     .zoomItems {
       padding-top: 100px;
       display: grid;
       justify-content: center;
       align-items: center;
       grid-gap: 50px;
+      padding-bottom: 100px;
     }
 
     .zoomItemsScroll {
@@ -551,31 +590,13 @@ button {
     }
 
     .zoomItemsGrid {
-      grid-template-columns: repeat(3, 20vw);
+      grid-template-columns: repeat(4, 17.85vw);
     }
 
     #zoomItems img:hover {
       outline: none;
     }
-
-    #zoomItemsButtons {
-      position: fixed;
-      display: flex;
-      flex-direction: column;
-      padding-top: 100px;
-      padding-left: 1147px;
-    }
-
-    #zoomItemsButtons>button {
-      cursor: pointer;
-      background-color: none;
-      border: none;
-      padding-top: 10px;
-    }
-
     /**** END ZOOM ITEMS ****/
-
-    /**** END THUMBNAILS GRID ****/
   /**** END META DATA ****/
 
 
