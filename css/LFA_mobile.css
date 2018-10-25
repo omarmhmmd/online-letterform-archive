@@ -31,11 +31,25 @@
       flex: 50%;
       max-width: 50%;
     }
+
+    .column figcaption {
+      font-size: 5.35vw;
+    }
     /**** END PHOTO GRID ****/
   /**** END LANDING PAGE ****/
 
   /**** SEARCH PAGE ****/
     /**** MENU ****/
+    .textField>input {
+      width: 100%;
+      background-color: transparent;
+      border: 1px solid #979797;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      font-size: 28px;
+    }
+
     #filters {
       margin-top: 2vh;
       display: flex;

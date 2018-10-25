@@ -32,17 +32,42 @@ $.getJSON("datablobs/item_eg1.json", function(json) {
 
   $("#collections").append(json.item.collection + '</br>');
 
-  var contributorsLength;
-  $.each(json.item.contributors, function(index, element) {
-    if (index >= 0 && index < 8) {
-      $("#contributors").append(element + '</br>');
+    /**** CONTRIBUTORS SECTION ****/
+    var contributorsLength;
+    function showParsedContributors() {
+      $.each(json.item.contributors, function(index, element) {
+        if (index >= 0 && index < 6) {
+          $("#contributors").append(element + '</br>');
+        }
+        contributorsLength = index - 6;
+      });
+      if (contributorsLength > 0) {
+        $("#showAllCont").text('+ ' + contributorsLength + ' more');
+      }
     }
-    contributorsLength = index - 8;
-  });
-  if (contributorsLength > 0) {
-    $("#contributors").append("+ " + contributorsLength + ' more</br>');
-  }
-  /**** COLUMN TWO ****/
+
+    function showAllContributors() {
+      $.each(json.item.contributors, function(index, element) {
+          $("#contributors").append(element + '</br>');
+      });
+      $("#contributors").append('<button id = "showLessCont"> - ' + contributorsLength + ' less </button></br>');
+
+      $('#showLessCont').on('click',function(){
+        $("#contributors").empty();
+        showParsedContributors();
+      });
+    }
+
+    showParsedContributors();
+
+    $('#showAllCont').on('click',function(){
+      $("#contributors").empty();
+      $("#showAllCont").empty();
+      showAllContributors();
+    });
+    /**** ENDCONTRIBUTORS SECTION ****/
+
+  /**** END COLUMN TWO ****/
 
   /**** THUMBNAILS ***/
   $.each(json.item.imageURLs, function(index, element) {
@@ -51,17 +76,17 @@ $.getJSON("datablobs/item_eg1.json", function(json) {
     /**** ZOOM ITEMS ****/
     if (index == 0) {
       $(".zoomItems").append(
-        '<div id = "thumb001"> <img src=' + element + '></div>'
+        '<div id = "thumb001"><a href = ' + element +'><img src=' + element + '></a></div>'
       );
     }
     else if (isLastElement) {
       $(".zoomItems").append(
-        '<div id = "thumb001"> <img src=' + element + '></div>'
+        '<div id = "thumb001"><a href = ' + element +'><img src=' + element + '></a></div>'
       );
     }
     else {
       $(".zoomItems").append(
-        '<div class = "thumbnailPic"> <img src=' + element + '></div>'
+        '<div class = "thumbnailPic"><a href = ' + element +'><img src=' + element + '></a></div>'
       );
     }
     /**** END ZOOM ITEMS ****/
@@ -74,21 +99,33 @@ $.getJSON("datablobs/item_eg1.json", function(json) {
     if (index < 9) {
       if (index == 0) {
         $("#thumbnails").append(
-          '<div class="thumbnailPic" id = "thumb001"> <img src=' + element + '></div>'
+          '<div class="thumbnailPic" id = "thumb001"><a href = ' + element +'><img src=' + element + '></a></div>'
         );
       }
       else if (isLastElement) {
         $("#thumbnails").append(
-          '<div class="thumbnailPic" id = "thumb001"> <img src=' + element + '></div>'
+          '<div class="thumbnailPic" id = "thumb001"><a href = ' + element +'><img src=' + element + '></a></div>'
         );
         console.log('last item')
       }
       else {
         $("#thumbnails").append(
-          '<div class="thumbnailPic"> <img src=' + element + '></div>'
+          '<div class="thumbnailPic"><a href = ' + element +'><img src=' + element + '></a></div>'
         );
       }
     }
   });
   /**** END THUMBNAILS ****/
 });
+
+/**** LIGHTBOX ****/
+$(function (){
+  // var thumbnails = document.querySelectorAll("#thumbnails div");
+  //   for (var i = 0; i < thumbnails.length; i++) {
+  //       new Luminous(thumbnails[i]);
+  //   }
+
+  $('.thumbnailPic a').fluidbox();
+  $('#thumb001 a').fluidbox();
+});
+/**** END LIGHTBOX ****/
