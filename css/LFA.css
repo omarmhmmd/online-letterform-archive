@@ -573,7 +573,7 @@ button {
         justify-content: center;
         padding-left: 20px;
         outline: 1px solid red;
-        background-color: black;
+        background-color: none;
       }
 
       #topRow {
