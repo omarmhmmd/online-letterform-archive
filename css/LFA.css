@@ -161,6 +161,7 @@ button {
 
 
   #entryGrid {
+    width: 90vw;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -170,10 +171,17 @@ button {
   /* Create four equal columns that sit next to each other */
   .column {
     flex-direction: row-reverse;
-    flex: 25%;
-    max-width: 23%;
+    flex: 50%;
+    max-width: 50%;
     padding: 0 10px;
   }
+
+  .subColumns {
+    display: flex;
+    flex-direction: row;
+  }
+
+
 
   /* .column img {
     padding-top: 20px;
@@ -201,7 +209,7 @@ button {
 
   .hoverLay img {
     display: block;
-    max-width: 100%;
+    max-width: 200%;
     height: auto;
   }
 

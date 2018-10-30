@@ -27,10 +27,12 @@
   /**** LANDING PAGE ****/
     /**** PHOTO GRID ****/
     .column {
-      -ms-flex: 50%;
-      flex: 50%;
-      max-width: 50%;
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
     }
+
+
 
     .column figcaption {
       font-size: 5.35vw;
