@@ -70,12 +70,31 @@ button {
 
 /**** LANDING PAGE ****/
   /**** LOOP ****/
-  .loop {
-    height: 100vh;
+  .endSearch {
+    height: 80vh;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .endSearch h1 {
+    font-size: 1.75vw;
+    width: 35%;
+    text-align: center;
+  }
+
+  .endSearch h2 {
+    display: flex;
+    width: 17.5vw;
+    justify-content: space-around;
+    font-size: 1.5vw;
+    color: red;
+    font-weight: bold;
+    padding-top: 15%;
   }
   /**** END LOOP ****/
-
 
   /**** HEADER ****/
   button:focus {
@@ -153,7 +172,6 @@ button {
   }
   /**** END HEADER ****/
 
-
   /**** PHOTO GRID ****/
   #imageLoad {
     width: 100%;
@@ -169,6 +187,25 @@ button {
   }
 
   /* Create four equal columns that sit next to each other */
+  #spannedItem {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 4vw;
+    align-items: center;
+    background-color: #FF1919;
+    height: 25vw;
+    color: #FFFFFF;
+  }
+
+  #spannedItem:hover {
+    cursor: pointer;
+    outline: 2px solid red;
+  }
+
+  #spannedItem h1 {
+    padding-left: 10%;
+  }
+
   .column {
     flex-direction: row-reverse;
     flex: 50%;
@@ -180,13 +217,6 @@ button {
     display: flex;
     flex-direction: row;
   }
-
-
-
-  /* .column img {
-    padding-top: 20px;
-    vertical-align: middle;
-  } */
 
   .column figcaption {
     position: absolute;
@@ -638,18 +668,43 @@ button {
     }
     /**** END ZOOM ITEMS ****/
   /**** END META DATA ****/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**** END ITEM PAGE ****/
+
+/**** FOOTER ****/
+footer {
+  width: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+
+#footerItems {
+  padding: 2.5vw 0 2.5vw 0;
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-size: 1.25vw;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+#socialMedia {
+  display: flex;
+}
+
+#socialMedia img {
+  width: 4vw;
+  padding-left: 20px;
+}
+
+
+/**** END FOOTER ****/

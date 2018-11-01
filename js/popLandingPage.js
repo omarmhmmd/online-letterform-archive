@@ -12,7 +12,11 @@ $.getJSON("datablobs/entrypage.json", function(json) {
       $('#subColumn002').append(
         '<div class = "hoverLay"> <img src="' + element.entryContent.imageURL + '" style="width:100%" > <figcaption> ' + element.entryContent.title + '</figcaption> </div>');
     }
-    else if (index >= 4 && index < 6) {
+    // else if (index >= 4 && index < 6) {
+    //   $('#subColumn003').append(
+    //     '<div class = "hoverLay"> <img src="' + element.entryContent.imageURL + '" style="width:100%" > <figcaption> ' + element.entryContent.title + '</figcaption> </div>');
+    // }
+    else if (index >= 4 && index < 5) {
       $('#subColumn003').append(
         '<div class = "hoverLay"> <img src="' + element.entryContent.imageURL + '" style="width:100%" > <figcaption> ' + element.entryContent.title + '</figcaption> </div>');
     }
@@ -28,13 +32,13 @@ $.getJSON("datablobs/entrypage.json", function(json) {
       $('#subColumn006').append(
         '<div class = "hoverLay"> <img src="' + element.entryContent.imageURL + '" style="width:100%" > <figcaption> ' + element.entryContent.title + '</figcaption> </div>');
     }
-    else if (index >= 12 && index < 14) {
-      $('#subColumn007').append(
-        '<div class = "hoverLay"> <img src="' + element.entryContent.imageURL + '" style="width:100%" > <figcaption> ' + element.entryContent.title + '</figcaption> </div>');
-    }
-    else if (index >= 14 && index < 16) {
-      $('#subColumn008').append(
-        '<div class = "hoverLay"> <img src="' + element.entryContent.imageURL + '" style="width:100%" > <figcaption> ' + element.entryContent.title + '</figcaption> </div>');
-    }
+    // else if (index >= 12 && index < 14) {
+    //   $('#subColumn007').append(
+    //     '<div class = "hoverLay"> <img src="' + element.entryContent.imageURL + '" style="width:100%" > <figcaption> ' + element.entryContent.title + '</figcaption> </div>');
+    // }
+    // else if (index >= 14 && index < 16) {
+    //   $('#subColumn008').append(
+    //     '<div class = "hoverLay"> <img src="' + element.entryContent.imageURL + '" style="width:100%" > <figcaption> ' + element.entryContent.title + '</figcaption> </div>');
+    // }
   });
 });

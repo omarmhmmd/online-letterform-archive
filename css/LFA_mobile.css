@@ -32,12 +32,45 @@
       max-width: 100%;
     }
 
-
+    #spannedItem {
+      justify-content: flex-start;
+      font-size: 7vw;
+      align-items: center;
+      height: 45vw;
+    }
 
     .column figcaption {
       font-size: 5.35vw;
     }
     /**** END PHOTO GRID ****/
+
+    /**** END SEARCH ***/
+    .endSearch {
+
+    }
+
+    .endSearch h1 {
+      font-size: 5vw;
+      width: 75%;
+      text-align: center;
+    }
+
+    .endSearch h2 {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      justify-content: space-around;
+      font-size: 4.5vw;
+      color: red;
+      font-weight: bold;
+      padding-top: 20%;
+    }
+
+    .endSearch h2 img {
+      padding-right: 20px;
+    }
+    /**** END SEARCH ***/
+
   /**** END LANDING PAGE ****/
 
   /**** SEARCH PAGE ****/
@@ -138,6 +171,24 @@
     }
     /**** END TABLE ****/
   /**** END ITEM PAGE ****/
+
+  /**** FOOTER ****/
+  #contact {
+    font-size: 4vw;
+  }
+
+  #socialMedia {
+    flex-direction: column;
+  }
+
+  #socialMedia img {
+    width: 12.5vw;
+  }
+
+  #footerItems {
+    padding: 7.5vw 0 7.5vw 0;
+  }
+  /**** END FOOTER ****/
 }
 
 @media (min-width: 1500px) {
