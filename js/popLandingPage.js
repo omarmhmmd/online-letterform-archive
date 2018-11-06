@@ -2,14 +2,29 @@ $.getJSON("datablobs/entrypage001.json", function(json) {
 
   // POPULATE TEXT IN SEARCH BLOCKS //
   var searchTextH1 = document.getElementsByClassName('searchText');
-  console.log(searchTextH1);
 
   $.each(json.entryPageSearches, function(index, element) {
-    console.log(index);
     // console.log(element.entryContent.searchText);
     searchTextH1[index].innerHTML = element.entryContent.searchText;
   });
   // END POPULATE TEXT IN SEARCH BLOCKS //
+
+  // POPULATE TABLES //
+  $.getJSON("datablobs/t_lfa_amelia_201810061624.json", function(json) {
+    $.each(json.tableItems, function(index, element) {
+      if (index < 5) {
+        $("#topRow-Entry").append(
+          '<div class = "tablePic-Entry"> <img src=' + element.imageURL + '></div>'
+        );
+      }
+      else {
+        $("#bottomRow-Entry").append(
+          '<div class = "tablePic-Entry"> <img src=' + element.imageURL + '></div>'
+        );
+      }
+    });
+  });
+  // END POPULATE TABLES
 
   // POPULATE IMAGES IN ENTRY GRID //
   $.each(json.entryPageItems, function(index, element) {
@@ -65,6 +80,18 @@ $.getJSON("datablobs/entrypage001.json", function(json) {
       $('#subColumn012').append(
         '<div class = "hoverLay"> <img src="' + element.entryContent.imageURL + '" style="width:100%" > <figcaption> ' + element.entryContent.title + '</figcaption> </div>');
     }
+    else if (index >= 24 && index < 26) {
+      $('#subColumn013').append(
+        '<div class = "hoverLay"> <img src="' + element.entryContent.imageURL + '" style="width:100%" > <figcaption> ' + element.entryContent.title + '</figcaption> </div>');
+    }
+    else if (index >= 26 && index < 28) {
+      $('#subColumn014').append(
+        '<div class = "hoverLay"> <img src="' + element.entryContent.imageURL + '" style="width:100%" > <figcaption> ' + element.entryContent.title + '</figcaption> </div>');
+    }
+    // else if (index >= 28 && index < 30) {
+    //   $('#subColumn015').append(
+    //     '<div class = "hoverLay"> <img src="' + element.entryContent.imageURL + '" style="width:100%" > <figcaption> ' + element.entryContent.title + '</figcaption> </div>');
+    // }
   });
   // END POPULATE IMAGES IN ENTRY GRID //
 });

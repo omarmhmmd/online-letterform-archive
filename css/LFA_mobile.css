@@ -32,11 +32,15 @@
       max-width: 100%;
     }
 
-    #spannedItem {
+    .searchBlock {
       justify-content: flex-start;
       font-size: 7vw;
       align-items: center;
       height: 45vw;
+    }
+
+    .tableBlock {
+      height: 60vw;
     }
 
     .column figcaption {
