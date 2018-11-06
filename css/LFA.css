@@ -187,7 +187,7 @@ button {
   }
 
   /* Create four equal columns that sit next to each other */
-  #spannedItem {
+  .searchBlock {
     display: flex;
     justify-content: flex-start;
     font-size: 4vw;
@@ -197,13 +197,33 @@ button {
     color: #FFFFFF;
   }
 
-  #spannedItem:hover {
-    cursor: pointer;
+  .keyword {
+    color: black;
+  }
+
+  .searchBlock:hover {
+      cursor: pointer;
+      outline: 2px solid red;
+    }
+
+  .searchBlock h1 {
+      padding-left: 10%;
+      width: 90%;
+    }
+
+  .tableBlock {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 4vw;
+    align-items: center;
+    background-color: white;
+    height: 25vw;
     outline: 2px solid red;
   }
 
-  #spannedItem h1 {
-    padding-left: 10%;
+  .tableBlock:hover{
+    background-color: #EEEEEE;
+    cursor: pointer;
   }
 
   .column {
@@ -234,6 +254,7 @@ button {
   .hoverLay {
     background-color: #FF1919;
     margin-top: 20px;
+    margin-bottom: 20px;
     position: relative;
   }
 
