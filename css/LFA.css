@@ -503,13 +503,37 @@ button {
 /**** END SEARCH PAGE ****/
 
 /**** ITEM PAGE ****/
-#itemPage {
-  display: flex;
-  justify-content: center;
-  overflow-x: hidden;
-  flex-direction: column;
-  padding-top: 100px;
-}
+  #itemPage {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+  }
+
+  #filmStrip {
+    width: 90vw;
+    display: flex;
+    overflow-x:scroll;
+  }
+
+  #filmStrip img {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 2vw;
+    width: auto;
+    height: 10vw;
+  }
+
+  #firstImg-strip {
+    margin-left: 0vw !important;
+  }
+
+  #filmStrip img > :first-child {margin-left: 20vw !important; }
+
+  #filmStrip img:hover {
+    outline: 3px solid red;
+    outline-offset: -3px;
+  }
 
   /**** MAIN IMAGES ****/
   #mainImages {
@@ -520,9 +544,8 @@ button {
   }
 
   #mainImages img {
-    width: 28vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    width: 27vw;
+
   }
 
   .prevNext {
@@ -535,7 +558,7 @@ button {
     width: 90vw;
     display: flex;
     justify-content: flex-start;
-    padding-top: 50px;
+    padding-top: 20px;
   }
 
   #itemDescription {

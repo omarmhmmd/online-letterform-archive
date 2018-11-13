@@ -79,15 +79,25 @@ $.getJSON("datablobs/item_eg1.json", function(json) {
       $(".zoomItems").append(
         '<div id = "thumb001"><a href = ' + element +'><img src=' + element + '></a></div>'
       );
+      $("#filmStrip").append(
+        '<img id="firstImg-strip" src=' + element + '>'
+      );
     }
     else if (isLastElement) {
       $(".zoomItems").append(
         '<div id = "thumb001"><a href = ' + element +'><img src=' + element + '></a></div>'
       );
+      $("#filmStrip").append(
+        '<img src=' + element + '>'
+      );
     }
     else {
       $(".zoomItems").append(
         '<div class = "thumbnailPic"><a href = ' + element +'><img src=' + element + '></a></div>'
+      );
+
+      $("#filmStrip").append(
+        '<img src=' + element + '>'
       );
     }
     /**** END ZOOM ITEMS ****/
