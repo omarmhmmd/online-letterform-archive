@@ -24,7 +24,7 @@
     <div id="header">
       <div id="letter">
         <a id="logo" href="./index.html"><img class="logo"src="svg/Logo.svg" alt=""></a>
-        <a target="_blank" href="https://letterformarchive.org/"><h1>Letterform Archive</h1></a>
+        <!-- <a target="_blank" href="https://letterformarchive.org/"><h1>Letterform Archive</h1></a> -->
       </div>
       <button type="button" name="button">
           <a href="search.html"><img class="searchButton" id="searchButton" src="svg/SearchGlass.svg" alt=""></a>
@@ -38,7 +38,7 @@
         <img id="theItem" src="" alt="">
         <!-- <img id="nextItem" class="prevNext" src="" alt=""> -->
       </div>
-      <div id="filmStrip">
+      <div id="filmStrip" class = "scroll1">
         <!-- <img id="firstImg-strip" src="https://picsum.photos/200/300" alt="">
         <img id="" src="https://picsum.photos/200/300" alt=""> -->
       </div>
@@ -125,7 +125,7 @@
               Winston Tong
               Zuzana Licko -->
           </div>
-          <button id = "showAllCont" type="button" name="button"></button>
+          <button id="showAllCont" type="button" name="button"></button>
           <p>&nbsp;</p>
           <span class="title">Language</span>
           <br>
@@ -138,22 +138,34 @@
 
     <div id="thumbnailscontainer">
       <div id="thumbGrid">
+        <div style="font-weight: normal" class="">
+          Related items
+        </div>
+        <div id="relatedItems">
+          <img id = "prevItem" src="">
+          <img id = "nextItem" src="">
+        </div>
         <!-- <span>Thumbnails</span> -->
-        <div id="thumbnails">
-          <!-- <div class="thumbnailPic" id = "thumb001">
+        <!-- <div id="thumbnails">
+          <div class="thumbnailPic" id = "thumb001">
               <img src="https://archive.org/download/LFAEmigre0006/LFA_Emigre_0006_0001.jpg">
-          </div> -->
+          </div>
         </div>
         <a href="itemZoom.html">
           <div id="morePics">
             <p></p>
           </div>
-        </a>
+        </a> -->
       </div>
       <div id="tableContainer">
-        <div id="topRow">
+        <div style="font-weight: normal" class="">
+          Tables Featuring This Work
         </div>
-        <div id="bottomRow">
+        <div id="table">
+          <div id="topRow">
+          </div>
+          <div id="bottomRow">
+          </div>
         </div>
       </div>
     </div>
@@ -165,10 +177,8 @@
     <div id="footerItems">
       <div id="contact">
         <span style="font-weight: bold">Letterform Archive</span>
-        <br>
-        1001 Mariposa Street #307
-        <br>
-        San Francisco, CA 94107, USA
+        <br> 1001 Mariposa Street #307
+        <br> San Francisco, CA 94107, USA
         <p>&nbsp;</p>
         <a style="color:white;" href="mailto:info@letterformarchive.org">info@letterformarchive.org</a>
         <p>&nbsp;</p>
@@ -186,6 +196,15 @@
   <!-- <div class="loop"></div> -->
 
   <script src="./lib/jquery.fluidbox.min.js"></script>
+
+  <script type='text/javascript'>
+    $(document).ready(function() {
+      $(".strip-img").hover(
+        function() {
+          $("#theItem").attr("src", this.src);
+        });
+    });
+  </script>
 
   <script type="text/javascript">
     // /* LOOPING SCRIPT */

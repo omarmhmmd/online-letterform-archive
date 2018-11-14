@@ -68,6 +68,24 @@ button {
   background-color: transparent;
 }
 
+.scroll1::-webkit-scrollbar {
+  height: 0.625vw;
+}
+
+.scroll1::-webkit-scrollbar-track {
+  background: none;
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 20px;
+
+}
+
+.scroll1::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 20px;
+  margin: 20px;
+}
+
 /**** LANDING PAGE ****/
   /**** LOOP ****/
   .endSearch {
@@ -510,6 +528,25 @@ button {
     padding-top: 50px;
   }
 
+  /**** MAIN IMAGES ****/
+  #mainImages {
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #mainImages img {
+    height: 40vw;
+
+  }
+
+  .prevNext {
+    opacity: 0.25;
+  }
+  /**** END MAIN IMAGES ****/
+
+  /**** FILM STRIP ****/
   #filmStrip {
     width: 90vw;
     display: flex;
@@ -517,11 +554,11 @@ button {
   }
 
   #filmStrip img {
-    margin-top: 2vw;
-    margin-bottom: 2vw;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
     margin-left: 2vw;
     width: auto;
-    height: 10vw;
+    height: 6vw;
   }
 
   #firstImg-strip {
@@ -534,24 +571,7 @@ button {
     outline: 3px solid red;
     outline-offset: -3px;
   }
-
-  /**** MAIN IMAGES ****/
-  #mainImages {
-    background-color: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #mainImages img {
-    width: 27vw;
-
-  }
-
-  .prevNext {
-    opacity: 0.25;
-  }
-  /**** END MAIN IMAGES ****/
+  /**** END FILM STRIP ****/
 
   /**** META DATA ****/
   #metaData {
@@ -612,7 +632,7 @@ button {
     #thumbnailscontainer {
       width: 90vw;
       justify-content: space-between;
-      align-items: flex-end;
+      align-items: center;
       display: flex;
       font-size: 1.15vw;
       font-weight: bold;
@@ -620,6 +640,24 @@ button {
       margin-bottom: 100px;
       z-index: 0;
       /* background-color: green; */
+    }
+
+    #thumbGrid {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 45%;
+    }
+
+    #relatedItems {
+      padding-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    #thumbGrid img {
+      width: 45%;
     }
 
     #thumbnails {
@@ -689,9 +727,14 @@ button {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-left: 20px;
-        outline: 1px solid red;
         background-color: none;
+      }
+
+      #table {
+        margin-top: 20px;
+        padding: 20px;
+        outline: 1px solid red;
+
       }
 
       #topRow {

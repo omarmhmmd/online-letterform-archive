@@ -80,7 +80,7 @@ $.getJSON("datablobs/item_eg1.json", function(json) {
         '<div id = "thumb001"><a href = ' + element +'><img src=' + element + '></a></div>'
       );
       $("#filmStrip").append(
-        '<img id="firstImg-strip" src=' + element + '>'
+        '<img id="firstImg-strip" class = "strip-img" src=' + element + '>'
       );
     }
     else if (isLastElement) {
@@ -88,7 +88,7 @@ $.getJSON("datablobs/item_eg1.json", function(json) {
         '<div id = "thumb001"><a href = ' + element +'><img src=' + element + '></a></div>'
       );
       $("#filmStrip").append(
-        '<img src=' + element + '>'
+        '<img class = "strip-img" src=' + element + '>'
       );
     }
     else {
@@ -97,7 +97,7 @@ $.getJSON("datablobs/item_eg1.json", function(json) {
       );
 
       $("#filmStrip").append(
-        '<img src=' + element + '>'
+        '<img class = "strip-img" src=' + element + '>'
       );
     }
     /**** END ZOOM ITEMS ****/
