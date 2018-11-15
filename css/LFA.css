@@ -68,24 +68,6 @@ button {
   background-color: transparent;
 }
 
-.scroll1::-webkit-scrollbar {
-  height: 0.625vw;
-}
-
-.scroll1::-webkit-scrollbar-track {
-  background: none;
-  border: 1px solid red;
-  border-radius: 20px;
-  width: 20px;
-
-}
-
-.scroll1::-webkit-scrollbar-thumb {
-  background: red;
-  border-radius: 20px;
-  margin: 20px;
-}
-
 /**** LANDING PAGE ****/
   /**** LOOP ****/
   .endSearch {
@@ -536,21 +518,17 @@ button {
     align-items: center;
   }
 
-  #mainImages img {
+  #theItem {
     height: 40vw;
-
-  }
-
-  .prevNext {
-    opacity: 0.25;
+    cursor: zoom-in;
   }
   /**** END MAIN IMAGES ****/
 
   /**** FILM STRIP ****/
   #filmStrip {
-    width: 90vw;
+    width: 98vw;
     display: flex;
-    overflow-x:scroll;
+    overflow-x:auto;
   }
 
   #filmStrip img {
@@ -565,11 +543,34 @@ button {
     margin-left: 0vw !important;
   }
 
-  #filmStrip img > :first-child {margin-left: 20vw !important; }
+  #filmStrip img > :first-child {margin-left: 100vw !important; }
 
   #filmStrip img:hover {
     outline: 3px solid red;
     outline-offset: -3px;
+    cursor: pointer;
+  }
+
+  .activeFilmStrip {
+    outline: 3px solid red;
+    outline-offset: -3px;
+  }
+
+  .scroll1::-webkit-scrollbar {
+    height: 0.625vw;
+  }
+
+  .scroll1::-webkit-scrollbar-track {
+    background: none;
+    border: 1px solid red;
+    border-radius: 0px;
+    width: 20px;
+  }
+
+  .scroll1::-webkit-scrollbar-thumb {
+    background: red;
+    /* border-radius: 20px; */
+    margin: 20px;
   }
   /**** END FILM STRIP ****/
 
@@ -577,11 +578,12 @@ button {
   #metaData {
     width: 90vw;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     padding-top: 20px;
   }
 
   #itemDescription {
+    width: 45%;
     font-size: 1.35vw;
     line-height: 120%;
   }
@@ -589,9 +591,10 @@ button {
   #itemMetaData {
     display: flex;
     font-size: 1.10vw;
+    width: 45%;
     background-color: none;
     /* margin-right: 11vw; */
-    padding-left: 30.5vw;
+    /* padding-left: 30.5vw; */
     color: red;
   }
 
@@ -645,7 +648,6 @@ button {
     #thumbGrid {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
       width: 45%;
     }
 
@@ -657,7 +659,7 @@ button {
     }
 
     #thumbGrid img {
-      width: 45%;
+      width: 19vw;
     }
 
     #thumbnails {

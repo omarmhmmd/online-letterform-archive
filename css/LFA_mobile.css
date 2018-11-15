@@ -108,11 +108,35 @@
   /**** END SEARCH PAGE ****/
 
   /**** ITEM PAGE ****/
+    #itemPage {
+      padding-top: 100px;
+    }
+
+    #filmStrip img {
+      margin-top: 10vw;
+      height: 20vw;
+    }
+
+    #filmStrip img:hover {
+      outline: 3px solid red;
+      outline-offset: -3px;
+      cursor: pointer;
+    }
+
+    .scroll1::-webkit-scrollbar-track {
+      background: none;
+      border: none;
+    }
+
+    .scroll1::-webkit-scrollbar-thumb {
+      background: none;
+    }
+
+
     /**** MAIN IMAGES ****/
     #mainImages img {
-      width: 60vw;
-      margin-left: 20px;
-      margin-right: 20px;
+      height: auto;
+      width: 50vh;
     }
     /**** END MAIN IMAGES ****/
 
@@ -128,13 +152,32 @@
     }
 
     #itemMetaData {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
       font-size: 14px;
       padding-top: 40px;
       padding-left: 0vw;
     }
 
-    #column2 {
-      margin-left: 50px;
+    #thumbGrid {
+      font-size: 14px;
+      width: 100%;
+    }
+
+    #relatedItems {
+      padding-top: 10px;
+    }
+
+    #relatedItems {
+      padding-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    #thumbGrid img {
+      width: 43vw;
     }
     /**** END META DATA ****/
 
@@ -168,6 +211,7 @@
 
     /**** TABLE ****/
     #tableContainer {
+      font-size: 14px;
       width: 95vw;
       height: 80vw;
       margin-top: 50px;
@@ -196,8 +240,5 @@
 }
 
 @media (min-width: 1500px) {
-  #mainImages img {
-    width: 35vw;
-  }
 
 }

@@ -24,7 +24,7 @@
     <div id="header">
       <div id="letter">
         <a id="logo" href="./index.html"><img class="logo"src="svg/Logo.svg" alt=""></a>
-        <!-- <a target="_blank" href="https://letterformarchive.org/"><h1>Letterform Archive</h1></a> -->
+        <a target="_blank" href="https://letterformarchive.org/"><h1>Letterform Archive</h1></a>
       </div>
       <button type="button" name="button">
           <a href="search.html"><img class="searchButton" id="searchButton" src="svg/SearchGlass.svg" alt=""></a>
@@ -35,7 +35,6 @@
     <div id="itemPage">
       <div id="mainImages">
         <!-- <img id="prevItem" class="prevNext" src="" alt=""> -->
-        <img id="theItem" src="" alt="">
         <!-- <img id="nextItem" class="prevNext" src="" alt=""> -->
       </div>
       <div id="filmStrip" class = "scroll1">
@@ -142,8 +141,12 @@
           Related items
         </div>
         <div id="relatedItems">
-          <img id = "prevItem" src="">
-          <img id = "nextItem" src="">
+          <div class="">
+              <img id = "prevItem" src="">
+          </div>
+          <div class="">
+            <img id = "nextItem" src="">
+          </div>
         </div>
         <!-- <span>Thumbnails</span> -->
         <!-- <div id="thumbnails">
@@ -196,15 +199,6 @@
   <!-- <div class="loop"></div> -->
 
   <script src="./lib/jquery.fluidbox.min.js"></script>
-
-  <script type='text/javascript'>
-    $(document).ready(function() {
-      $(".strip-img").hover(
-        function() {
-          $("#theItem").attr("src", this.src);
-        });
-    });
-  </script>
 
   <script type="text/javascript">
     // /* LOOPING SCRIPT */

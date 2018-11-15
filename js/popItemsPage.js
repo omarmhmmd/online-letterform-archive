@@ -76,6 +76,9 @@ $.getJSON("datablobs/item_eg1.json", function(json) {
 
     /**** ZOOM ITEMS ****/
     if (index == 0) {
+      $("#mainImages").append(
+        '<div id = "mainImg"><a id = "zoomMainImg" style = "cursor: zoom-in;" href = ' + element + '><img id = "theItem" src=' + element + '></a></div>'
+      );
       $(".zoomItems").append(
         '<div id = "thumb001"><a href = ' + element +'><img src=' + element + '></a></div>'
       );
@@ -127,6 +130,17 @@ $.getJSON("datablobs/item_eg1.json", function(json) {
     }
   });
   /**** END THUMBNAILS ****/
+
+  /**** FILM STRIP INTERACTION ****/
+  var active = false;
+  $(".strip-img").click(
+    function() {
+      $(this).addClass("activeFilmStrip" );
+      $("#filmStrip img").removeClass("activeFilmStrip" );
+      $("#zoomMainImg").attr("href",this.src);
+      $("#theItem").attr("src", this.src);
+  });
+  /**** END FILM STRIP INTERACTION ****/
 });
 
 /**** LIGHTBOX ****/
@@ -137,6 +151,7 @@ $(function (){
   //   }
 
   $('.thumbnailPic a').fluidbox();
+  $('#mainImg a').fluidbox();
   $('#thumb001 a').fluidbox();
 });
 /**** END LIGHTBOX ****/
