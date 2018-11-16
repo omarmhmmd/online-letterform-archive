@@ -1,7 +1,9 @@
 $.getJSON("datablobs/item_eg1.json", function(json) {
   $("#prevItem").attr("src",json.itemSearch.itemPrev.imageFront);
+  $("#prevCaption").html(json.itemSearch.itemPrev.title);
   $("#theItem").attr("src",json.item.imageFront);
   $("#nextItem").attr("src",json.itemSearch.itemNext.imageFront);
+  $("#nextCaption").html(json.itemSearch.itemNext.title);
 
   $("#itemDescription").append('<span class = "title">'+ json.item.title+ ' </span> <p>&nbsp;</p>' + json.item.measurements.height + ' x ' + json.item.measurements.width + '</br>' + json.item.numberImages + ' pages' + '</br>' + json.item.year);
   // $("#itemDescription").append('<span class = "title">'+ json.item.title+ '</br> </span> Four sections in a cardboard box, 11.5 x 17, PART 1 – 16 pages, PART 2 – 32 pages, PART 3 – 16 pages, PART 4 – Letterpress printed fan. Edition of 3,000. Printed at Lompa Printing, Albany, CA, and Alonzo Printing, South San Francisco, CA. Publisher and art director: Rudy VanderLans. Digital type design and typesetting: Zuzana Licko.');
@@ -135,8 +137,6 @@ $.getJSON("datablobs/item_eg1.json", function(json) {
   var active = false;
   $(".strip-img").click(
     function() {
-      $(this).addClass("activeFilmStrip" );
-      $("#filmStrip img").removeClass("activeFilmStrip" );
       $("#zoomMainImg").attr("href",this.src);
       $("#theItem").attr("src", this.src);
   });

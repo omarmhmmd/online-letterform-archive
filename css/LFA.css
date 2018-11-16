@@ -333,6 +333,26 @@ button {
     justify-content: center;
     z-index: 0;
   }
+
+  .tooltip {
+    text-decoration: none;
+    position: relative;
+  }
+
+  .tooltip span {
+    display: none;
+    background-color: red;
+    color: white;
+    z-index: 100;
+    font-weight: bold;
+    padding: 1vw;
+  }
+
+  .tooltip:hover span {
+    display: block;
+    position: fixed;
+    overflow: hidden;
+  }
   /**** END OVERLAY ****/
 
   /**** MENU ****/
@@ -479,7 +499,6 @@ button {
     color: red;
     font-weight: bold;
   }
-
 
   .results-item {
     width: 250px;
@@ -660,6 +679,7 @@ button {
 
     #thumbGrid img {
       width: 19vw;
+      padding-bottom: 0.5vw;
     }
 
     #thumbnails {
@@ -736,7 +756,7 @@ button {
         margin-top: 20px;
         padding: 20px;
         outline: 1px solid red;
-
+        margin-bottom: 1.5vw;
       }
 
       #topRow {

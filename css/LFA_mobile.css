@@ -105,6 +105,30 @@
       flex-direction: column;
     }
     /**** END MENU ****/
+
+    .tooltip {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      text-decoration: none;
+      position: relative;
+    }
+
+    .tooltip span {
+      display: flex;
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      margin: 2vw;
+      text-align: center;
+    }
+
+    .tooltip:hover span {
+      display: block;
+      position: static;
+      overflow: hidden;
+    }
   /**** END SEARCH PAGE ****/
 
   /**** ITEM PAGE ****/
@@ -123,15 +147,9 @@
       cursor: pointer;
     }
 
-    .scroll1::-webkit-scrollbar-track {
-      background: none;
-      border: none;
+    .scroll1::-webkit-scrollbar {
+      height: 2vw;
     }
-
-    .scroll1::-webkit-scrollbar-thumb {
-      background: none;
-    }
-
 
     /**** MAIN IMAGES ****/
     #mainImages img {
@@ -174,6 +192,10 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+    }
+
+    #relatedItems figcaption {
+      font-size: 3vw;
     }
 
     #thumbGrid img {

@@ -26,7 +26,7 @@ var userInput;
 function keyup(e) {
   //setting your input text to the global Javascript Variable for every key press
   userInput = e.target.value;
-  console.log(userInput);
+  // console.log(userInput);
   // if (e.keyCode == 13) {
   //  window.location = "https://letterformarchive.org/" + userInput;
   // }
