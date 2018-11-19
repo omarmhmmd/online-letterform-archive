@@ -1,4 +1,4 @@
-$.getJSON("./datablobs/entrypage001.json", function(json) {
+$.getJSON("https://raw.githubusercontent.com/omarmhmmd/LFA/master/datablobs/entrypage001.JSON", function(json) {
 
   // POPULATE TEXT IN SEARCH BLOCKS //
   var searchTextH1 = document.getElementsByClassName('searchBlock');
