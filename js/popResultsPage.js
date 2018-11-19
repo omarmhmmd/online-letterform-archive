@@ -1,4 +1,4 @@
-$.getJSON("datablobs/results2.json", function(json) {
+$.getJSON("https://raw.githubusercontent.com/omarmhmmd/LFA/master/datablobs/results2.JSON", function(json) {
 
   $.each(json.resultsPage, function(index, element) {
     $('#resultsGrid').append(

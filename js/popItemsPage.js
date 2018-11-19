@@ -1,4 +1,4 @@
-$.getJSON("datablobs/item_eg1.json", function(json) {
+$.getJSON("https://raw.githubusercontent.com/omarmhmmd/LFA/master/datablobs/item_eg1.JSON", function(json) {
   $("#prevItem").attr("src",json.itemSearch.itemPrev.imageFront);
   $("#prevCaption").html(json.itemSearch.itemPrev.title);
   $("#theItem").attr("src",json.item.imageFront);
