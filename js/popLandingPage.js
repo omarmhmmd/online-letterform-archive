@@ -1,4 +1,4 @@
-$.getJSON("datablobs/entrypage001.json", function(json) {
+$.getJSON("./datablobs/entrypage001.json", function(json) {
 
   // POPULATE TEXT IN SEARCH BLOCKS //
   var searchTextH1 = document.getElementsByClassName('searchBlock');
