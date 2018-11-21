@@ -135,10 +135,10 @@ button {
     /* position: fixed;
     z-index: 1; */
     width: 5vw;
-    animation-name: spin;
+    /* animation-name: spin;
     animation-duration: 10000ms;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-timing-function: linear; */
   }
 
   a {
