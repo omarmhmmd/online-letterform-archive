@@ -80,7 +80,9 @@ button {
   }
 
   .endSearch h1 {
-    font-size: 1.75vw;
+    font-size: 1.45vw;
+    font-size: 18px;
+    line-height: 120%;
     width: 35%;
     text-align: center;
   }
@@ -88,11 +90,17 @@ button {
   .endSearch h2 {
     display: flex;
     width: 17.5vw;
-    justify-content: space-around;
-    font-size: 1.5vw;
+    justify-content: center;
+    font-size: 1.45vw;
+    font-size: 18px;    
     color: red;
-    font-weight: bold;
+    font-weight: normal;
     padding-top: 15%;
+  }
+
+  .endSearch h2 img{
+    margin: 0px 10px;
+    width: 20px;
   }
   /**** END LOOP ****/
 
@@ -124,21 +132,27 @@ button {
     font-weight: bold;
     color: #ff0000;
     font-size: 1.75vw;
+    font-size: 24px;
     padding-left: 0px;
   }
 
   #letter h1 {
-    padding-left: 2.5vw;
+    padding-left: 0px;
   }
 
   #logo {
     /* position: fixed;
     z-index: 1; */
-    width: 5vw;
+    width: 66px;
+    margin-right: 10px; 
     /* animation-name: spin;
     animation-duration: 10000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear; */
+  }
+
+  #logo img {
+    width: 66px;
   }
 
   a {
@@ -152,6 +166,7 @@ button {
 
   .searchButton {
     width: 2.5vw;
+    width: 20px;
   }
 
   #header>button {
@@ -191,6 +206,7 @@ button {
     display: flex;
     justify-content: flex-start;
     font-size: 4vw;
+    font-size: 30px;
     align-items: center;
     background-color: #FF1919;
     height: 25vw;
@@ -215,6 +231,12 @@ button {
   .searchBlock h1 {
       padding-left: 10%;
       width: 90%;
+      font-size: 3.5vw;
+      /*
+      not-using px here so type can scale in grid easily
+      font-size: 40px;
+      */
+      line-height: 120%;
     }
 
   .tableBlock {
@@ -275,6 +297,11 @@ button {
     flex-direction: row;
   }
 
+  .subColumns .column:nth-child(2) {
+    padding-right: 0px;
+  }
+
+
   .column figcaption {
     position: absolute;
     width: 100%;
@@ -283,7 +310,13 @@ button {
     top: 0;
     padding: 1em;
     font-weight: bold;
-    font-size: 2.35vw;
+    font-size: 1.45vw;
+    /*
+      not-using px here so type can scale in grid easily
+      font-size: 18px;
+    */
+    letter-spacing: .02em;
+    line-height: 120%;
     display: none;
     pointer-events: none;
   }
@@ -337,6 +370,7 @@ button {
   .tooltip {
     text-decoration: none;
     position: relative;
+    cursor: pointer;
   }
 
   .tooltip span {
@@ -344,8 +378,11 @@ button {
     background-color: red;
     color: white;
     z-index: 100;
-    font-weight: bold;
-    padding: 1vw;
+    font-weight: normal;
+    padding: .6vw;
+    font-size: 14px;
+    line-height: 120%;
+    max-width: 200px;
   }
 
   .tooltip:hover span {
@@ -369,6 +406,8 @@ button {
     width: 90vw;
     background-color: transparent;
     border: 1px solid #979797;
+    color: #000;
+    font-weight: normal;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -384,7 +423,8 @@ button {
   }
 
    ::placeholder {
-    color: #878787;
+    color: #D4D4D4;
+    font-weight: normal;
     /* Firefox */
   }
 
@@ -398,13 +438,14 @@ button {
     justify-content: flex-start;
     flex-wrap: wrap;
     width: 90vw;
+    margin-bottom: 2vh;
     /* border: 1px solid black; */
   }
 
   #filters>button {
     /* color: white; */
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px;
     background-color: transparent;
     /* Green */
     border: none;
@@ -431,6 +472,7 @@ button {
 
   .Tags {
     margin-top: 2vh;
+    margin-top: 0;
     display: none;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -443,14 +485,14 @@ button {
   }
 
   .Tags>p {
-    font-size: 32px;
+    font-size: 36px;
     line-height: 46px;
     word-spacing: 7.5px;
   }
 
   .Tags>p>button {
     /* color: white; */
-    font-size: 32px;
+    font-size: 36px;
     cursor: pointer;
     background-color: none;
     /* Green */
@@ -469,6 +511,7 @@ button {
 
   #filterResults h1 {
     padding-top: 50px;
+    font-size: 18px;
   }
 
   #filterResults h1 span {
@@ -598,19 +641,23 @@ button {
     width: 90vw;
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
+    padding-top: 40px;
   }
 
   #itemDescription {
-    width: 45%;
+    width: calc(50% - 20px);
     font-size: 1.35vw;
+    font-size: 18px;    
     line-height: 120%;
   }
 
   #itemMetaData {
     display: flex;
     font-size: 1.10vw;
-    width: 45%;
+    font-size: 14px;
+    line-height: 140%;
+    width: calc(50% - 20px);
+    padding-top: 7px;
     background-color: none;
     /* margin-right: 11vw; */
     /* padding-left: 30.5vw; */
@@ -648,15 +695,17 @@ button {
     #itemPage h1 {
       font-weight: bold;
       font-size: 1.35vw;
+      font-size: 18px;
       padding-left: 100px;
     }
 
     #thumbnailscontainer {
       width: 90vw;
       justify-content: space-between;
-      align-items: center;
+      align-items: flex-start;
       display: flex;
       font-size: 1.15vw;
+      font-size: 14px;
       font-weight: bold;
       padding-top: 50px;
       margin-bottom: 100px;
@@ -667,14 +716,18 @@ button {
     #thumbGrid {
       display: flex;
       flex-direction: column;
-      width: 45%;
+      width: calc(50% - 20px);
     }
 
     #relatedItems {
       padding-top: 10px;
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       justify-content: space-between;
+    }
+
+    #relatedItems div:nth-child(1){
+      margin-right: 10px;
     }
 
     #thumbGrid img {
@@ -744,19 +797,20 @@ button {
 
     /**** TABLE ****/
       #tableContainer {
-        width: 45%;
+        width: calc(50% - 20px);
         height: 96.5%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         background-color: none;
+        font-size: 14px;
       }
 
       #table {
-        margin-top: 20px;
+        margin-top: 10px;
         padding: 20px;
         outline: 1px solid red;
-        margin-bottom: 1.5vw;
+        margin-bottom: 12px;
       }
 
       #topRow {
@@ -836,10 +890,16 @@ footer {
   justify-content: center;
   color: white;
   font-size: 1.25vw;
+  font-size: 16px;
+}
+
+
+#contact a {
+  text-decoration: underline;
 }
 
 #contact a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 #socialMedia a {

@@ -19,7 +19,7 @@
   }
 
   .searchButton {
-    width: 30px;
+    width: 20px;
   }
   /**** END HEADER ****/
 
@@ -31,10 +31,16 @@
       flex: 100%;
       max-width: 100%;
     }
+    
+    .subColumns .column:nth-child(1) {
+      padding-left: 0px;
+    }
+
 
     .searchBlock {
       justify-content: flex-start;
-      font-size: 7vw;
+      font-size: 5.35vw;
+      font-size: 14px;
       align-items: center;
       height: 45vw;
     }
@@ -43,8 +49,14 @@
       height: 60vw;
     }
 
+    .searchBlock h1 {
+      font-size: 7vw;
+      font-size: 20px;
+    }
+
     .column figcaption {
-      font-size: 5.35vw;
+      font-size: 4.75vw;
+      font-size: 18px;
     }
     /**** END PHOTO GRID ****/
 
@@ -54,24 +66,28 @@
     }
 
     .endSearch h1 {
-      font-size: 5vw;
-      width: 75%;
+      font-size: 4.75vw;
+      font-size: 14px;
+      width: 85%;
       text-align: center;
     }
 
     .endSearch h2 {
       display: flex;
       justify-content: center;
-      width: 100%;
       justify-content: space-around;
-      font-size: 4.5vw;
+      width: 100%;
+      font-size: 4.75vw;
+      font-size: 14px;
       color: red;
-      font-weight: bold;
+      font-weight: normal;
       padding-top: 20%;
     }
 
     .endSearch h2 img {
-      padding-right: 20px;
+      padding-right: 0px;
+      height: auto;
+      width: auto;
     }
     /**** END SEARCH ***/
 
@@ -86,7 +102,7 @@
       border-top: none;
       border-left: none;
       border-right: none;
-      font-size: 28px;
+      font-size: 30px;
     }
 
     #filters {
@@ -96,14 +112,22 @@
     }
 
     #filters > button:not(:first-child) {
-      margin-left: 2.5px;
+      margin-left: 0px;
     }
 
     #filters > button {
+      font-size: 14px;
       margin-bottom: 10px;
       display: flex;
       flex-direction: column;
     }
+
+    .Tags>p, .Tags>p>button {
+      font-size: 30px;
+      line-height: 40px;
+    }
+
+
     /**** END MENU ****/
 
     .tooltip {
@@ -119,7 +143,7 @@
       display: flex;
       background-color: white;
       color: black;
-      font-weight: bold;
+      font-weight: normal;
       margin: 2vw;
       text-align: center;
     }
@@ -166,7 +190,7 @@
     }
 
     #itemDescription {
-      font-size: 16px;
+      font-size: 18px;
     }
 
     #itemMetaData {
@@ -176,6 +200,16 @@
       font-size: 14px;
       padding-top: 40px;
       padding-left: 0vw;
+    }
+
+    #itemMetaData #column1, #itemMetaData #column2{
+      width: 50%;
+      box-sizing: border-box;
+      padding-right: 20px;
+    }
+
+    #itemMetaData #column2{
+      margin-left: 0px;
     }
 
     #thumbGrid {
@@ -190,12 +224,12 @@
     #relatedItems {
       padding-top: 10px;
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       justify-content: space-between;
     }
 
     #relatedItems figcaption {
-      font-size: 3vw;
+      font-size: 14px;
     }
 
     #thumbGrid img {
@@ -245,6 +279,7 @@
   /**** FOOTER ****/
   #contact {
     font-size: 4vw;
+    font-size: 14px;
   }
 
   #socialMedia {
