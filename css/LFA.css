@@ -214,6 +214,10 @@ button {
     margin-bottom: 20px;
   }
 
+  .searchBlockLeft {
+    margin-left: 20px;
+  }
+
   .keyword {
     color: black;
   }
@@ -289,7 +293,7 @@ button {
     flex-direction: row-reverse;
     flex: 50%;
     max-width: 50%;
-    padding: 0 20px 0 0;
+    padding: 0 0px 0 0px;
   }
 
   .subColumns {
@@ -297,8 +301,52 @@ button {
     flex-direction: row;
   }
 
-  .subColumns .column:nth-child(2) {
-    padding-right: 0px;
+  #subColumn002 {
+    padding-left: 20px;
+  }
+
+  #subColumn004 {
+    padding-left: 20px;
+  }
+
+  #subColumn006 {
+    padding-left: 20px;
+  }
+
+  #subColumn008 {
+    padding-left: 20px;
+  }
+
+  #subColumn009 {
+    padding-left: 20px;
+  }
+
+  #subColumn010 {
+    padding-left: 20px;
+  }
+
+  #subColumn011 {
+    padding-left: 20px;
+  }
+
+  #subColumn012 {
+    padding-left: 20px;
+  }
+
+  #subColumn013 {
+    padding-left: 20px;
+  }
+
+  #subColumn014 {
+    padding-left: 20px;
+  }
+
+  #subColumn015 {
+    padding-left: 20px;
+  }
+
+  #subColumn016 {
+    padding-left: 20px;
   }
 
 
@@ -582,7 +630,7 @@ button {
 
   #theItem {
     height: 40vw;
-    cursor: zoom-in;
+    /* cursor: zoom-in; */
   }
   /**** END MAIN IMAGES ****/
 

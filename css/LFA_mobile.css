@@ -27,7 +27,7 @@
   /**** LANDING PAGE ****/
 
     #entryGrid {
-      width: 95vw;
+      width: 90vw;
     }
     /**** PHOTO GRID ****/
     .column {
@@ -40,13 +40,48 @@
       padding-left: 0px;
     }
 
-
     .searchBlock {
       justify-content: flex-start;
       font-size: 5.35vw;
       font-size: 14px;
       align-items: center;
       height: 45vw;
+    }
+
+    #subColumn009 {
+      padding-left: 0px;
+    }
+
+    #subColumn010 {
+      padding-left: 0px;
+    }
+
+    #subColumn011 {
+      padding-left: 0px;
+    }
+
+    #subColumn012 {
+      padding-left: 0px;
+    }
+
+    #subColumn013 {
+      padding-left: 0px;
+    }
+
+    #subColumn014 {
+      padding-left: 0px;
+    }
+
+    #subColumn015 {
+      padding-left: 0px;
+    }
+
+    #subColumn016 {
+      padding-left: 0px;
+    }
+
+    .searchBlockLeft {
+      margin-left: 0px;
     }
 
     .tableBlock {

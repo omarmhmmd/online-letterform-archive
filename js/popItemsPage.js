@@ -80,7 +80,8 @@ $.getJSON("https://raw.githubusercontent.com/omarmhmmd/LFA/master/datablobs/item
     /**** ZOOM ITEMS ****/
     if (index == 0) {
       $("#mainImages").append(
-        '<div id = "mainImg"><a id = "zoomMainImg" style = "cursor: zoom-in;" href = ' + element + '><img id = "theItem" src=' + element + '></a></div>'
+        // '<div id = "mainImg"><a id = "zoomMainImg" style = "cursor: zoom-in;" href = ' + element + '><img id = "theItem" src=' + element + '></a></div>'
+        '<div id = "mainImg"><img id = "theItem" src=' + element + '></div>'
       );
       $(".zoomItems").append(
         '<div id = "thumb001"><a href = ' + element +'><img src=' + element + '></a></div>'
