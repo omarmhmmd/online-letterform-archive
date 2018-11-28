@@ -53,7 +53,8 @@ $.getJSON("https://raw.githubusercontent.com/omarmhmmd/LFA/master/datablobs/item
       $.each(json.item.contributors, function(index, element) {
           $("#contributors").append(element + '</br>');
       });
-      $("#contributors").append('<button id = "showLessCont"> - ' + contributorsLength + ' less </button></br>');
+      // $("#contributors").append('<button id = "showLessCont"> - ' + contributorsLength + ' less </button></br>');
+      $("#contributors").append('<button id = "showLessCont"> - show less </button></br>');
 
       $('#showLessCont').on('click',function(){
         $("#contributors").empty();

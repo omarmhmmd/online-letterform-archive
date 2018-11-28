@@ -25,13 +25,17 @@
 
 
   /**** LANDING PAGE ****/
+
+    #entryGrid {
+      width: 95vw;
+    }
     /**** PHOTO GRID ****/
     .column {
       -ms-flex: 100%;
       flex: 100%;
       max-width: 100%;
     }
-    
+
     .subColumns .column:nth-child(1) {
       padding-left: 0px;
     }

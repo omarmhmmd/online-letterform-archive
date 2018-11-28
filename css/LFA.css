@@ -41,13 +41,13 @@
 /**** CUSTOM FONTS ****/
 @font-face {
   font-family: DupReg;
-  src: url("../fonts/DuplicateSansRegular.otf") format("opentype");
+  src: url("../fonts/DuplicateSans-Regular-Web.woff") format("woff");
 }
 
 @font-face {
   font-family: DupReg;
   font-weight: bold;
-  src: url("../fonts/DuplicateSansBold.otf") format("opentype");
+  src: url("../fonts/DuplicateSans-Bold-Web.woff") format("woff");
 }
 /**** END CUSTOM FONTS ****/
 
@@ -92,7 +92,7 @@ button {
     width: 17.5vw;
     justify-content: center;
     font-size: 1.45vw;
-    font-size: 18px;    
+    font-size: 18px;
     color: red;
     font-weight: normal;
     padding-top: 15%;
@@ -144,7 +144,7 @@ button {
     /* position: fixed;
     z-index: 1; */
     width: 66px;
-    margin-right: 10px; 
+    margin-right: 10px;
     /* animation-name: spin;
     animation-duration: 10000ms;
     animation-iteration-count: infinite;
@@ -289,7 +289,7 @@ button {
     flex-direction: row-reverse;
     flex: 50%;
     max-width: 50%;
-    padding: 0 10px;
+    padding: 0 20px 0 0;
   }
 
   .subColumns {
@@ -647,7 +647,7 @@ button {
   #itemDescription {
     width: calc(50% - 20px);
     font-size: 1.35vw;
-    font-size: 18px;    
+    font-size: 18px;
     line-height: 120%;
   }
 
